@@ -6,10 +6,23 @@ Open `index.html` in a browser to use it. It is a single self-contained page (th
 
 ## What the explorer shows
 
+The site has two tabs.
+
+### Atlas
+
 - **Network.** Countries linked by the treaties they signed together. Line width reflects how much two countries signed together; large multilateral treaties are down-weighted (each pair in a treaty with *k* parties gets 1/(*k*−1)). Orange links mark pairs that signed together and later fought each other; red links mark pairs that shared a treaty with a documented breach.
 - **Timeline.** Treaties per decade, split by what happened next.
 - **Ledger.** Every treaty, searchable, with its parties, any documented breach, the later wars between its signatories, and a source link.
 - **Controls.** Era or year range, treaty type, the war window (1–50 years) and a "major wars only" switch. All counts update live.
+
+### Patterns
+
+- **How long does the peace bought by a treaty last?** Kaplan–Meier survival curves of the time from signing until war between signatories (any war, or major wars only) or until a documented breach. Compare treaty types, peace treaties or alliances by era, peace treaties by the size of the war they ended, and alliances by size. Treaties are censored, not counted as kept, once their signatories cease to exist or when the observation window ends (2026, or 2018 for ATOP breach coding). Curves carry 95% confidence bands (log-log Greenwood) and stop when fewer than five treaties remain at risk.
+- **When your ally's ally is your enemy.** A structural-balance reading of the international system for each year from 1816 to 2018. Allies are pairs with an ATOP agreement in force (or, as an option, defence pacts only); enemies are pairs in an active strategic rivalry or at war that year. The chart tracks the share of triangles containing an alliance that are contradictory (two allies of a third state are enemies of each other). Three-way rivalries are excluded as ambiguous, and years with fewer than ten triangles are left blank. A great-power panel shows each year's network and lists its contradictory triangles in plain words.
+
+### How this relates to earlier research
+
+Alliance reliability has been studied systematically. Leeds, Long and Mitchell (2000) found that allies honoured their commitments in about three quarters of the wars that triggered them; Berkemeier and Fuhrmann (2018) revisited this and found about half for 1816–2003, falling sharply after 1945. Those figures answer a different question from this project's: whether allies showed up when the alliance was invoked. Here, "documented breach" counts treaties that were violated or abrogated at any point, and "war between signatories" counts treaties whose own parties later fought each other, so the numbers are not directly comparable.
 
 ## Method
 
@@ -46,6 +59,7 @@ Known gaps and caveats:
 index.html                  the explorer (generated; do not edit by hand)
 scripts/
   build.py                  merges all sources, computes the rules, writes data/data.json and index.html
+  patterns.py               survival curves and structural-balance series for the Patterns tab
   template.html             the explorer page; build.py injects the data
   rda_reader.py             minimal R .rda reader used to export the COW war data from peacesciencer
 data/
@@ -58,12 +72,13 @@ data/
     countries_extra*.json     codes for entities outside the COW state list (e.g. HRE, PLC, VNC)
   raw/
     atop/                   ATOP 5.1 alliance- and member-level CSVs
-    cow/                    COW Inter-State War v4.0 (dyad-year) and state list
+    cow/                    COW Inter-State War v4.0 (dyad-year), state list and major-power list
+    rivalries/              strategic rivalries 1494–2020 (Thompson, Sakuwa & Suhas)
 ```
 
 ## Rebuilding
 
-Requires Python 3 and pandas.
+Requires Python 3 with pandas and numpy. A full build takes about 20 seconds, most of it the yearly balance calculation.
 
 ```
 python scripts/build.py
@@ -101,6 +116,8 @@ The raw data belongs to its producers and is redistributed here for research use
 
 - **ATOP 5.1.** Leeds, Brett Ashley, Jeffrey M. Ritter, Sara McLaughlin Mitchell, and Andrew G. Long. 2002. "Alliance Treaty Obligations and Provisions, 1815–1944." *International Interactions* 28: 237–260. Data and codebook: [atopdata.org](http://www.atopdata.org/). The CSVs here are the unmodified ATOP 5.1 alliance (`atop5_1a`) and member (`atop5_1m`) files.
 - **COW Inter-State War v4.0.** Sarkees, Meredith Reid, and Frank Wayman. 2010. *Resort to War: 1816–2007.* Washington, DC: CQ Press. [correlatesofwar.org](https://correlatesofwar.org/)
-- **COW State System Membership (v2016).** Correlates of War Project. 2017. "State System Membership List, v2016."
-- **peacesciencer.** Miller, Steven V. 2022. "peacesciencer: An R Package for Quantitative Peace Science Research." *Conflict Management and Peace Science* 39(6): 755–779. The two COW CSVs were exported from the versions packaged in peacesciencer.
+- **COW State System Membership (v2016).** Correlates of War Project. 2017. "State System Membership List, v2016." The major-power list comes from the same release.
+- **Strategic rivalries.** Thompson, William R., Kentaro Sakuwa, and Prashant Hosur Suhas. 2021. *Analyzing Strategic Rivalries in World Politics: Types of Rivalry, Regional Variation, and Escalation/De-escalation.* Singapore: Springer.
+- **Alliance reliability, for context.** Leeds, Brett Ashley, Andrew G. Long, and Sara McLaughlin Mitchell. 2000. "Reevaluating Alliance Reliability: Specific Threats, Specific Promises." *Journal of Conflict Resolution* 44(5): 686–699. Berkemeier, Molly, and Matthew Fuhrmann. 2018. "Reassessing the Fulfillment of Alliance Commitments in War." *Research & Politics* 5(2).
+- **peacesciencer.** Miller, Steven V. 2022. "peacesciencer: An R Package for Quantitative Peace Science Research." *Conflict Management and Peace Science* 39(6): 755–779. The COW CSVs and the rivalry table were exported from the versions packaged in peacesciencer, using `scripts/rda_reader.py`.
 - **Curated records** were compiled from standard references (mainly Wikipedia and Britannica); each record carries its own `source_url`.

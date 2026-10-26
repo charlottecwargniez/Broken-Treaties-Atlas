@@ -7,7 +7,8 @@
 :root {
   --bg: #f4f6f8; --panel: #ffffff; --ink: #141920; --ink2: #475162; --muted: #737d8c; --line: #dce1e7; --line2: #c5ccd5;
   --accent: #1f4f8f; --accent-soft: #e3ebf6;
-  --kept: #9aa5b5; --broken: #d03b3b; --war: #e0772f; --flag: #6250d6;
+  --kept: #9aa5b5; --broken: #d03b3b; --war: #e0772f; --flag: #6250d6; --ally: #2a78d6;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
   --r1: #2a78d6; --r2: #1baf7a; --r3: #c98500; --r4: #d55181; --r5: #008300;
   --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
   --f-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -16,14 +17,17 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0e1218; --panel: #151a22; --ink: #e8ecf1; --ink2: #b0b8c4; --muted: #828b98; --line: #262d37; --line2: #364050;
   --accent: #8db2ea; --accent-soft: #1c2a3f;
-  --kept: #5c6878; --broken: #e66767; --war: #ec8a4a; --flag: #9085e9;
+  --kept: #5c6878; --broken: #e66767; --war: #ec8a4a; --flag: #9085e9; --ally: #3987e5;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
   --r1: #3987e5; --r2: #199e70; --r3: #c98500; --r4: #d55181; --r5: #2f9a2f; color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: #0e1218; --panel: #151a22; --ink: #e8ecf1; --ink2: #b0b8c4; --muted: #828b98; --line: #262d37; --line2: #364050;
   --accent: #8db2ea; --accent-soft: #1c2a3f;
-  --kept: #5c6878; --broken: #e66767; --war: #ec8a4a; --flag: #9085e9;
+  --kept: #5c6878; --broken: #e66767; --war: #ec8a4a; --flag: #9085e9; --ally: #3987e5;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
   --r1: #3987e5; --r2: #199e70; --r3: #c98500; --r4: #d55181; --r5: #2f9a2f; color-scheme: dark }
 * { box-sizing: border-box }
+[hidden] { display: none !important }
 body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body); }
 .wrap { max-width: 1320px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 56px; display: grid; gap: 22px }
 h1, h2, h3 { font-family: var(--f-display); font-weight: 600; text-wrap: balance; margin: 0 }
@@ -123,6 +127,43 @@ td .pp { color: var(--muted); font-size: 12.5px }
 #tip { position: fixed; pointer-events: none; z-index: 20; background: var(--panel); border: 1px solid var(--line2); border-radius: 6px; padding: 7px 10px; font-size: 12.5px; box-shadow: 0 4px 16px rgba(0,0,0,.12); max-width: 280px }
 #tip b { font-weight: 600 }
 
+
+/* tabs + patterns */
+.top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap }
+.tabs { display: flex; gap: 4px; padding: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: 999px }
+.tabs a { text-decoration: none; color: var(--ink2); padding: 6px 16px; border-radius: 999px; font-weight: 500; font-size: 14px }
+.tabs a[aria-selected="true"] { background: var(--accent); color: var(--panel) }
+.tabs a:hover:not([aria-selected="true"]) { color: var(--ink) }
+.view { display: grid; gap: 22px }
+.intro { display: grid; gap: 14px }
+.pat { display: grid; gap: 14px }
+.pat + .pat { margin-top: 26px; padding-top: 30px; border-top: 1px solid var(--line) }
+.pat-h { display: grid; gap: 8px }
+h2.big { font-size: clamp(24px, 3vw, 32px); line-height: 1.15 }
+.verdict.sm { font-size: clamp(17px, 1.8vw, 20px) }
+.controls.flat { position: static }
+.chartwrap { padding: 4px 8px 6px }
+#surv { width: 100%; height: 380px; display: block }
+#bal { width: 100%; height: 260px; display: block; cursor: pointer }
+#snap { width: 100%; height: 400px; display: block }
+.stbl td, .stbl th { white-space: nowrap }
+.stbl .r { text-align: right; font-family: var(--f-mono); font-variant-numeric: tabular-nums }
+.stbl th.r { font-family: var(--f-mono) }
+.stbl tbody tr { cursor: default }
+.note { color: var(--muted); font-size: 13.5px; max-width: 85ch; margin: 0 }
+.ln.dash { border-top-style: dashed }
+.snapgrid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 18px; align-items: start }
+#snaplist { padding: 16px; display: grid; gap: 12px; max-height: 470px; overflow: auto }
+#snaplist ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; font-size: 14px }
+#snaplist li { border-left: 3px solid var(--flag); padding-left: 10px; cursor: default }
+#snaplist li:hover { background: var(--accent-soft) }
+.tri-key { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px }
+.tri-key > div { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: grid; grid-template-columns: 64px 1fr; gap: 10px; align-items: center; font-size: 13px; color: var(--ink2) }
+.tri-key b { color: var(--ink); display: block; font-size: 13.5px }
+.tri-key .bad { border-color: var(--flag) }
+@media (max-width: 1020px) { .snapgrid { grid-template-columns: 1fr } .tri-key { grid-template-columns: repeat(2, minmax(0, 1fr)) } }
+@media (max-width: 640px) { #surv { height: 320px } #snap { height: 330px } .tri-key { grid-template-columns: 1fr } }
+
 @media (max-width: 1020px) {
   .main { grid-template-columns: 1fr }
   #panel { position: static; max-height: none }
@@ -139,12 +180,20 @@ td .pp { color: var(--muted); font-size: 12.5px }
 </style>
 
 <div class="wrap">
-  <header>
-    <div class="eyebrow">Treaties &amp; wars · 1648 – 2026</div>
-    <h1>Broken Treaties Atlas</h1>
+  <header class="top">
+    <div><div class="eyebrow">Treaties &amp; wars · 1648 – 2026</div>
+    <h1>Broken Treaties Atlas</h1></div>
+    <nav class="tabs" role="tablist" aria-label="Views">
+      <a href="#atlas" role="tab" id="tab-atlas" aria-controls="view-atlas">Atlas</a>
+      <a href="#patterns" role="tab" id="tab-patterns" aria-controls="view-patterns">Patterns</a>
+    </nav>
+  </header>
+
+  <div id="view-atlas" class="view" role="tabpanel" aria-labelledby="tab-atlas">
+  <div class="intro">
     <p class="verdict" id="verdict"></p>
     <div class="kpis" id="kpis"></div>
-  </header>
+  </div>
 
   <div class="controls" role="group" aria-label="Filters">
     <div class="ctl"><span class="lab">Era</span><span id="eras" class="ctl"></span></div>
@@ -204,6 +253,54 @@ td .pp { color: var(--muted); font-size: 12.5px }
       <p id="srcnote">Alliances: ATOP 5.1 (Leeds et al.), covering 1815–2018. Wars 1816–2003: Correlates of War inter-state war data v4.0. Peace treaties, pre-1816 alliances and wars, and wars after 2003 are hand-curated from standard references, so coverage before 1815 is limited to major treaties and is not comparable with the later data.</p>
       <p>Alliances signed after 2018 are not included. Civil wars and wars against non-state groups are outside the scope.</p></div>
   </section>
+  </div>
+  <div id="view-patterns" class="view" role="tabpanel" aria-labelledby="tab-patterns" hidden>
+  <section class="pat" aria-labelledby="surv-h">
+    <div class="pat-h">
+      <div class="eyebrow">Pattern 1 · Survival</div>
+      <h2 id="surv-h" class="big">How long does the peace bought by a treaty last?</h2>
+      <p class="verdict sm" id="surv-verdict"></p>
+    </div>
+    <div class="controls flat" role="group" aria-label="Survival options">
+      <div class="ctl"><span class="lab">Compare</span><span id="sgroups" class="ctl"></span></div>
+      <div class="ctl"><span class="lab">Outcome</span><span id="souts" class="ctl"></span></div>
+    </div>
+    <div class="card">
+      <div class="card-h"><div><h3 id="surv-title"></h3></div><p id="surv-sub"></p></div>
+      <div class="chartwrap"><svg id="surv" role="img" aria-label="Survival curves"></svg></div>
+      <div class="legend" id="survleg"></div>
+      <div class="tscroll"><table class="stbl"><thead><tr><th>Group</th><th class="r">Treaties</th><th class="r">Events</th><th class="r">After 10 yrs</th><th class="r">After 20 yrs</th><th class="r">After 50 yrs</th><th class="r">Half reached by</th></tr></thead><tbody id="survtb"></tbody></table></div>
+    </div>
+    <p class="note">Each line is a Kaplan–Meier survival curve: the share of treaties for which the outcome has <i>not yet</i> happened, by years since signing. Treaties whose signatories ceased to exist, or that are too recent to have been observed for long, drop out of the denominator instead of counting as “kept”. Shaded bands are 95% confidence intervals; a curve stops once fewer than five treaties remain under observation.</p>
+  </section>
+
+  <section class="pat" aria-labelledby="bal-h">
+    <div class="pat-h">
+      <div class="eyebrow">Pattern 2 · Structural balance</div>
+      <h2 id="bal-h" class="big">When your ally's ally is your enemy</h2>
+      <p class="verdict sm" id="bal-verdict"></p>
+    </div>
+    <div class="tri-key" id="trikey"></div>
+    <div class="controls flat" role="group" aria-label="Balance options">
+      <div class="ctl"><span class="lab">Count as allies</span><span id="bmodes" class="ctl"></span></div>
+    </div>
+    <div class="card">
+      <div class="card-h"><div><h3>Share of contradictory triangles, all states, 1816–2018</h3></div><p>Gaps are years with fewer than ten triangles to measure. Hover for counts; click a year to open it below.</p></div>
+      <div class="chartwrap"><svg id="bal" role="img" aria-label="Share of contradictory triangles by year"></svg></div>
+    </div>
+    <div class="snapgrid">
+      <div class="card">
+        <div class="card-h"><div><div class="eyebrow">Great powers</div><h3 id="snap-title"></h3></div>
+          <div class="ctl"><button class="chip" id="play" aria-pressed="false">Play</button><input type="range" id="snapy" min="1816" max="2018" value="1913" aria-label="Year"></div></div>
+        <svg id="snap" role="img" aria-label="Great-power alliances and rivalries in the selected year"></svg>
+        <div class="legend"><span><i class="ln" style="border-color:var(--ally)"></i>Allied (any agreement in force)</span><span><i class="ln dash" style="border-color:var(--broken)"></i>Rivals or at war</span><span><i class="sw" style="background:var(--flag);border-radius:2px;opacity:.5"></i>Contradictory triangle</span></div>
+      </div>
+      <div class="card" id="snaplist"></div>
+    </div>
+    <p class="note">Allies are pairs with an ATOP agreement in force that year. Enemies are pairs in an active strategic rivalry (Thompson, Sakuwa &amp; Suhas) or fighting an interstate war that year. A pair that is both allied and rivals counts as enemies, because the rivalry is the stronger signal; this is how Austria and Italy appear inside the Triple Alliance. Three-way rivalries (all three pairs enemies) are left out of the share, since the theory treats them as ambiguous. The great-power panel uses the Correlates of War list of major powers for each year.</p>
+  </section>
+  </div>
+
 </div>
 <div id="tip" hidden></div>
 
@@ -441,14 +538,14 @@ function renderPanel() {
       <div class="kpis" style="grid-template-columns:repeat(3,minmax(0,1fr))"><div class="kpi"><div class="v">${mine.length}</div><div class="l">treaties in view</div></div><div class="kpi"><div class="v">${st.filter(s => s.broken).length}</div><div class="l"><span class="key" style="background:var(--broken)"></span>breached</div></div><div class="kpi"><div class="v">${st.filter(s => s.war).length}</div><div class="l"><span class="key" style="background:var(--war)"></span>war within ${S.win} yrs</div></div></div>
       <div class="box"><span class="t">Most frequent treaty partners</span>${plist([...partners.entries()].sort((a, b) => b[1] - a[1]).slice(0, 14).map(d => d[0]))}</div>
       ${fought.size ? `<div class="box w"><span class="t">Partners it later fought</span><ul class="wlist">${[...fought.entries()].slice(0, 12).map(([o, ws]) => `<li style="grid-template-columns:1fr"><span><b>${esc(short(o))}</b> <span class="muted">${esc([...ws].join(', '))}</span></span></li>`).join('')}</ul></div>` : ''}
-      ${flags.length ? `<div class="box f"><span class="t">Historian-flagged treaties</span>${flags.map(t => `<button class="linkbtn" data-t="${t.id}" style="text-align:left">${esc(t.name)} (${t.year})</button>`).join('')}</div>` : ''}
+      ${flags.length ? `<div class="box f"><span class="t">Historian-flagged treaties</span>${flags.map(t => `<button class="linkbtn" data-t="${t.id}" style="text-align:left">${esc(t.name)}${t.name.includes(t.year) ? '' : ' (' + t.year + ')'}</button>`).join('')}</div>` : ''}
       <p class="muted" style="font-size:13px">The ledger below now lists only ${esc(short(c))}'s treaties. Click one for details.</p>
       <button class="linkbtn" id="closesel">Clear country</button>`;
   } else {
     const flagged = T.filter(t => inView(t) && t.judgment).sort((a, b) => a.year - b.year);
     P.innerHTML = `<div class="eyebrow">Dossier</div><h3>Pick a country or a treaty</h3>
       <div class="howto"><ul><li>Click a <b>country</b> in the network to see its partners and the partners it later fought.</li><li>Click a <b>treaty</b> in the ledger for its parties, any documented breach, and the wars that followed.</li><li>Move the <b>war window</b> to tighten or loosen what counts as “followed by war”.</li></ul></div>
-      <div class="box f"><span class="t">Flagged by historians (${flagged.length})</span>${flagged.slice(0, 14).map(t => `<button class="linkbtn" data-t="${t.id}" style="text-align:left">${esc(t.name)} (${t.year})</button>`).join('') || '<span class="muted">None in this view.</span>'}</div>`;
+      <div class="box f"><span class="t">Flagged by historians (${flagged.length})</span>${flagged.slice(0, 14).map(t => `<button class="linkbtn" data-t="${t.id}" style="text-align:left">${esc(t.name)}${t.name.includes(t.year) ? '' : ' (' + t.year + ')'}</button>`).join('') || '<span class="muted">None in this view.</span>'}</div>`;
   }
   P.querySelectorAll('[data-c]').forEach(b => b.onclick = () => { S.country = b.dataset.c; S.sel = null; S.limit = 60; render(true); });
   P.querySelectorAll('[data-t]').forEach(b => b.onclick = () => { S.sel = b.dataset.t; renderPanel(); renderTable(); });
@@ -459,8 +556,158 @@ function render() {
   sync(); const view = T.filter(inView);
   renderHead(view); renderNet(view); renderTimeline(view); renderTable(); renderPanel();
 }
-let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { netKey = ''; render(); }, 200); });
-matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => render());
-new MutationObserver(() => render()).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
-render();
+// ================================================================ PATTERNS VIEW
+const AN = DATA.analysis;
+const SC = ['--s1', '--s2', '--s3', '--s4'];
+const OUT = { war: 'War between signatories', major: 'Major war between signatories', breach: 'Documented breach' };
+const OUTP = { war: 'war between signatories', major: 'a major war between signatories', breach: 'a documented breach' };
+const PS = { g: 'peace_era', o: 'war', bm: 'all_any', y: 1913, playing: null };
+const pct = v => v == null ? '–' : Math.round(v * 100) + '%';
+const axisText = (s, x, y, t, anchor = 'middle') => s.append('text').attr('x', x).attr('y', y).attr('text-anchor', anchor).attr('font-size', 11).attr('font-family', 'var(--f-mono)').attr('fill', 'var(--muted)').text(t);
+
+function chipRow(el, items, cur, onPick) {
+  el.innerHTML = '';
+  items.forEach(([k, lab]) => { const b = document.createElement('button'); b.className = 'chip'; b.textContent = lab; b.setAttribute('aria-pressed', k === cur); b.onclick = () => onPick(k); el.append(b); });
+}
+function valAt(curve, t) { let v = null; for (const p of curve) { if (p[0] <= t) v = p; else break; } return v && t <= curve[curve.length - 1][0] ? v : null; }
+
+function renderSurvival() {
+  chipRow(document.getElementById('sgroups'), Object.entries(AN.survival).map(([k, g]) => [k, g.label]), PS.g, k => { PS.g = k; renderSurvival(); });
+  chipRow(document.getElementById('souts'), Object.entries(OUT), PS.o, k => { PS.o = k; renderSurvival(); });
+  const G = AN.survival[PS.g], ser = G.series.map((s, i) => ({ ...s, c: SC[i], d: s[PS.o] }));
+  document.getElementById('surv-title').textContent = `Share of treaties not yet followed by ${OUTP[PS.o]}`;
+  document.getElementById('surv-sub').textContent = `${G.label} · ${ser.reduce((a, s) => a + s.n, 0)} treaties`;
+  // verdict
+  const lines = ser.map(s => {
+    if (s.d.median != null) return `<b>${esc(s.label)}</b>: half saw ${OUTP[PS.o]} within <b>${s.d.median} years</b>`;
+    if (s.d.at50 != null) return `<b>${esc(s.label)}</b>: ${pct(1 - s.d.at50)} within 50 years`;
+    return `<b>${esc(s.label)}</b>: ${pct(1 - s.d.at20)} within 20 years`;
+  });
+  document.getElementById('surv-verdict').innerHTML = lines.join('; ') + '.';
+  // chart
+  const el = document.getElementById('surv'); const Wd = el.getBoundingClientRect().width, H = el.getBoundingClientRect().height;
+  const narrow = Wd < 640; const m = { l: 44, r: narrow ? 14 : 190, t: 12, b: 40 };
+  const x = d3.scaleLinear().domain([0, 100]).range([m.l, Wd - m.r]), y = d3.scaleLinear().domain([0, 1]).range([H - m.b, m.t]);
+  const s = d3.select(el).attr('viewBox', `0 0 ${Wd} ${H}`); s.selectAll('*').remove();
+  [0, .25, .5, .75, 1].forEach(v => { s.append('line').attr('x1', m.l).attr('x2', Wd - m.r).attr('y1', y(v)).attr('y2', y(v)).attr('stroke', 'var(--line)').attr('stroke-dasharray', v === .5 ? '4 4' : null).attr('stroke', v === .5 ? 'var(--line2)' : 'var(--line)'); axisText(s, m.l - 8, y(v) + 4, Math.round(v * 100) + '%', 'end'); });
+  [0, 10, 20, 30, 50, 75, 100].forEach(v => axisText(s, x(v), H - m.b + 16, v));
+  axisText(s, (m.l + Wd - m.r) / 2, H - 4, 'Years after signing');
+  const area = d3.area().curve(d3.curveStepAfter).x(p => x(p[0])).y0(p => y(p[2])).y1(p => y(p[3]));
+  const line = d3.line().curve(d3.curveStepAfter).x(p => x(p[0])).y(p => y(p[1]));
+  ser.forEach(se => s.append('path').attr('d', area(se.d.curve)).attr('fill', `var(${se.c})`).attr('opacity', 0.12));
+  ser.forEach(se => s.append('path').attr('d', line(se.d.curve)).attr('fill', 'none').attr('stroke', `var(${se.c})`).attr('stroke-width', 2.2));
+  if (!narrow) {
+    const labs = ser.map(se => { const p = se.d.curve[se.d.curve.length - 1]; return { se, x: x(p[0]), y: y(p[1]), yy: y(p[1]) }; }).sort((a, b) => a.y - b.y);
+    for (let i = 1; i < labs.length; i++) if (labs[i].yy - labs[i - 1].yy < 34) labs[i].yy = labs[i - 1].yy + 34;
+    labs.forEach(l => {
+      s.append('circle').attr('cx', l.x).attr('cy', l.y).attr('r', 4).attr('fill', `var(${l.se.c})`).attr('stroke', 'var(--panel)').attr('stroke-width', 2);
+      const t = s.append('text').attr('x', Wd - m.r + 10).attr('y', l.yy).attr('font-size', 12).attr('fill', 'var(--ink)');
+      t.append('tspan').text(l.se.label.length > 26 ? l.se.label.slice(0, 25) + '…' : l.se.label);
+      t.append('tspan').attr('x', Wd - m.r + 10).attr('dy', 14).attr('fill', 'var(--muted)').attr('font-family', 'var(--f-mono)').attr('font-size', 11).text(`${pct(l.se.d.curve[l.se.d.curve.length - 1][1])} at ${l.se.d.curve[l.se.d.curve.length - 1][0]} yrs`);
+      s.append('line').attr('x1', l.x + 5).attr('x2', Wd - m.r + 6).attr('y1', l.y).attr('y2', l.yy - 4).attr('stroke', 'var(--line2)');
+    });
+  }
+  const cross = s.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--ink2)').attr('stroke-width', 1).attr('opacity', 0);
+  const dots = s.append('g');
+  s.append('rect').attr('x', m.l).attr('y', m.t).attr('width', Wd - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+    .on('mousemove', e => {
+      const [mx] = d3.pointer(e); const t = Math.max(0, Math.min(100, Math.round(x.invert(mx))));
+      cross.attr('x1', x(t)).attr('x2', x(t)).attr('opacity', .5); dots.selectAll('*').remove();
+      const rows = ser.map(se => { const v = valAt(se.d.curve, t); if (v) dots.append('circle').attr('cx', x(t)).attr('cy', y(v[1])).attr('r', 4).attr('fill', `var(${se.c})`).attr('stroke', 'var(--panel)').attr('stroke-width', 2); return `<span style="color:var(${se.c})">●</span> ${esc(se.label)}: <b>${v ? pct(v[1]) : '–'}</b>`; });
+      showTip(e, `<b>${t} year${t === 1 ? '' : 's'} after signing</b><br>Not yet followed by ${OUTP[PS.o]}:<br>${rows.join('<br>')}`);
+    }).on('mouseleave', () => { cross.attr('opacity', 0); dots.selectAll('*').remove(); hideTip(); });
+  document.getElementById('survleg').innerHTML = ser.map(se => `<span><i class="ln" style="border-color:var(${se.c});border-top-width:3px"></i>${esc(se.label)} <span class="muted mono">n=${se.n}</span></span>`).join('');
+  document.getElementById('survtb').innerHTML = ser.map(se => `<tr><td><span style="color:var(${se.c})">●</span> ${esc(se.label)}</td><td class="r">${se.n}</td><td class="r">${se.d.events}</td><td class="r">${pct(se.d.at10)}</td><td class="r">${pct(se.d.at20)}</td><td class="r">${pct(se.d.at50)}</td><td class="r">${se.d.median != null ? se.d.median + ' yrs' : 'not reached'}</td></tr>`).join('');
+}
+
+// ---------- balance
+function triSvg(signs) {
+  const P = [[32, 6], [8, 50], [56, 50]]; const E = [[0, 1], [0, 2], [1, 2]];
+  return `<svg viewBox="0 0 64 58" width="64" height="58" aria-hidden="true">${E.map(([a, b], i) => `<line x1="${P[a][0]}" y1="${P[a][1]}" x2="${P[b][0]}" y2="${P[b][1]}" stroke="var(${signs[i] > 0 ? '--ally' : '--broken'})" stroke-width="2.5" ${signs[i] < 0 ? 'stroke-dasharray="4 3"' : ''}/>`).join('')}${P.map(p => `<circle cx="${p[0]}" cy="${p[1]}" r="5" fill="var(--panel)" stroke="var(--ink)" stroke-width="1.5"/>`).join('')}</svg>`;
+}
+document.getElementById('trikey').innerHTML = [
+  [[1, 1, 1], 'Three allies', 'Balanced', ''], [[1, -1, -1], 'The enemy of my enemy is my friend', 'Balanced', ''],
+  [[-1, 1, 1], 'My ally’s ally is my enemy', 'Contradictory', 'bad'], [[-1, -1, -1], 'Three-way rivalry', 'Ambiguous, not counted', ''],
+].map(([sg, t, k, c]) => `<div class="${c}">${triSvg(sg)}<span><b>${t}</b>${k}</span></div>`).join('');
+
+const share = r => { const den = r[1] + r[2] + r[3]; return den >= 10 ? r[2] / den : null; };
+function renderBalance() {
+  chipRow(document.getElementById('bmodes'), [['all_any', 'Any agreement'], ['all_def', 'Defence pacts only']], PS.bm, k => { PS.bm = k; renderBalance(); });
+  const R = AN.balance.series[PS.bm]; const pts = R.map(r => ({ y: r[0], v: share(r), r }));
+  const valid = pts.filter(p => p.v != null); const pk = valid.reduce((a, b) => b.v > a.v ? b : a);
+  const vAt = yr => pts.find(p => p.y === yr)?.v;
+  document.getElementById('bal-verdict').innerHTML = `Before 1870 almost no alliance triangle was contradictory. The share peaked at <b>${pct(pk.v)} in ${pk.y}</b>, was ${pct(vAt(1913))} on the eve of the First World War and ${pct(vAt(1938))} in 1938, then fell after 1945 to <b>${pct(vAt(2018))}</b> by 2018.` + (pk.y >= 1887 && pk.y <= 1890 ? ' The peak falls in the years of Bismarck’s interlocking treaty system, when Germany was allied both with Austria and, through the Reinsurance Treaty, with Austria’s rival Russia.' : '');
+  const el = document.getElementById('bal'); const Wd = el.getBoundingClientRect().width, H = el.getBoundingClientRect().height, m = { l: 44, r: 14, t: 22, b: 30 };
+  const x = d3.scaleLinear().domain([1816, 2018]).range([m.l, Wd - m.r]); const y = d3.scaleLinear().domain([0, Math.max(0.4, pk.v)]).nice().range([H - m.b, m.t]);
+  const s = d3.select(el).attr('viewBox', `0 0 ${Wd} ${H}`); s.selectAll('*').remove();
+  y.ticks(4).forEach(v => { s.append('line').attr('x1', m.l).attr('x2', Wd - m.r).attr('y1', y(v)).attr('y2', y(v)).attr('stroke', 'var(--line)'); axisText(s, m.l - 8, y(v) + 4, Math.round(v * 100) + '%', 'end'); });
+  for (let yr = 1820; yr <= 2010; yr += Wd < 640 ? 40 : 20) axisText(s, x(yr), H - 10, yr);
+  [[1914, 'WWI'], [1939, 'WWII']].forEach(([yr, lab]) => { s.append('line').attr('x1', x(yr)).attr('x2', x(yr)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--line2)').attr('stroke-dasharray', '3 3'); axisText(s, x(yr) + 4, m.t - 8, lab, 'start'); });
+  const segs = []; let cur = []; pts.forEach(p => { if (p.v == null) { if (cur.length) segs.push(cur); cur = []; } else cur.push(p); }); if (cur.length) segs.push(cur);
+  segs.forEach(sg => {
+    s.append('path').attr('d', d3.area().x(p => x(p.y)).y0(y(0)).y1(p => y(p.v))(sg)).attr('fill', 'var(--flag)').attr('opacity', .14);
+    s.append('path').attr('d', d3.line().x(p => x(p.y)).y(p => y(p.v))(sg)).attr('fill', 'none').attr('stroke', 'var(--flag)').attr('stroke-width', 2);
+  });
+  s.append('circle').attr('cx', x(pk.y)).attr('cy', y(pk.v)).attr('r', 4.5).attr('fill', 'var(--flag)').attr('stroke', 'var(--panel)').attr('stroke-width', 2);
+  axisText(s, x(pk.y) + 8, y(pk.v) + 4, `${pct(pk.v)} · ${pk.y}`, 'start').attr('fill', 'var(--ink)');
+  const sel = s.append('line').attr('class', 'sel').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--accent)').attr('stroke-width', 1.5).attr('x1', x(PS.y)).attr('x2', x(PS.y));
+  const cross = s.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--ink2)').attr('opacity', 0);
+  s.append('rect').attr('x', m.l).attr('y', m.t).attr('width', Wd - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+    .on('mousemove', e => { const yr = Math.max(1816, Math.min(2018, Math.round(x.invert(d3.pointer(e)[0])))); const p = pts.find(q => q.y === yr); cross.attr('x1', x(yr)).attr('x2', x(yr)).attr('opacity', .5);
+      const r = p.r; showTip(e, `<b>${yr}</b><br>Contradictory: <b>${p.v == null ? 'too few triangles' : pct(p.v)}</b><br>${r[2]} of ${r[1] + r[2] + r[3]} triangles with an alliance in them<br><span class="muted">${r[5]} allied pairs · ${r[6]} enemy pairs</span>`); })
+    .on('mouseleave', () => { cross.attr('opacity', 0); hideTip(); })
+    .on('click', e => { PS.y = Math.max(1816, Math.min(2018, Math.round(x.invert(d3.pointer(e)[0])))); stopPlay(); renderSnap(); sel.attr('x1', x(PS.y)).attr('x2', x(PS.y)); });
+  renderSnap();
+}
+const GP_ORDER = ['UKG', 'FRN', 'GMY', 'AUH', 'ITA', 'RUS', 'JPN', 'CHN', 'USA'];
+function renderSnap() {
+  const yr = PS.y, S0 = AN.balance.snaps[yr]; document.getElementById('snapy').value = yr;
+  document.getElementById('snap-title').textContent = `The great powers in ${yr}`;
+  const balSvg = d3.select('#bal'); const bx = d3.scaleLinear().domain([1816, 2018]).range([44, document.getElementById('bal').getBoundingClientRect().width - 14]);
+  balSvg.select('line.sel').attr('x1', bx(yr)).attr('x2', bx(yr));
+  const el = document.getElementById('snap'); const Wd = el.getBoundingClientRect().width, H = el.getBoundingClientRect().height;
+  const R = Math.min(Wd / 2 - 78, H / 2 - 40), cx = Wd / 2, cy = H / 2;
+  const pos = {}; GP_ORDER.forEach((c, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / GP_ORDER.length; pos[c] = [cx + R * Math.cos(a), cy + R * Math.sin(a)]; });
+  const s = d3.select(el).attr('viewBox', `0 0 ${Wd} ${H}`); s.selectAll('*').remove();
+  const bad = S0.tri.filter(t => !t[3] && t[4] === 1);
+  const polys = s.append('g'); bad.forEach((t, i) => polys.append('polygon').attr('data-i', i).attr('points', t.slice(0, 3).map(c => pos[c].join(',')).join(' ')).attr('fill', 'var(--flag)').attr('opacity', .12));
+  S0.edges.forEach(([a, b, sg, labs]) => s.append('line').attr('x1', pos[a][0]).attr('y1', pos[a][1]).attr('x2', pos[b][0]).attr('y2', pos[b][1]).attr('stroke', sg > 0 ? 'var(--ally)' : 'var(--broken)').attr('stroke-width', 2.5).attr('stroke-dasharray', sg > 0 ? null : '6 4').attr('stroke-linecap', 'round')
+    .on('mousemove', e => showTip(e, `<b>${esc(short(a))} – ${esc(short(b))}</b><br>${labs.map(l => esc(l.replace(/^Rivalry: /, 'Rivalry: ').replace(/^War: /, 'War: '))).join('<br>')}`)).on('mouseleave', hideTip));
+  S0.nodes.forEach(c => { const [x0, y0] = pos[c];
+    s.append('circle').attr('cx', x0).attr('cy', y0).attr('r', 7).attr('fill', 'var(--ink)').attr('stroke', 'var(--panel)').attr('stroke-width', 2);
+    const out = [(x0 - cx) / R, (y0 - cy) / R];
+    s.append('text').attr('x', x0 + out[0] * 20).attr('y', y0 + out[1] * 20 + 4).attr('text-anchor', Math.abs(out[0]) < .3 ? 'middle' : out[0] > 0 ? 'start' : 'end').attr('font-size', 13).attr('font-weight', 600).attr('fill', 'var(--ink)').text(short(c)); });
+  GP_ORDER.filter(c => !S0.nodes.includes(c)).forEach(c => { const [x0, y0] = pos[c]; s.append('circle').attr('cx', x0).attr('cy', y0).attr('r', 3).attr('fill', 'var(--line2)'); });
+  const edge = (a, b) => S0.edges.find(e => (e[0] === a && e[1] === b) || (e[0] === b && e[1] === a));
+  const items = bad.map(t => { const [a, b, c] = t; const trio = [[a, b, c], [a, c, b], [b, c, a]].find(([p, q]) => edge(p, q)[2] < 0); const [p, q, z] = trio; const ne = edge(p, q);
+    const war = ne[3].find(l => l.startsWith('War: ')); return `${esc(short(z))} is allied with both ${esc(short(p))} and ${esc(short(q))}, yet ${esc(short(p))} and ${esc(short(q))} are ${war ? 'at war (' + esc(war.slice(5)) + ')' : 'rivals'}.`; });
+  const pos_n = S0.edges.filter(e => e[2] > 0).length, neg_n = S0.edges.filter(e => e[2] < 0).length;
+  document.getElementById('snaplist').innerHTML = `<div class="eyebrow">${yr}</div><h3>${bad.length ? bad.length + ' contradictory triangle' + (bad.length > 1 ? 's' : '') : 'No contradictory triangles'}</h3>
+    <p class="muted" style="margin:0;font-size:13px">${S0.nodes.length} great powers · ${pos_n} allied pairs · ${neg_n} rival or warring pairs</p>
+    ${bad.length ? `<ul>${items.map((t, i) => `<li data-i="${i}">${t}</li>`).join('')}</ul>` : '<p class="muted" style="margin:0">Every great-power triangle with an alliance in it is consistent this year.</p>'}
+    <p class="muted" style="margin:0;font-size:12.5px">Try 1888 (Bismarck’s web), 1913, 1935 and 1962.</p>`;
+  document.querySelectorAll('#snaplist li').forEach(li => { li.onmouseenter = () => polys.select(`[data-i="${li.dataset.i}"]`).attr('opacity', .45); li.onmouseleave = () => polys.select(`[data-i="${li.dataset.i}"]`).attr('opacity', .12); });
+}
+const snapy = document.getElementById('snapy'); snapy.oninput = () => { PS.y = +snapy.value; stopPlay(); renderSnap(); };
+const playBtn = document.getElementById('play');
+function stopPlay() { if (PS.playing) { clearInterval(PS.playing); PS.playing = null; playBtn.textContent = 'Play'; playBtn.setAttribute('aria-pressed', 'false'); } }
+playBtn.onclick = () => { if (PS.playing) return stopPlay(); if (PS.y >= 2018) PS.y = 1816; playBtn.textContent = 'Pause'; playBtn.setAttribute('aria-pressed', 'true');
+  PS.playing = setInterval(() => { PS.y++; renderSnap(); if (PS.y >= 2018) stopPlay(); }, 260); };
+function renderPatterns() { renderSurvival(); renderBalance(); }
+
+// ---------- views
+let VIEW = 'atlas';
+function show(v) {
+  VIEW = v === 'patterns' ? 'patterns' : 'atlas';
+  document.getElementById('view-atlas').hidden = VIEW !== 'atlas'; document.getElementById('view-patterns').hidden = VIEW !== 'patterns';
+  document.getElementById('tab-atlas').setAttribute('aria-selected', VIEW === 'atlas'); document.getElementById('tab-patterns').setAttribute('aria-selected', VIEW === 'patterns');
+  hideTip(); if (VIEW === 'atlas') { netKey = ''; render(); } else { stopPlay(); renderPatterns(); }
+}
+document.querySelectorAll('.tabs a').forEach(a => a.onclick = e => { e.preventDefault(); const v = a.getAttribute('href').slice(1); try { history.replaceState(null, '', '#' + v); } catch (er) {} show(v); scrollTo({ top: 0 }); });
+addEventListener('hashchange', () => show(location.hash.slice(1)));
+const redraw = () => VIEW === 'atlas' ? render() : renderPatterns();
+let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { netKey = ''; redraw(); }, 200); });
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redraw);
+new MutationObserver(redraw).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+show(location.hash.slice(1));
 </script>

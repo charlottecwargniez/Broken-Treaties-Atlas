@@ -211,8 +211,10 @@ for t in treaties:
 for w in wars.values():
     w.pop('pair_years', None)
 
+import patterns  # noqa: E402  (scripts/ is on sys.path when run as a script)
 out = {'countries': countries, 'wars': list(wars.values()), 'treaties': sorted(treaties, key=lambda t: (t['year'], t['name'])),
        'meta': {'built': pd.Timestamp.now().strftime('%Y-%m-%d'), 'merged_duplicates': DUP}}
+out['analysis'] = patterns.compute(out, RAW)
 json.dump(out, open(os.path.join(DATA, 'data.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
 
 # ---------------------------------------------------------------- report
@@ -228,5 +230,15 @@ print('bad judgment', [(t['id'], t['judgment'].get('led_to')) for t in treaties 
 # ---------------------------------------------------------------- render explorer
 tpl = open(os.path.join(ROOT, 'scripts', 'template.html')).read()
 payload = json.dumps(out, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
-open(os.path.join(ROOT, 'index.html'), 'w').write(tpl.replace('/*__DATA__*/null', payload))
+page = tpl.replace('/*__DATA__*/null', payload)
+# index.html is a complete document for GitHub Pages; the bare fragment (no <html>/<head>) is what the
+# claude.ai artifact host expects, written next to it only when ARTIFACT_OUT is set.
+cut = page.index('</style>') + len('</style>')  # title, metas, font link and styles belong in <head>
+doc = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+       '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+       '<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}</style>\n'
+       + page[:cut] + '\n</head>\n<body>\n' + page[cut:] + '\n</body>\n</html>\n')
+open(os.path.join(ROOT, 'index.html'), 'w').write(doc)
+if os.environ.get('ARTIFACT_OUT'):
+    open(os.environ['ARTIFACT_OUT'], 'w').write(page)
 print('wrote explorer', os.path.getsize(os.path.join(ROOT, 'index.html')) // 1024, 'KB')
