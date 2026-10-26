@@ -1,0 +1,50 @@
+[
+ {
+  "code": "MNK",
+  "name": "Kingdom/Principality of Montenegro (pre-1918; not in COW state system)",
+  "start": 1878,
+  "end": 1918
+ },
+ {
+  "code": "VAT",
+  "name": "Holy See (Vatican City)",
+  "start": 1929,
+  "end": null
+ },
+ {
+  "code": "PLO",
+  "name": "Palestine Liberation Organization",
+  "start": 1964,
+  "end": null
+ },
+ {
+  "code": "PRG",
+  "name": "Provisional Revolutionary Government of the Republic of South Vietnam",
+  "start": 1969,
+  "end": 1976
+ },
+ {
+  "code": "NKR",
+  "name": "Republic of Artsakh (Nagorno-Karabakh Republic)",
+  "start": 1991,
+  "end": 2024
+ },
+ {
+  "code": "DPR",
+  "name": "Donetsk People's Republic (Russian-backed separatist entity)",
+  "start": 2014,
+  "end": 2022
+ },
+ {
+  "code": "LPR",
+  "name": "Luhansk People's Republic (Russian-backed separatist entity)",
+  "start": 2014,
+  "end": 2022
+ },
+ {
+  "code": "M23",
+  "name": "March 23 Movement (Congo River Alliance), Rwanda-backed rebel group",
+  "start": 2012,
+  "end": null
+ }
+]

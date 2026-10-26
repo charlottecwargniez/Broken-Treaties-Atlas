@@ -1,0 +1,351 @@
+[
+ {
+  "id": "w_russo_georgian_2008",
+  "name": "Russo-Georgian War",
+  "start": 2008,
+  "end": 2008,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "GRG"
+  ],
+  "deaths_est": 850,
+  "major": false,
+  "note": "7-12 Aug 2008; South Ossetian and Abkhaz forces fought alongside Russia. EU-mediated six-point ceasefire.",
+  "source_url": "https://military-history.fandom.com/wiki/2008_South_Ossetia_War"
+ },
+ {
+  "id": "w_djibouti_eritrea_2008",
+  "name": "Djiboutian-Eritrean border conflict",
+  "start": 2008,
+  "end": 2008,
+  "sideA": [
+   "ERI"
+  ],
+  "sideB": [
+   "DJI"
+  ],
+  "deaths_est": 144,
+  "major": false,
+  "note": "Clashes 10-13 Jun 2008 at Ras Doumeira; Djibouti reported 44 own dead and ~100 Eritrean dead. Qatar-mediated agreement 6 Jun 2010.",
+  "source_url": "https://en.wikipedia.org/wiki/Djiboutian%E2%80%93Eritrean_border_conflict"
+ },
+ {
+  "id": "w_heglig_2012",
+  "name": "Heglig Crisis (Sudan-South Sudan border war)",
+  "start": 2012,
+  "end": 2012,
+  "sideA": [
+   "SSD"
+  ],
+  "sideB": [
+   "SUD"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Mar-Sep 2012; South Sudan seized Heglig oilfield, withdrew 20 Apr 2012. Death claims range from 31/256 (South Sudanese) to 1,200 (Sudanese); no reliable total.",
+  "source_url": "https://en.wikipedia.org/wiki/Heglig_Crisis"
+ },
+ {
+  "id": "w_russia_ukraine_2014",
+  "name": "Russo-Ukrainian War: Crimea annexation and Donbas war",
+  "start": 2014,
+  "end": 2022,
+  "sideA": [
+   "RUS",
+   "DPR",
+   "LPR"
+  ],
+  "sideB": [
+   "UKR"
+  ],
+  "deaths_est": 14000,
+  "major": true,
+  "note": "Crimea seized Feb-Mar 2014; Donbas war fought largely via Russian-backed DPR/LPR with direct Russian army involvement (e.g., Ilovaisk 2014, Debaltseve 2015). Merged into the full-scale invasion on 24 Feb 2022. Deaths ~14,000 (UN OHCHR 2014-2021 estimate, from prior knowledge; not re-fetched).",
+  "source_url": "https://en.wikipedia.org/wiki/Minsk_agreements"
+ },
+ {
+  "id": "w_karabakh_2016",
+  "name": "2016 Nagorno-Karabakh clashes (Four-Day War)",
+  "start": 2016,
+  "end": 2016,
+  "sideA": [
+   "AZE"
+  ],
+  "sideB": [
+   "ARM",
+   "NKR"
+  ],
+  "deaths_est": 350,
+  "major": false,
+  "note": "1-5 Apr 2016; US State Department estimate ~350 dead on both sides. Ceasefire agreed in Moscow 5 Apr 2016.",
+  "source_url": "https://en.wikipedia.org/wiki/2016_Nagorno-Karabakh_conflict"
+ },
+ {
+  "id": "w_turkey_syria_2020",
+  "name": "Operation Spring Shield (Turkey-Syria clashes in Idlib)",
+  "start": 2020,
+  "end": 2020,
+  "sideA": [
+   "TUR"
+  ],
+  "sideB": [
+   "SYR"
+  ],
+  "deaths_est": 450,
+  "major": false,
+  "note": "27 Feb-6 Mar 2020; ~40 Turkish soldiers (33 in the Balyun airstrike) and 197-405 Syrian government/allied fighters killed (SOHR / MEI). Ended by Turkey-Russia Moscow ceasefire 5 Mar 2020.",
+  "source_url": "https://en.wikipedia.org/wiki/Operation_Spring_Shield"
+ },
+ {
+  "id": "w_karabakh_2020",
+  "name": "Second Nagorno-Karabakh War",
+  "start": 2020,
+  "end": 2020,
+  "sideA": [
+   "AZE"
+  ],
+  "sideB": [
+   "ARM",
+   "NKR"
+  ],
+  "deaths_est": 6900,
+  "major": false,
+  "note": "27 Sep-10 Nov 2020 (44 days); official military deaths 3,825 Armenian/Artsakh and 2,906 Azerbaijani plus ~185 civilians. Turkey supported Azerbaijan; Syrian mercenaries also deployed.",
+  "source_url": "https://en.wikipedia.org/wiki/Casualties_of_the_Second_Nagorno-Karabakh_War"
+ },
+ {
+  "id": "w_russia_ukraine_2022",
+  "name": "Russian invasion of Ukraine",
+  "start": 2022,
+  "end": null,
+  "sideA": [
+   "RUS",
+   "PRK"
+  ],
+  "sideB": [
+   "UKR"
+  ],
+  "deaths_est": 465000,
+  "major": true,
+  "note": "Full-scale war from 24 Feb 2022, ongoing as of Oct 2026 (local Oleshky ceasefire agreed 24 Oct 2026; talks planned Nov 2026). North Korean troops fought for Russia in Kursk 2024-25. CSIS (Jan 2026): up to 325,000 Russian and 140,000 Ukrainian military deaths Feb 2022-Dec 2025.",
+  "source_url": "https://www.cp24.com/news/world/2026/01/27/nearly-2-million-military-casualties-from-ukraine-war-study"
+ },
+ {
+  "id": "w_kgz_tjk_2022",
+  "name": "2022 Kyrgyzstan-Tajikistan border war",
+  "start": 2022,
+  "end": 2022,
+  "sideA": [
+   "TAJ"
+  ],
+  "sideB": [
+   "KYR"
+  ],
+  "deaths_est": 146,
+  "major": false,
+  "note": "Main fighting 14-20 Sep 2022 (earlier clashes Jan-Jun 2022); 83 Tajik and 63 Kyrgyz deaths reported. Border treaty signed 13 Mar 2025.",
+  "source_url": "https://en.wikipedia.org/wiki/2022_Kyrgyzstan%E2%80%93Tajikistan_clashes"
+ },
+ {
+  "id": "w_armenia_azerbaijan_2022",
+  "name": "September 2022 Armenia-Azerbaijan clashes",
+  "start": 2022,
+  "end": 2022,
+  "sideA": [
+   "AZE"
+  ],
+  "sideB": [
+   "ARM"
+  ],
+  "deaths_est": 290,
+  "major": false,
+  "note": "12-14 Sep 2022, Azerbaijani strikes into Armenia proper; ~204 Armenian servicemen and 80 Azerbaijani servicemen killed, plus civilians.",
+  "source_url": "https://en.wikipedia.org/wiki/September_2022_Armenia%E2%80%93Azerbaijan_clashes"
+ },
+ {
+  "id": "w_drc_rwanda_2022",
+  "name": "Rwanda-backed M23 offensive in eastern DR Congo",
+  "start": 2022,
+  "end": null,
+  "sideA": [
+   "RWA",
+   "M23"
+  ],
+  "sideB": [
+   "DRC",
+   "BUI"
+  ],
+  "deaths_est": 7000,
+  "major": false,
+  "note": "Rwandan Defence Force units operated alongside M23 (documented by UN experts); Goma fell Jan 2025, Bukavu Feb 2025. Deaths ~7,000 since Jan 2025 per DRC government claim (prior knowledge). Washington peace agreement 27 Jun 2025 and Washington Accords 4 Dec 2025; fighting continued (M23 took Uvira Dec 2025). Interstate status is contested (Rwanda denies direct combat role).",
+  "source_url": "https://en.wikipedia.org/wiki/2025_DRC%E2%80%93Rwanda_peace_agreement"
+ },
+ {
+  "id": "w_azerbaijan_artsakh_2023",
+  "name": "2023 Azerbaijani offensive in Nagorno-Karabakh",
+  "start": 2023,
+  "end": 2023,
+  "sideA": [
+   "AZE"
+  ],
+  "sideB": [
+   "NKR"
+  ],
+  "deaths_est": 400,
+  "major": false,
+  "note": "19-20 Sep 2023; 192 Azerbaijani and 200+ Artsakh soldiers killed. Armenia not a belligerent; Artsakh dissolved and nearly all Armenians left. Not strictly interstate (one side non-recognised).",
+  "source_url": "https://en.wikipedia.org/wiki/2023_Azerbaijani_offensive_in_Nagorno-Karabakh"
+ },
+ {
+  "id": "w_iran_israel_2024",
+  "name": "Iran-Israel direct strikes of 2024",
+  "start": 2024,
+  "end": 2024,
+  "sideA": [
+   "ISR"
+  ],
+  "sideB": [
+   "IRN"
+  ],
+  "deaths_est": 10,
+  "major": false,
+  "note": "Iranian missile/drone attacks 13-14 Apr and 1 Oct 2024; Israeli strikes 19 Apr and 26 Oct 2024. Few deaths (several Iranian soldiers killed 26 Oct). From prior knowledge; not re-fetched (search budget exhausted).",
+  "source_url": "https://en.wikipedia.org/wiki/April_2024_Iranian_strikes_against_Israel"
+ },
+ {
+  "id": "w_india_pakistan_2025",
+  "name": "2025 India-Pakistan conflict (Operation Sindoor)",
+  "start": 2025,
+  "end": 2025,
+  "sideA": [
+   "IND"
+  ],
+  "sideB": [
+   "PAK"
+  ],
+  "deaths_est": 82,
+  "major": false,
+  "note": "7-10 May 2025; official tolls 29 Indian (21 civilians) and 53 Pakistani (40 civilians). Ceasefire agreed via DGMO hotline 10 May 2025.",
+  "source_url": "https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict"
+ },
+ {
+  "id": "w_twelve_day_war_2025",
+  "name": "Twelve-Day War (Israel-Iran war)",
+  "start": 2025,
+  "end": 2025,
+  "sideA": [
+   "ISR",
+   "USA"
+  ],
+  "sideB": [
+   "IRN"
+  ],
+  "deaths_est": 1200,
+  "major": false,
+  "note": "13-24 Jun 2025; US struck Iranian nuclear sites 22 Jun. Iran 1,060-1,190 dead, Israel ~33. US-brokered ceasefire 24 Jun 2025.",
+  "source_url": "https://en.wikipedia.org/wiki/Twelve-Day_War"
+ },
+ {
+  "id": "w_cambodia_thailand_2025_jul",
+  "name": "Cambodia-Thailand border conflict (July 2025)",
+  "start": 2025,
+  "end": 2025,
+  "sideA": [
+   "THI"
+  ],
+  "sideB": [
+   "CAM"
+  ],
+  "deaths_est": 45,
+  "major": false,
+  "note": "24-28 Jul 2025; early official tolls ~16 Thai soldiers, 14 Thai civilians, 5 Cambodian soldiers, 8 Cambodian civilians (OSINT suggests higher Cambodian military losses). Malaysia-brokered Putrajaya ceasefire 28 Jul 2025.",
+  "source_url": "https://en.wikipedia.org/wiki/2025_Cambodian%E2%80%93Thai_border_crisis"
+ },
+ {
+  "id": "w_afg_pak_2025",
+  "name": "October 2025 Afghanistan-Pakistan border clashes",
+  "start": 2025,
+  "end": 2025,
+  "sideA": [
+   "PAK"
+  ],
+  "sideB": [
+   "AFG"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "~9-19 Oct 2025; Pakistani strikes on Kabul/Kandahar and border fighting, dozens of troops and civilians killed (e.g., 40 civilians in Spin Boldak per local officials). No reliable total. 48-hour truce 15 Oct, Doha ceasefire 19 Oct 2025 (Qatar/Turkey).",
+  "source_url": "https://www.enca.com/news/ceasefire-halts-deadly-afghanistan-pakistan-fighting"
+ },
+ {
+  "id": "w_cambodia_thailand_2025_dec",
+  "name": "Cambodia-Thailand border conflict (December 2025)",
+  "start": 2025,
+  "end": 2025,
+  "sideA": [
+   "THI"
+  ],
+  "sideB": [
+   "CAM"
+  ],
+  "deaths_est": 210,
+  "major": false,
+  "note": "8-27 Dec 2025; Thailand: 26 soldiers + 1 civilian in combat and 44 indirect civilian deaths; Cambodia: 30 civilians and 110+ soldiers/police (Nikkei count). Ceasefire signed by defence ministers 27 Dec 2025.",
+  "source_url": "https://www.npr.org/2025/12/27/g-s1-103785/thailand-cambodia-new-ceasefire-agreement"
+ },
+ {
+  "id": "w_us_venezuela_2026",
+  "name": "2026 United States intervention in Venezuela",
+  "start": 2026,
+  "end": 2026,
+  "sideA": [
+   "USA"
+  ],
+  "sideB": [
+   "VEN"
+  ],
+  "deaths_est": 80,
+  "major": false,
+  "note": "3 Jan 2026 strikes and raid that captured Nicolas Maduro; ~80 dead (23-47 Venezuelan military, 32 Cuban personnel, civilians), no US deaths. A brief interstate armed clash rather than a sustained war; relations restored Mar 2026.",
+  "source_url": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela"
+ },
+ {
+  "id": "w_afg_pak_2026",
+  "name": "2026 Afghanistan-Pakistan war",
+  "start": 2026,
+  "end": null,
+  "sideA": [
+   "PAK"
+  ],
+  "sideB": [
+   "AFG"
+  ],
+  "deaths_est": 1000,
+  "major": false,
+  "note": "From 21 Feb 2026 ('open war' declared 27 Feb); Pakistan claimed ~800 Afghan Taliban/TTP fighters killed by 5 Apr 2026, Taliban claimed 400+ killed in a March strike on a Kabul rehab centre; figures unverified, total highly uncertain. Eid pause in March; front reported quiet after Chinese-hosted Urumqi talks mid-Apr 2026 with no settlement. end=null because no settlement is recorded and a search hit (FDD, dated 5 Oct 2026, unfetchable) suggests renewed Pakistani strikes in autumn 2026.",
+  "source_url": "https://en.wikipedia.org/wiki/2026_Afghanistan%E2%80%93Pakistan_war"
+ },
+ {
+  "id": "w_iran_war_2026",
+  "name": "2026 Iran war",
+  "start": 2026,
+  "end": null,
+  "sideA": [
+   "USA",
+   "ISR",
+   "SAU",
+   "UAE",
+   "KUW",
+   "BAH"
+  ],
+  "sideB": [
+   "IRN"
+  ],
+  "deaths_est": 9000,
+  "major": false,
+  "note": "From 28 Feb 2026 (US-Israeli strikes; Ali Khamenei killed). Gulf states listed as belligerents after Iranian strikes on their territory. Iran deaths 3,528-3,684 (Iranian govt/HRANA) to 6,000+ military (US/Israeli claim); all fronts incl. Israel-Hezbollah in Lebanon 8,000-10,600 (deaths_est = rough midpoint, all fronts). Ceasefire 8 Apr, Islamabad MoU 17 Jun, collapse 8 Jul 2026; as of Oct 2026 strikes largely halted but no deal and a US blockade continues. major=false is borderline: all-front estimates straddle 10,000 and only one side is a great power.",
+  "source_url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+ }
+]

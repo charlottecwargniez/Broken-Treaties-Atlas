@@ -1,0 +1,466 @@
+<title>Broken Treaties Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: archive ledger — headline verdict up top, controls in one row, network + dossier side by side, decade bars and a ledger table below. */
+:root {
+  --bg: #f4f6f8; --panel: #ffffff; --ink: #141920; --ink2: #475162; --muted: #737d8c; --line: #dce1e7; --line2: #c5ccd5;
+  --accent: #1f4f8f; --accent-soft: #e3ebf6;
+  --kept: #9aa5b5; --broken: #d03b3b; --war: #e0772f; --flag: #6250d6;
+  --r1: #2a78d6; --r2: #1baf7a; --r3: #c98500; --r4: #d55181; --r5: #008300;
+  --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --f-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0e1218; --panel: #151a22; --ink: #e8ecf1; --ink2: #b0b8c4; --muted: #828b98; --line: #262d37; --line2: #364050;
+  --accent: #8db2ea; --accent-soft: #1c2a3f;
+  --kept: #5c6878; --broken: #e66767; --war: #ec8a4a; --flag: #9085e9;
+  --r1: #3987e5; --r2: #199e70; --r3: #c98500; --r4: #d55181; --r5: #2f9a2f; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0e1218; --panel: #151a22; --ink: #e8ecf1; --ink2: #b0b8c4; --muted: #828b98; --line: #262d37; --line2: #364050;
+  --accent: #8db2ea; --accent-soft: #1c2a3f;
+  --kept: #5c6878; --broken: #e66767; --war: #ec8a4a; --flag: #9085e9;
+  --r1: #3987e5; --r2: #199e70; --r3: #c98500; --r4: #d55181; --r5: #2f9a2f; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body); }
+.wrap { max-width: 1320px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 56px; display: grid; gap: 22px }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 600; text-wrap: balance; margin: 0 }
+h1 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.05; letter-spacing: -0.01em }
+h2 { font-size: 22px }
+h3 { font-size: 19px; line-height: 1.25 }
+.eyebrow { font: 500 11.5px/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted) }
+.mono, .num { font-family: var(--f-mono); font-variant-numeric: tabular-nums }
+a { color: var(--accent) }
+button, input, select { font: inherit; color: inherit }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+
+/* header */
+header { display: grid; gap: 14px }
+.lede { max-width: 70ch; color: var(--ink2); margin: 0 }
+.verdict { font-family: var(--f-display); font-size: clamp(19px, 2.2vw, 24px); line-height: 1.35; max-width: 62ch; margin: 0 }
+.verdict b { font-weight: 600 }
+.verdict .b { color: var(--broken) } .verdict .w { color: var(--war) }
+.kpis { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden }
+.kpi { background: var(--panel); padding: 14px 16px; display: grid; gap: 6px; align-content: start }
+.kpi .v { font: 500 26px/1 var(--f-mono); font-variant-numeric: tabular-nums }
+.kpi .v small { font-size: 14px; color: var(--muted); margin-left: 6px }
+.kpi .l { font-size: 12.5px; color: var(--ink2); line-height: 1.35 }
+.kpi .key { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; vertical-align: 1px }
+
+/* controls */
+.controls { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; padding: 12px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5 }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg) }
+.ctl { display: flex; gap: 8px; align-items: center; flex-wrap: wrap }
+.ctl > label, .ctl > .lab { font: 500 11px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+.chip { border: 1px solid var(--line2); background: transparent; border-radius: 999px; padding: 4px 11px; font-size: 13px; cursor: pointer; white-space: nowrap }
+.chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--ink) }
+.chip:hover { border-color: var(--accent) }
+input[type="range"] { accent-color: var(--accent); width: 120px }
+input[type="number"] { width: 70px; padding: 4px 6px; border: 1px solid var(--line2); border-radius: 6px; background: var(--bg); font-family: var(--f-mono); font-size: 13px }
+.chk { display: flex; gap: 6px; align-items: center; font-size: 13.5px; cursor: pointer }
+.chk input { accent-color: var(--accent) }
+
+/* main grid */
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 18px; align-items: start }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; min-width: 0 }
+.card-h { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; padding: 14px 16px 0 }
+.card-h p { margin: 0; color: var(--muted); font-size: 12.5px }
+#net { width: 100%; height: 600px; display: block; cursor: grab; touch-action: none }
+#net:active { cursor: grabbing }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 0 16px 14px; font-size: 12.5px; color: var(--ink2) }
+.legend span { display: inline-flex; align-items: center; gap: 6px }
+.sw { width: 10px; height: 10px; border-radius: 50% }
+.ln { width: 18px; height: 0; border-top: 2px solid }
+.netbtns { display: flex; gap: 6px }
+
+/* dossier */
+#panel { padding: 16px; display: grid; gap: 14px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 78px); max-height: calc(100vh - 100px); overflow: auto }
+#panel .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; color: var(--ink2); font-size: 13px }
+#panel p { margin: 0 }
+.tag { display: inline-flex; align-items: center; gap: 6px; font: 500 11.5px/1 var(--f-mono); letter-spacing: .04em; padding: 5px 8px; border-radius: 4px; border: 1px solid currentColor; white-space: nowrap }
+.tag.b { color: var(--broken) } .tag.w { color: var(--war) } .tag.f { color: var(--flag) } .tag.k { color: var(--muted) }
+.tags { display: flex; gap: 6px; flex-wrap: wrap }
+.box { border-left: 3px solid var(--line2); padding: 2px 0 2px 12px; display: grid; gap: 4px; font-size: 14px }
+.box.b { border-color: var(--broken) } .box.w { border-color: var(--war) } .box.f { border-color: var(--flag) }
+.box .t { font: 500 11px/1.2 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+.plist { display: flex; flex-wrap: wrap; gap: 4px }
+.pbtn { border: 1px solid var(--line); border-radius: 4px; background: var(--bg); padding: 2px 7px; font-size: 12.5px; cursor: pointer }
+.pbtn:hover { border-color: var(--accent) }
+.side { font: 500 11px/1 var(--f-mono); color: var(--muted); margin-right: 4px; align-self: center }
+.wlist { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; font-size: 13.5px }
+.wlist li { display: grid; grid-template-columns: 54px 1fr; gap: 8px }
+.wlist .gap { font-family: var(--f-mono); font-size: 12px; color: var(--muted) }
+.muted { color: var(--muted) }
+.howto { color: var(--ink2); font-size: 14px; display: grid; gap: 10px }
+.howto ul { margin: 0; padding-left: 18px; display: grid; gap: 6px }
+.linkbtn { background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; font-size: 13px }
+
+/* timeline */
+#tl { width: 100%; height: 230px; display: block }
+.tlwrap { padding: 4px 8px 12px }
+
+/* table */
+.tbar { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; padding: 14px 16px }
+.tbar input[type="search"] { flex: 1 1 220px; min-width: 0; padding: 7px 10px; border: 1px solid var(--line2); border-radius: 6px; background: var(--bg) }
+.tscroll { overflow-x: auto }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px }
+th { text-align: left; font: 500 11px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 8px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; cursor: pointer }
+td { padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top }
+tbody tr { cursor: pointer }
+tbody tr:hover td { background: var(--accent-soft) }
+tbody tr.sel td { background: var(--accent-soft) }
+td.yr { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap }
+td .pp { color: var(--muted); font-size: 12.5px }
+.more { padding: 12px 16px; display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 13px }
+
+/* notes */
+.notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; color: var(--ink2); font-size: 14px }
+.notes h3 { font-size: 17px; color: var(--ink); margin-bottom: 6px }
+.notes p { margin: 0 0 8px }
+
+#tip { position: fixed; pointer-events: none; z-index: 20; background: var(--panel); border: 1px solid var(--line2); border-radius: 6px; padding: 7px 10px; font-size: 12.5px; box-shadow: 0 4px 16px rgba(0,0,0,.12); max-width: 280px }
+#tip b { font-weight: 600 }
+
+@media (max-width: 1020px) {
+  .main { grid-template-columns: 1fr }
+  #panel { position: static; max-height: none }
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)) }
+  .notes { grid-template-columns: 1fr }
+}
+@media (max-width: 640px) {
+  #net { height: 440px }
+  .controls { position: static }
+  .kpi .v { font-size: 22px }
+  td.hide-s, th.hide-s { display: none }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Treaties &amp; wars · 1648 – 2026</div>
+    <h1>Broken Treaties Atlas</h1>
+    <p class="verdict" id="verdict"></p>
+    <div class="kpis" id="kpis"></div>
+  </header>
+
+  <div class="controls" role="group" aria-label="Filters">
+    <div class="ctl"><span class="lab">Era</span><span id="eras" class="ctl"></span></div>
+    <div class="ctl"><label for="y0">Years</label>
+      <input type="number" id="y0" min="1648" max="2026" value="1648" aria-label="From year"> –
+      <input type="number" id="y1" min="1648" max="2026" value="2026" aria-label="To year"></div>
+    <div class="ctl"><span class="lab">Show</span><span id="types" class="ctl"></span></div>
+    <div class="ctl"><label for="win">War within</label><input type="range" id="win" min="1" max="50" value="20"><span class="mono" id="winv">20 yrs</span></div>
+    <label class="chk"><input type="checkbox" id="major"> Major wars only</label>
+  </div>
+
+  <div class="main">
+    <section class="card" aria-label="Network">
+      <div class="card-h">
+        <div><div class="eyebrow">Network</div><h2>Who signed with whom</h2></div>
+        <div class="netbtns"><button class="chip" id="reset">Reset view</button></div>
+      </div>
+      <div class="card-h" style="padding-top:4px"><p id="netsub"></p></div>
+      <svg id="net" role="img" aria-label="Network of countries linked by shared treaties"></svg>
+      <div class="legend" id="legend"></div>
+    </section>
+    <aside class="card" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <section class="card" aria-label="Treaties by decade">
+    <div class="card-h">
+      <div><div class="eyebrow">Timeline</div><h2>Treaties signed per decade, by what happened next</h2></div>
+      <p>Click a bar to zoom the years to that decade.</p>
+    </div>
+    <div class="tlwrap"><svg id="tl" role="img" aria-label="Stacked bars of treaties per decade"></svg></div>
+    <div class="legend" id="tlleg"></div>
+  </section>
+
+  <section class="card" aria-label="Treaty ledger">
+    <div class="card-h"><div><div class="eyebrow">Ledger</div><h2 id="ledgerh">All treaties</h2></div><p id="ledgersub"></p></div>
+    <div class="tbar">
+      <input type="search" id="q" placeholder="Search treaties or countries, e.g. Versailles, Prussia, NATO">
+      <label class="chk"><input type="checkbox" id="onlybad"> Only broken or followed by war</label>
+      <label class="chk"><input type="checkbox" id="onlyflag"> Only historian-flagged</label>
+      <button class="linkbtn" id="clearsel" hidden>Clear country filter</button>
+    </div>
+    <div class="tscroll"><table>
+      <thead><tr><th data-k="year">Year</th><th data-k="name">Treaty</th><th class="hide-s" data-k="type">Type</th><th class="hide-s" data-k="n">Parties</th><th data-k="out">What happened</th></tr></thead>
+      <tbody id="tb"></tbody>
+    </table></div>
+    <div class="more" id="more"></div>
+  </section>
+
+  <section class="notes" aria-label="Method">
+    <div><h3>What counts as broken</h3>
+      <p><b>Documented breach</b> means the treaty was violated, repudiated or abrogated before its intended end. For alliances 1815–2018 this is the ATOP project's own coding; for peace and security treaties it is a curated record with a dated event and a source.</p>
+      <p><b>War between signatories</b> means two parties fought each other in an interstate war that began within the chosen window after signing. For peace treaties only former enemies count; for alliances any two members count, whether or not the alliance was still in force.</p></div>
+    <div><h3>Historian-flagged cases</h3>
+      <p>Some treaties are widely argued to have set up a later war without being breached directly (Versailles and the Second World War, Frankfurt 1871 and the First). These are interpretations, kept separate from the counts and shown in violet with a one-line rationale.</p>
+      <p>“Major” wars are great-power wars or those with roughly 10,000+ battle deaths.</p></div>
+    <div><h3>Sources and gaps</h3>
+      <p id="srcnote">Alliances: ATOP 5.1 (Leeds et al.), covering 1815–2018. Wars 1816–2003: Correlates of War inter-state war data v4.0. Peace treaties, pre-1816 alliances and wars, and wars after 2003 are hand-curated from standard references, so coverage before 1815 is limited to major treaties and is not comparable with the later data.</p>
+      <p>Alliances signed after 2018 are not included. Civil wars and wars against non-state groups are outside the scope.</p></div>
+  </section>
+</div>
+<div id="tip" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const C = DATA.countries, W = Object.fromEntries(DATA.wars.map(w => [w.id, w])), T = DATA.treaties;
+const TYPES = [
+  { k: 'peace', label: 'Peace & armistice', t: ['peace', 'armistice', 'ceasefire'] },
+  { k: 'alliance', label: 'Alliances', t: ['alliance'] },
+  { k: 'pact', label: 'Non-aggression & neutrality', t: ['nonaggression', 'neutrality'] },
+  { k: 'other', label: 'Guarantees & other', t: ['consultation', 'guarantee', 'normalization', 'other'] },
+];
+const TYPE_LABEL = { peace: 'Peace treaty', armistice: 'Armistice', ceasefire: 'Ceasefire', alliance: 'Alliance', nonaggression: 'Non-aggression', neutrality: 'Neutrality', consultation: 'Consultation', guarantee: 'Guarantee', normalization: 'Normalisation', other: 'Other' };
+const ERAS = [['All', 1648, 2026], ['1648–1815', 1648, 1815], ['1815–1914', 1815, 1914], ['1914–45', 1914, 1945], ['1945–91', 1945, 1991], ['1991–', 1991, 2026]];
+const REGIONS = ['Europe', 'Americas', 'Middle East', 'Africa', 'Asia & Oceania'];
+const RVAR = { 'Europe': '--r1', 'Americas': '--r2', 'Middle East': '--r3', 'Africa': '--r4', 'Asia & Oceania': '--r5' };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const S = { y0: 1648, y1: 2026, types: new Set(TYPES.map(t => t.k)), win: 20, major: false, sel: null, country: null, q: '', onlybad: false, onlyflag: false, sort: ['year', 1], limit: 60 };
+try { const s = JSON.parse(localStorage.getItem('bta') || '{}'); if (s.win) S.win = s.win; if (s.major != null) S.major = s.major; } catch (e) {}
+const cname = c => (C[c] && C[c].name) || c;
+const short = c => cname(c).replace(/ \(.*\)$/, '');
+const esc = s => String(s ?? '').replace(/[&<>"]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]));
+const typeKey = t => TYPES.find(g => g.t.includes(t.type))?.k || 'other';
+const isPeace = t => ['peace', 'armistice', 'ceasefire'].includes(t.type);
+
+// status under current rules
+function status(t) {
+  const wars = t.conflicts.filter(h => h.gap <= S.win && (!S.major || W[h.w]?.major));
+  return { broken: !!(t.violated && t.violated.is), war: wars.length > 0, wars, flag: !!t.judgment };
+}
+function inView(t) { return t.year >= S.y0 && t.year <= S.y1 && S.types.has(typeKey(t)); }
+
+// ---------- controls
+const erasEl = document.getElementById('eras');
+ERAS.forEach(([lab, a, b]) => { const bt = document.createElement('button'); bt.className = 'chip'; bt.textContent = lab; bt.onclick = () => { S.y0 = a; S.y1 = b; sync(); render(); }; bt.dataset.a = a; bt.dataset.b = b; erasEl.append(bt); });
+const typesEl = document.getElementById('types');
+TYPES.forEach(g => { const bt = document.createElement('button'); bt.className = 'chip'; bt.textContent = g.label; bt.dataset.k = g.k; bt.onclick = () => { S.types.has(g.k) ? S.types.delete(g.k) : S.types.add(g.k); if (!S.types.size) S.types.add(g.k); render(); }; typesEl.append(bt); });
+const y0 = document.getElementById('y0'), y1 = document.getElementById('y1'), win = document.getElementById('win'), major = document.getElementById('major');
+y0.onchange = () => { S.y0 = Math.max(1648, Math.min(+y0.value || 1648, S.y1)); render(); };
+y1.onchange = () => { S.y1 = Math.min(2026, Math.max(+y1.value || 2026, S.y0)); render(); };
+win.oninput = () => { S.win = +win.value; document.getElementById('winv').textContent = S.win + ' yrs'; render(true); save(); };
+major.onchange = () => { S.major = major.checked; render(true); save(); };
+document.getElementById('q').oninput = e => { S.q = e.target.value.trim().toLowerCase(); S.limit = 60; renderTable(); };
+document.getElementById('onlybad').onchange = e => { S.onlybad = e.target.checked; S.limit = 60; renderTable(); };
+document.getElementById('onlyflag').onchange = e => { S.onlyflag = e.target.checked; S.limit = 60; renderTable(); };
+document.getElementById('clearsel').onclick = () => { S.country = null; S.sel = null; render(); };
+document.querySelectorAll('th[data-k]').forEach(th => th.onclick = () => { const k = th.dataset.k; S.sort = [k, S.sort[0] === k ? -S.sort[1] : (k === 'year' || k === 'name' || k === 'type' ? 1 : -1)]; renderTable(); });
+function save() { try { localStorage.setItem('bta', JSON.stringify({ win: S.win, major: S.major })); } catch (e) {} }
+function sync() {
+  y0.value = S.y0; y1.value = S.y1; win.value = S.win; major.checked = S.major; document.getElementById('winv').textContent = S.win + ' yrs';
+  erasEl.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', +b.dataset.a === S.y0 && +b.dataset.b === S.y1));
+  typesEl.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', S.types.has(b.dataset.k)));
+}
+
+// ---------- tooltip
+const tip = document.getElementById('tip');
+function showTip(e, html) { tip.innerHTML = html; tip.hidden = false; const r = tip.getBoundingClientRect(); let x = e.clientX + 14, y = e.clientY + 14; if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 14; if (y + r.height > innerHeight - 8) y = e.clientY - r.height - 14; tip.style.left = x + 'px'; tip.style.top = y + 'px'; }
+function hideTip() { tip.hidden = true; }
+
+// ---------- headline
+function renderHead(view) {
+  const n = view.length; let b = 0, w = 0, any = 0, f = 0, pn = 0, pw = 0;
+  view.forEach(t => { const s = status(t); if (s.broken) b++; if (s.war) w++; if (s.broken || s.war) any++; if (s.flag) f++; if (isPeace(t)) { pn++; if (s.war) pw++; } });
+  const pct = x => n ? Math.round(100 * x / n) : 0;
+  const yrs = S.y0 === 1648 && S.y1 === 2026 ? 'Since 1648' : `Between ${S.y0} and ${S.y1}`;
+  const majorTxt = S.major ? ' major' : '';
+  document.getElementById('verdict').innerHTML = n ? `${yrs}, <b>${any} of ${n}</b> treaties in this view were either <b class="b">documented as broken</b> or followed within ${S.win} years by a${majorTxt} <b class="w">war between their own signatories</b>` + (pn ? `. For peace treaties alone, former enemies fought again within ${S.win} years in <b>${pw} of ${pn}</b> cases.` : '.') : 'No treaties match these filters.';
+  const k = [
+    ['Treaties in view', n, '', null],
+    ['Documented breach or repudiation', b, pct(b) + '%', '--broken'],
+    [`Signatories at${majorTxt} war within ${S.win} yrs`, w, pct(w) + '%', '--war'],
+    [`Peace treaties: former enemies fought again within ${S.win} yrs`, pw, pn ? Math.round(100 * pw / pn) + '%' : '–', '--war'],
+    ['Flagged by historians as setting up a later war', f, '', '--flag'],
+  ];
+  document.getElementById('kpis').innerHTML = k.map(([l, v, p, c]) => `<div class="kpi"><div class="v">${v}${p ? `<small>${p}</small>` : ''}</div><div class="l">${c ? `<span class="key" style="background:var(${c})"></span>` : ''}${l}</div></div>`).join('');
+}
+
+// ---------- network
+const svg = d3.select('#net'); const gRoot = svg.append('g'); const gL = gRoot.append('g'), gN = gRoot.append('g'), gT = gRoot.append('g');
+const zoom = d3.zoom().scaleExtent([0.3, 6]).on('zoom', e => { gRoot.attr('transform', e.transform); gT.selectAll('text').attr('font-size', 11 / e.transform.k); });
+svg.call(zoom).on('dblclick.zoom', null);
+document.getElementById('reset').onclick = () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+let netKey = '', layout = null;
+function renderNet(view) {
+  const key = S.y0 + '|' + S.y1 + '|' + [...S.types].sort().join(',');
+  const deg = new Map(), pw = new Map(), ptreaties = new Map();
+  view.forEach(t => {
+    const p = t.parties, k = p.length; p.forEach(c => deg.set(c, (deg.get(c) || 0) + 1));
+    if (k < 2) return; const w = 1 / (k - 1);
+    for (let i = 0; i < k; i++) for (let j = i + 1; j < k; j++) { const id = p[i] < p[j] ? p[i] + '|' + p[j] : p[j] + '|' + p[i]; pw.set(id, (pw.get(id) || 0) + w); if (k <= 12) { if (!ptreaties.has(id)) ptreaties.set(id, []); ptreaties.get(id).push(t); } }
+  });
+  // pairs that signed together and later fought (under current rules)
+  const bad = new Map();
+  view.forEach(t => status(t).wars.forEach(h => h.pairs.forEach(([a, b]) => { const id = a < b ? a + '|' + b : b + '|' + a; if (pw.has(id)) bad.set(id, (bad.get(id) || []).concat([[t, h]])); })));
+  let edges = [...pw.entries()].map(([id, w]) => ({ id, s: id.split('|')[0], t: id.split('|')[1], w }));
+  edges.sort((a, b) => b.w - a.w); const keep = edges.slice(0, 700); const keepIds = new Set(keep.map(e => e.id));
+  bad.forEach((v, id) => { if (!keepIds.has(id)) { const e = edges.find(x => x.id === id); if (e) keep.push(e); } });
+  edges = keep;
+  const nodeIds = new Set(); edges.forEach(e => { nodeIds.add(e.s); nodeIds.add(e.t); });
+  if (key !== netKey) {
+    const nodes = [...nodeIds].map(id => ({ id, deg: deg.get(id) || 1 }));
+    const links = edges.map(e => ({ source: e.s, target: e.t, w: e.w }));
+    const sim = d3.forceSimulation(nodes).force('link', d3.forceLink(links).id(d => d.id).distance(l => 30 + 60 / Math.sqrt(l.w + 0.2)).strength(l => Math.min(1, 0.15 + l.w / 3)))
+      .force('charge', d3.forceManyBody().strength(-70)).force('x', d3.forceX(0).strength(0.05)).force('y', d3.forceY(0).strength(0.07))
+      .force('collide', d3.forceCollide(d => 5 + Math.sqrt(d.deg) * 1.6)).stop();
+    for (let i = 0; i < 320; i++) sim.tick();
+    layout = new Map(nodes.map(n => [n.id, n])); netKey = key;
+    const box = document.getElementById('net').getBoundingClientRect(); const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y);
+    const [x0, x1, yA, yB] = [d3.min(xs), d3.max(xs), d3.min(ys), d3.max(ys)];
+    const sc = Math.min(box.width / ((x1 - x0) || 1), box.height / ((yB - yA) || 1)) * 0.86;
+    nodes.forEach(n => { n.px = box.width / 2 + (n.x - (x0 + x1) / 2) * sc; n.py = box.height / 2 + (n.y - (yA + yB) / 2) * sc; });
+    svg.call(zoom.transform, d3.zoomIdentity);
+  }
+  const maxW = d3.max(edges, e => e.w) || 1;
+  const kept = css('--line2'), warC = css('--war'), brkC = css('--broken');
+  const brokenPairs = new Set(); view.forEach(t => { if (t.violated && t.violated.is && t.parties.length <= 12) { const p = t.parties; for (let i = 0; i < p.length; i++) for (let j = i + 1; j < p.length; j++) brokenPairs.add(p[i] < p[j] ? p[i] + '|' + p[j] : p[j] + '|' + p[i]); } });
+  const focus = S.country;
+  const L = gL.selectAll('line').data(edges.filter(e => layout.has(e.s) && layout.has(e.t)), d => d.id);
+  L.exit().remove();
+  L.enter().append('line').attr('stroke-linecap', 'round')
+    .on('mousemove', (e, d) => { const b = bad.get(d.id); const tt = (ptreaties.get(d.id) || []); showTip(e, `<b>${esc(short(d.s))} – ${esc(short(d.t))}</b><br>${tt.length ? tt.length + ' treat' + (tt.length > 1 ? 'ies' : 'y') + ' together' : 'Co-signed large multilateral treaties'}${b ? `<br><span style="color:var(--war)">Later fought: ${esc([...new Set(b.map(([, h]) => W[h.w]?.name))].join(', '))}</span>` : ''}`); })
+    .on('mouseleave', hideTip)
+    .merge(L)
+    .attr('x1', d => layout.get(d.s).px).attr('y1', d => layout.get(d.s).py).attr('x2', d => layout.get(d.t).px).attr('y2', d => layout.get(d.t).py)
+    .attr('stroke', d => bad.has(d.id) ? warC : brokenPairs.has(d.id) ? brkC : kept)
+    .attr('stroke-width', d => (bad.has(d.id) ? 1.6 : 0.6) + 3 * Math.sqrt(d.w / maxW))
+    .attr('stroke-opacity', d => focus ? (d.s === focus || d.t === focus ? 0.95 : 0.06) : bad.has(d.id) || brokenPairs.has(d.id) ? 0.8 : 0.35);
+  gL.selectAll('line').filter(d => bad.has(d.id) || brokenPairs.has(d.id)).raise();
+  const nodes = [...layout.values()].filter(n => nodeIds.has(n.id));
+  const viewDeg = id => deg.get(id) || 1;
+  const N = gN.selectAll('circle').data(nodes, d => d.id);
+  N.exit().remove();
+  N.enter().append('circle').attr('stroke', 'var(--panel)').attr('stroke-width', 1.5).style('cursor', 'pointer')
+    .on('mousemove', (e, d) => showTip(e, `<b>${esc(cname(d.id))}</b><br>${viewDeg(d.id)} treaties in view`)).on('mouseleave', hideTip)
+    .on('click', (e, d) => { S.country = S.country === d.id ? null : d.id; S.sel = null; S.limit = 60; render(true); })
+    .merge(N).attr('cx', d => d.px).attr('cy', d => d.py).attr('r', d => 3 + Math.sqrt(viewDeg(d.id)) * 1.3)
+    .attr('fill', d => `var(${RVAR[C[d.id]?.region] || '--r1'})`)
+    .attr('opacity', d => !focus || d.id === focus || pw.has(d.id < focus ? d.id + '|' + focus : focus + '|' + d.id) ? 1 : 0.18);
+  const top = new Set([...nodes].sort((a, b) => viewDeg(b.id) - viewDeg(a.id)).slice(0, 28).map(n => n.id)); if (focus) top.add(focus);
+  const lab = nodes.filter(n => top.has(n.id));
+  const Tx = gT.selectAll('text').data(lab, d => d.id); Tx.exit().remove();
+  Tx.enter().append('text').attr('font-family', 'var(--f-body)').attr('font-size', 11).attr('paint-order', 'stroke').attr('stroke', 'var(--panel)').attr('stroke-width', 3).attr('fill', 'var(--ink)').style('pointer-events', 'none')
+    .merge(Tx).attr('x', d => d.px + 6 + Math.sqrt(viewDeg(d.id)) * 1.3).attr('y', d => d.py + 4).text(d => short(d.id)).attr('font-weight', d => d.id === focus ? 600 : 400)
+    .attr('opacity', d => !focus || d.id === focus || pw.has(d.id < focus ? d.id + '|' + focus : focus + '|' + d.id) ? 1 : 0.2);
+  document.getElementById('netsub').textContent = `${nodes.length} countries · ${edges.length} strongest links shown. Line width = how much they signed together (big multilateral treaties count for less). Click a country to focus it; drag to pan, scroll to zoom.`;
+}
+document.getElementById('legend').innerHTML = REGIONS.map(r => `<span><i class="sw" style="background:var(${RVAR[r]})"></i>${r}</span>`).join('') +
+  `<span><i class="ln" style="border-color:var(--war)"></i>Signed together, later fought</span><span><i class="ln" style="border-color:var(--broken)"></i>Shared a broken treaty</span>`;
+
+// ---------- timeline
+function renderTimeline(view) {
+  const el = document.getElementById('tl'); const W0 = el.getBoundingClientRect().width, H = 230, m = { l: 34, r: 8, t: 10, b: 24 };
+  const span = S.y1 - S.y0; const step = span > 120 ? 10 : span > 40 ? 5 : 1;
+  const bins = new Map();
+  for (let y = Math.floor(S.y0 / step) * step; y <= S.y1; y += step) bins.set(y, { y, broken: 0, war: 0, kept: 0, ts: [] });
+  view.forEach(t => { const b = bins.get(Math.floor(t.year / step) * step); if (!b) return; const s = status(t); b.ts.push(t); if (s.broken) b.broken++; else if (s.war) b.war++; else b.kept++; });
+  const data = [...bins.values()];
+  const x = d3.scaleBand().domain(data.map(d => d.y)).range([m.l, W0 - m.r]).paddingInner(0.12);
+  const ymax = d3.max(data, d => d.broken + d.war + d.kept) || 1;
+  const y = d3.scaleLinear().domain([0, ymax]).nice().range([H - m.b, m.t]);
+  const s = d3.select(el).attr('viewBox', `0 0 ${W0} ${H}`); s.selectAll('*').remove();
+  y.ticks(4).forEach(v => { s.append('line').attr('x1', m.l).attr('x2', W0 - m.r).attr('y1', y(v)).attr('y2', y(v)).attr('stroke', 'var(--line)'); s.append('text').attr('x', m.l - 6).attr('y', y(v) + 4).attr('text-anchor', 'end').attr('font-size', 10.5).attr('font-family', 'var(--f-mono)').attr('fill', 'var(--muted)').text(v); });
+  const every = Math.ceil(data.length / Math.max(4, Math.floor(W0 / 64)));
+  data.forEach((d, i) => { if (i % every === 0) s.append('text').attr('x', x(d.y) + x.bandwidth() / 2).attr('y', H - 6).attr('text-anchor', 'middle').attr('font-size', 10.5).attr('font-family', 'var(--f-mono)').attr('fill', 'var(--muted)').text(d.y + (step > 1 ? 's' : '')); });
+  const keys = [['broken', '--broken'], ['war', '--war'], ['kept', '--kept']];
+  data.forEach(d => {
+    let acc = 0; const bw = x.bandwidth(); const g = s.append('g').style('cursor', 'pointer');
+    keys.forEach(([k, c], i) => { const v = d[k]; if (!v) return; const y0p = y(acc), y1p = y(acc + v); acc += v;
+      g.append('rect').attr('x', x(d.y)).attr('width', bw).attr('y', y1p + (acc - v > 0 ? 0 : 0)).attr('height', Math.max(0, y0p - y1p - (acc - v > 0 ? 1.5 : 0))).attr('fill', `var(${c})`).attr('rx', Math.min(2, bw / 4)); });
+    g.append('rect').attr('x', x(d.y)).attr('width', bw).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+      .on('mousemove', e => showTip(e, `<b>${d.y}${step > 1 ? '–' + (d.y + step - 1) : ''}</b><br>${d.ts.length} treaties<br><span style="color:var(--broken)">■</span> ${d.broken} documented breach<br><span style="color:var(--war)">■</span> ${d.war} signatories at war within ${S.win} yrs<br><span style="color:var(--kept)">■</span> ${d.kept} neither`))
+      .on('mouseleave', hideTip).on('click', () => { if (step === 1) return; S.y0 = d.y; S.y1 = Math.min(2026, d.y + step - 1); hideTip(); sync(); render(); });
+  });
+}
+document.getElementById('tlleg').innerHTML = `<span><i class="sw" style="background:var(--broken);border-radius:2px"></i>Documented breach</span><span><i class="sw" style="background:var(--war);border-radius:2px"></i>No recorded breach, but signatories at war within the window</span><span><i class="sw" style="background:var(--kept);border-radius:2px"></i>Neither</span>`;
+
+// ---------- table
+function chips(s, t) {
+  const out = [];
+  if (s.broken) out.push(`<span class="tag b">Broken ${t.violated.year || ''}</span>`);
+  if (s.war) { const h = s.wars[0]; out.push(`<span class="tag w">War +${h.gap}y</span>`); }
+  if (s.flag) out.push(`<span class="tag f">Flagged</span>`);
+  if (!out.length) out.push(`<span class="tag k">${t.end == null && t.src === 'ATOP 5.1' ? 'In force 2018' : 'No breach recorded'}</span>`);
+  return `<div class="tags">${out.join('')}</div>`;
+}
+let tableRows = [];
+function renderTable() {
+  let rows = T.filter(inView);
+  if (S.country) rows = rows.filter(t => t.parties.includes(S.country));
+  if (S.q) rows = rows.filter(t => (t.name + ' ' + t.parties.map(c => cname(c) + ' ' + c).join(' ') + ' ' + (t.summary || '')).toLowerCase().includes(S.q));
+  rows = rows.map(t => ({ t, s: status(t) }));
+  if (S.onlybad) rows = rows.filter(r => r.s.broken || r.s.war);
+  if (S.onlyflag) rows = rows.filter(r => r.s.flag);
+  const [k, dir] = S.sort; const score = r => (r.s.broken ? 4 : 0) + (r.s.war ? 2 : 0) + (r.s.flag ? 1 : 0);
+  const val = { year: r => r.t.year, name: r => r.t.name.toLowerCase(), type: r => r.t.type, n: r => r.t.parties.length, out: score };
+  rows.sort((a, b) => { const x = val[k](a), y = val[k](b); return (x < y ? -1 : x > y ? 1 : a.t.year - b.t.year) * dir; });
+  tableRows = rows;
+  document.getElementById('ledgerh').textContent = S.country ? `Treaties signed by ${short(S.country)}` : 'All treaties';
+  document.getElementById('clearsel').hidden = !S.country;
+  document.getElementById('ledgersub').textContent = `${rows.length} matching`;
+  document.getElementById('tb').innerHTML = rows.slice(0, S.limit).map(({ t, s }) => `<tr data-id="${t.id}" class="${S.sel === t.id ? 'sel' : ''}"><td class="yr">${t.year}</td><td>${esc(t.name)}${t.src === 'curated' && t.summary ? `<div class="pp">${esc(t.summary)}</div>` : ''}</td><td class="hide-s">${TYPE_LABEL[t.type] || t.type}</td><td class="hide-s"><span class="num">${t.parties.length}</span> <span class="pp">${esc(t.parties.slice(0, 4).map(short).join(', '))}${t.parties.length > 4 ? '…' : ''}</span></td><td>${chips(s, t)}</td></tr>`).join('');
+  const more = document.getElementById('more');
+  more.innerHTML = rows.length > S.limit ? `Showing ${S.limit} of ${rows.length}. <button class="chip" id="morebtn">Show 100 more</button>` : rows.length ? '' : 'Nothing matches. Try widening the years or clearing the search.';
+  const mb = document.getElementById('morebtn'); if (mb) mb.onclick = () => { S.limit += 100; renderTable(); };
+}
+document.getElementById('tb').addEventListener('click', e => { const tr = e.target.closest('tr[data-id]'); if (!tr) return; S.sel = tr.dataset.id; renderPanel(); document.querySelectorAll('#tb tr').forEach(r => r.classList.toggle('sel', r.dataset.id === S.sel)); if (innerWidth < 1020) document.getElementById('panel').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+
+// ---------- dossier panel
+const plist = cs => `<div class="plist">${cs.map(c => `<button class="pbtn" data-c="${c}">${esc(short(c))}</button>`).join('')}</div>`;
+function renderPanel() {
+  const P = document.getElementById('panel');
+  if (S.sel) {
+    const t = T.find(x => x.id === S.sel); const s = status(t);
+    let h = `<div class="eyebrow">${TYPE_LABEL[t.type] || t.type} · ${esc(t.src === 'ATOP 5.1' ? 'ATOP alliance data' : 'Curated record')}</div><h3>${esc(t.name)}</h3>
+      <div class="meta"><span class="mono">Signed ${esc(t.date || t.year)}</span>${t.end ? `<span class="mono">Ended ${t.end}</span>` : t.src === 'ATOP 5.1' ? '<span class="mono">In force (2018)</span>' : ''}${t.obl ? `<span>${t.obl.join(', ')}</span>` : ''}</div>${chips(s, t)}`;
+    if (t.summary) h += `<p>${esc(t.summary)}</p>`;
+    if (t.sides && t.sides.length === 2 && t.sides[0].length) h += `<div class="box"><span class="t">Former belligerents</span><div class="plist"><span class="side">A</span>${t.sides[0].map(c => `<button class="pbtn" data-c="${c}">${esc(short(c))}</button>`).join('')}</div><div class="plist"><span class="side">B</span>${t.sides[1].map(c => `<button class="pbtn" data-c="${c}">${esc(short(c))}</button>`).join('')}</div></div>`;
+    else h += `<div class="box"><span class="t">${t.parties.length} parties</span>${plist(t.parties)}</div>`;
+    if (t.ends_war && W[t.ends_war]) h += `<p class="muted">Ended: ${esc(W[t.ends_war].name)} (${W[t.ends_war].start}–${W[t.ends_war].end})</p>`;
+    if (s.broken) h += `<div class="box b"><span class="t">Documented breach · ${t.violated.year || ''}</span><span>${esc(t.violated.how || '')}</span>${t.violated.by && t.violated.by.length ? `<span class="muted">By: ${esc(t.violated.by.map(short).join(', '))}</span>` : ''}</div>`;
+    const all = t.conflicts.filter(h => !S.major || W[h.w]?.major);
+    if (all.length) h += `<div class="box w"><span class="t">Later wars between ${isPeace(t) && t.sides.length === 2 ? 'former enemies' : 'signatories'}</span><ul class="wlist">${all.slice(0, 12).map(h => { const w = W[h.w]; const inWin = h.gap <= S.win; return `<li style="${inWin ? '' : 'opacity:.55'}"><span class="gap">+${h.gap} yr${h.gap === 1 ? '' : 's'}</span><span><b>${esc(w.name)}</b> <span class="muted">${w.start}${w.major ? ' · major' : ''}${h.during ? ' · while allied' : ''}</span><br><span class="muted">${esc(h.pairs.slice(0, 4).map(p => short(p[0]) + ' v ' + short(p[1])).join('; '))}${h.pairs.length > 4 ? '…' : ''}</span></span></li>`; }).join('')}</ul>${all.some(h => h.gap > S.win) ? `<span class="muted" style="font-size:12.5px">Faded rows fall outside the ${S.win}-year window.</span>` : ''}</div>`;
+    else h += `<div class="box"><span class="t">Later wars between signatories</span><span class="muted">None in the war data${t.year > 2003 ? ' (wars after 2003 are hand-curated)' : ''}.</span></div>`;
+    if (t.judgment) h += `<div class="box f"><span class="t">Historians' interpretation${W[t.judgment.led_to] ? ' → ' + esc(W[t.judgment.led_to].name) : ''}</span><span>${esc(t.judgment.rationale)}</span></div>`;
+    if (t.url) h += `<a href="${esc(t.url)}" target="_blank" rel="noopener" style="font-size:13px">Source</a>`;
+    h += `<button class="linkbtn" id="closesel">Back to ${S.country ? short(S.country) : 'overview'}</button>`;
+    P.innerHTML = h;
+  } else if (S.country) {
+    const c = S.country; const mine = T.filter(t => inView(t) && t.parties.includes(c)); const st = mine.map(status);
+    const partners = new Map(); mine.forEach(t => t.parties.forEach(p => { if (p !== c) partners.set(p, (partners.get(p) || 0) + 1); }));
+    const fought = new Map(); mine.forEach((t, i) => st[i].wars.forEach(h => h.pairs.forEach(([a, b]) => { if (a === c || b === c) { const o = a === c ? b : a; if (!fought.has(o)) fought.set(o, new Set()); fought.get(o).add(W[h.w].name); } })));
+    const flags = mine.filter(t => t.judgment);
+    P.innerHTML = `<div class="eyebrow">Country · ${esc(C[c]?.region || '')}</div><h3>${esc(cname(c))}</h3>
+      <div class="kpis" style="grid-template-columns:repeat(3,minmax(0,1fr))"><div class="kpi"><div class="v">${mine.length}</div><div class="l">treaties in view</div></div><div class="kpi"><div class="v">${st.filter(s => s.broken).length}</div><div class="l"><span class="key" style="background:var(--broken)"></span>breached</div></div><div class="kpi"><div class="v">${st.filter(s => s.war).length}</div><div class="l"><span class="key" style="background:var(--war)"></span>war within ${S.win} yrs</div></div></div>
+      <div class="box"><span class="t">Most frequent treaty partners</span>${plist([...partners.entries()].sort((a, b) => b[1] - a[1]).slice(0, 14).map(d => d[0]))}</div>
+      ${fought.size ? `<div class="box w"><span class="t">Partners it later fought</span><ul class="wlist">${[...fought.entries()].slice(0, 12).map(([o, ws]) => `<li style="grid-template-columns:1fr"><span><b>${esc(short(o))}</b> <span class="muted">${esc([...ws].join(', '))}</span></span></li>`).join('')}</ul></div>` : ''}
+      ${flags.length ? `<div class="box f"><span class="t">Historian-flagged treaties</span>${flags.map(t => `<button class="linkbtn" data-t="${t.id}" style="text-align:left">${esc(t.name)} (${t.year})</button>`).join('')}</div>` : ''}
+      <p class="muted" style="font-size:13px">The ledger below now lists only ${esc(short(c))}'s treaties. Click one for details.</p>
+      <button class="linkbtn" id="closesel">Clear country</button>`;
+  } else {
+    const flagged = T.filter(t => inView(t) && t.judgment).sort((a, b) => a.year - b.year);
+    P.innerHTML = `<div class="eyebrow">Dossier</div><h3>Pick a country or a treaty</h3>
+      <div class="howto"><ul><li>Click a <b>country</b> in the network to see its partners and the partners it later fought.</li><li>Click a <b>treaty</b> in the ledger for its parties, any documented breach, and the wars that followed.</li><li>Move the <b>war window</b> to tighten or loosen what counts as “followed by war”.</li></ul></div>
+      <div class="box f"><span class="t">Flagged by historians (${flagged.length})</span>${flagged.slice(0, 14).map(t => `<button class="linkbtn" data-t="${t.id}" style="text-align:left">${esc(t.name)} (${t.year})</button>`).join('') || '<span class="muted">None in this view.</span>'}</div>`;
+  }
+  P.querySelectorAll('[data-c]').forEach(b => b.onclick = () => { S.country = b.dataset.c; S.sel = null; S.limit = 60; render(true); });
+  P.querySelectorAll('[data-t]').forEach(b => b.onclick = () => { S.sel = b.dataset.t; renderPanel(); renderTable(); });
+  const cl = document.getElementById('closesel'); if (cl) cl.onclick = () => { if (S.sel) S.sel = null; else S.country = null; render(true); };
+}
+
+function render() {
+  sync(); const view = T.filter(inView);
+  renderHead(view); renderNet(view); renderTimeline(view); renderTable(); renderPanel();
+}
+let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { netKey = ''; render(); }, 200); });
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => render());
+new MutationObserver(() => render()).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+render();
+</script>

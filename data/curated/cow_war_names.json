@@ -1,0 +1,1574 @@
+{
+ "1": {
+  "name": "Franco-Spanish War",
+  "id": "cow_1",
+  "start": 1823,
+  "end": 1823,
+  "sideA": [
+   "FRN"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "4": {
+  "name": "First Russo-Turkish War",
+  "id": "cow_4",
+  "start": 1828,
+  "end": 1829,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "batdeaths_cow": 130000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "7": {
+  "name": "Mexican-American War",
+  "id": "cow_7",
+  "start": 1846,
+  "end": 1847,
+  "sideA": [
+   "USA"
+  ],
+  "sideB": [
+   "MEX"
+  ],
+  "batdeaths_cow": 19283,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "10": {
+  "name": "Austro-Sardinian War",
+  "id": "cow_10",
+  "start": 1848,
+  "end": 1849,
+  "sideA": [
+   "AUH"
+  ],
+  "sideB": [
+   "ITA",
+   "MOD",
+   "TUS"
+  ],
+  "batdeaths_cow": 7527,
+  "major": false,
+  "major_basis": null
+ },
+ "13": {
+  "name": "First Schleswig-Holstein War",
+  "id": "cow_13",
+  "start": 1848,
+  "end": 1849,
+  "sideA": [
+   "GMY"
+  ],
+  "sideB": [
+   "DEN"
+  ],
+  "batdeaths_cow": 6000,
+  "major": false,
+  "major_basis": null
+ },
+ "16": {
+  "name": "Roman Republic War",
+  "id": "cow_16",
+  "start": 1849,
+  "end": 1849,
+  "sideA": [
+   "AUH",
+   "FRN",
+   "SIC"
+  ],
+  "sideB": [
+   "PAP"
+  ],
+  "batdeaths_cow": 2600,
+  "major": false,
+  "major_basis": null
+ },
+ "19": {
+  "name": "La Plata War",
+  "id": "cow_19",
+  "start": 1851,
+  "end": 1852,
+  "sideA": [
+   "BRA"
+  ],
+  "sideB": [
+   "ARG"
+  ],
+  "batdeaths_cow": 1300,
+  "major": false,
+  "major_basis": null
+ },
+ "22": {
+  "name": "Crimean War",
+  "id": "cow_22",
+  "start": 1853,
+  "end": 1856,
+  "sideA": [
+   "FRN",
+   "ITA",
+   "TUR",
+   "UKG"
+  ],
+  "sideB": [
+   "RUS"
+  ],
+  "batdeaths_cow": 264200,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "25": {
+  "name": "Anglo-Persian War",
+  "id": "cow_25",
+  "start": 1856,
+  "end": 1857,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "IRN"
+  ],
+  "batdeaths_cow": 2000,
+  "major": false,
+  "major_basis": null
+ },
+ "28": {
+  "name": "War of Italian Unification",
+  "id": "cow_28",
+  "start": 1859,
+  "end": 1859,
+  "sideA": [
+   "FRN",
+   "ITA"
+  ],
+  "sideB": [
+   "AUH"
+  ],
+  "batdeaths_cow": 22500,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "31": {
+  "name": "First Spanish-Moroccan War",
+  "id": "cow_31",
+  "start": 1859,
+  "end": 1860,
+  "sideA": [
+   "SPN"
+  ],
+  "sideB": [
+   "MOR"
+  ],
+  "batdeaths_cow": 10000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "34": {
+  "name": "Italo-Roman War",
+  "id": "cow_34",
+  "start": 1860,
+  "end": 1860,
+  "sideA": [
+   "ITA"
+  ],
+  "sideB": [
+   "PAP"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "37": {
+  "name": "Neapolitan War",
+  "id": "cow_37",
+  "start": 1860,
+  "end": 1861,
+  "sideA": [
+   "ITA"
+  ],
+  "sideB": [
+   "SIC"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "40": {
+  "name": "Franco-Mexican War",
+  "id": "cow_40",
+  "start": 1862,
+  "end": 1867,
+  "sideA": [
+   "MEX"
+  ],
+  "sideB": [
+   "FRN"
+  ],
+  "batdeaths_cow": 20000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "43": {
+  "name": "Ecuadorian-Colombian War",
+  "id": "cow_43",
+  "start": 1863,
+  "end": 1863,
+  "sideA": [
+   "COL"
+  ],
+  "sideB": [
+   "ECU"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "46": {
+  "name": "Second Schleswig-Holstein War",
+  "id": "cow_46",
+  "start": 1864,
+  "end": 1864,
+  "sideA": [
+   "AUH",
+   "GMY"
+  ],
+  "sideB": [
+   "DEN"
+  ],
+  "batdeaths_cow": 4481,
+  "major": false,
+  "major_basis": null
+ },
+ "49": {
+  "name": "Lopez War (War of the Triple Alliance)",
+  "id": "cow_49",
+  "start": 1864,
+  "end": 1870,
+  "sideA": [
+   "ARG",
+   "BRA"
+  ],
+  "sideB": [
+   "PAR"
+  ],
+  "batdeaths_cow": 310000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "52": {
+  "name": "Naval War (Chincha Islands War)",
+  "id": "cow_52",
+  "start": 1865,
+  "end": 1866,
+  "sideA": [
+   "CHL",
+   "PER"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "55": {
+  "name": "Seven Weeks War (Austro-Prussian War)",
+  "id": "cow_55",
+  "start": 1866,
+  "end": 1866,
+  "sideA": [
+   "GMY",
+   "ITA",
+   "MEC"
+  ],
+  "sideB": [
+   "AUH",
+   "BAD",
+   "BAV",
+   "HAN",
+   "HSE",
+   "HSG",
+   "SAX",
+   "WRT"
+  ],
+  "batdeaths_cow": 44100,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "58": {
+  "name": "Franco-Prussian War",
+  "id": "cow_58",
+  "start": 1870,
+  "end": 1871,
+  "sideA": [
+   "BAD",
+   "BAV",
+   "GMY",
+   "WRT"
+  ],
+  "sideB": [
+   "FRN"
+  ],
+  "batdeaths_cow": 204313,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "60": {
+  "name": "First Central American War",
+  "id": "cow_60",
+  "start": 1876,
+  "end": 1876,
+  "sideA": [
+   "GUA"
+  ],
+  "sideB": [
+   "SAL"
+  ],
+  "batdeaths_cow": 4000,
+  "major": false,
+  "major_basis": null
+ },
+ "61": {
+  "name": "Second Russo-Turkish War",
+  "id": "cow_61",
+  "start": 1877,
+  "end": 1878,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "batdeaths_cow": 285000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "64": {
+  "name": "War of the Pacific",
+  "id": "cow_64",
+  "start": 1879,
+  "end": 1883,
+  "sideA": [
+   "CHL"
+  ],
+  "sideB": [
+   "BOL",
+   "PER"
+  ],
+  "batdeaths_cow": 13868,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "65": {
+  "name": "Anglo-Egyptian War",
+  "id": "cow_65",
+  "start": 1882,
+  "end": 1882,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "EGY"
+  ],
+  "batdeaths_cow": 10079,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "67": {
+  "name": "Sino-French War",
+  "id": "cow_67",
+  "start": 1884,
+  "end": 1885,
+  "sideA": [
+   "FRN"
+  ],
+  "sideB": [
+   "CHN"
+  ],
+  "batdeaths_cow": 12100,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "70": {
+  "name": "Second Central American War",
+  "id": "cow_70",
+  "start": 1885,
+  "end": 1885,
+  "sideA": [
+   "SAL"
+  ],
+  "sideB": [
+   "GUA"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "73": {
+  "name": "First Sino-Japanese War",
+  "id": "cow_73",
+  "start": 1894,
+  "end": 1895,
+  "sideA": [
+   "JPN"
+  ],
+  "sideB": [
+   "CHN"
+  ],
+  "batdeaths_cow": 15000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "76": {
+  "name": "Greco-Turkish War of 1897",
+  "id": "cow_76",
+  "start": 1897,
+  "end": 1897,
+  "sideA": [
+   "TUR"
+  ],
+  "sideB": [
+   "GRC"
+  ],
+  "batdeaths_cow": 2000,
+  "major": false,
+  "major_basis": null
+ },
+ "79": {
+  "name": "Spanish-American War",
+  "id": "cow_79",
+  "start": 1898,
+  "end": 1898,
+  "sideA": [
+   "USA"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "batdeaths_cow": 3685,
+  "major": false,
+  "major_basis": null
+ },
+ "82": {
+  "name": "Boxer Rebellion",
+  "id": "cow_82",
+  "start": 1900,
+  "end": 1900,
+  "sideA": [
+   "FRN",
+   "JPN",
+   "RUS",
+   "UKG",
+   "USA"
+  ],
+  "sideB": [
+   "CHN"
+  ],
+  "batdeaths_cow": 3003,
+  "major": false,
+  "major_basis": null
+ },
+ "83": {
+  "name": "Sino-Russian War",
+  "id": "cow_83",
+  "start": 1900,
+  "end": 1900,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "CHN"
+  ],
+  "batdeaths_cow": 4000,
+  "major": false,
+  "major_basis": null
+ },
+ "85": {
+  "name": "Russo-Japanese War",
+  "id": "cow_85",
+  "start": 1904,
+  "end": 1905,
+  "sideA": [
+   "JPN"
+  ],
+  "sideB": [
+   "RUS"
+  ],
+  "batdeaths_cow": 151831,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "88": {
+  "name": "Third Central American War",
+  "id": "cow_88",
+  "start": 1906,
+  "end": 1906,
+  "sideA": [
+   "GUA"
+  ],
+  "sideB": [
+   "HON",
+   "SAL"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "91": {
+  "name": "Fourth Central American War",
+  "id": "cow_91",
+  "start": 1907,
+  "end": 1907,
+  "sideA": [
+   "NIC"
+  ],
+  "sideB": [
+   "HON",
+   "SAL"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "94": {
+  "name": "Second Spanish-Moroccan War",
+  "id": "cow_94",
+  "start": 1909,
+  "end": 1910,
+  "sideA": [
+   "SPN"
+  ],
+  "sideB": [
+   "MOR"
+  ],
+  "batdeaths_cow": 10000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "97": {
+  "name": "Italian-Turkish War",
+  "id": "cow_97",
+  "start": 1911,
+  "end": 1912,
+  "sideA": [
+   "ITA"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "batdeaths_cow": 20000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "100": {
+  "name": "First Balkan War",
+  "id": "cow_100",
+  "start": 1912,
+  "end": 1913,
+  "sideA": [
+   "BUL",
+   "GRC",
+   "YUG"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "batdeaths_cow": 82000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "103": {
+  "name": "Second Balkan War",
+  "id": "cow_103",
+  "start": 1913,
+  "end": 1913,
+  "sideA": [
+   "GRC",
+   "ROM",
+   "TUR",
+   "YUG"
+  ],
+  "sideB": [
+   "BUL"
+  ],
+  "batdeaths_cow": 60500,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "106": {
+  "name": "World War I",
+  "id": "cow_106",
+  "start": 1914,
+  "end": 1918,
+  "sideA": [
+   "BEL",
+   "FRN",
+   "GRC",
+   "ITA",
+   "JPN",
+   "POR",
+   "ROM",
+   "RUS",
+   "UKG",
+   "USA",
+   "YUG"
+  ],
+  "sideB": [
+   "AUH",
+   "BUL",
+   "GMY",
+   "TUR"
+  ],
+  "batdeaths_cow": 8578031,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "107": {
+  "name": "Estonian War of Liberation",
+  "id": "cow_107",
+  "start": 1918,
+  "end": 1920,
+  "sideA": [
+   "EST",
+   "FIN"
+  ],
+  "sideB": [
+   "RUS"
+  ],
+  "batdeaths_cow": 11750,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "108": {
+  "name": "Latvian War of Liberation",
+  "id": "cow_108",
+  "start": 1918,
+  "end": 1920,
+  "sideA": [
+   "EST",
+   "GMY",
+   "LAT"
+  ],
+  "sideB": [
+   "GMY",
+   "RUS"
+  ],
+  "batdeaths_cow": 12796,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "109": {
+  "name": "Russo-Polish War",
+  "id": "cow_109",
+  "start": 1919,
+  "end": 1920,
+  "sideA": [
+   "POL"
+  ],
+  "sideB": [
+   "RUS"
+  ],
+  "batdeaths_cow": 100000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "112": {
+  "name": "Hungarian Adversaries War",
+  "id": "cow_112",
+  "start": 1919,
+  "end": 1919,
+  "sideA": [
+   "CZE",
+   "ROM"
+  ],
+  "sideB": [
+   "HUN"
+  ],
+  "batdeaths_cow": 11000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "115": {
+  "name": "Second Greco-Turkish War",
+  "id": "cow_115",
+  "start": 1919,
+  "end": 1922,
+  "sideA": [
+   "TUR"
+  ],
+  "sideB": [
+   "GRC"
+  ],
+  "batdeaths_cow": 50000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "116": {
+  "name": "Franco-Turkish War",
+  "id": "cow_116",
+  "start": 1919,
+  "end": 1921,
+  "sideA": [
+   "FRN"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "batdeaths_cow": 40000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "117": {
+  "name": "Lithuanian-Polish War",
+  "id": "cow_117",
+  "start": 1920,
+  "end": 1920,
+  "sideA": [
+   "POL"
+  ],
+  "sideB": [
+   "LIT"
+  ],
+  "batdeaths_cow": 1000,
+  "major": false,
+  "major_basis": null
+ },
+ "118": {
+  "name": "Manchurian War (Sino-Soviet conflict of 1929)",
+  "id": "cow_118",
+  "start": 1929,
+  "end": 1929,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "CHN"
+  ],
+  "batdeaths_cow": 3200,
+  "major": false,
+  "major_basis": null
+ },
+ "121": {
+  "name": "Second Sino-Japanese War (Manchuria/Shanghai, 1931-33)",
+  "id": "cow_121",
+  "start": 1931,
+  "end": 1933,
+  "sideA": [
+   "JPN"
+  ],
+  "sideB": [
+   "CHN"
+  ],
+  "batdeaths_cow": 60000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "124": {
+  "name": "Chaco War",
+  "id": "cow_124",
+  "start": 1932,
+  "end": 1935,
+  "sideA": [
+   "PAR"
+  ],
+  "sideB": [
+   "BOL"
+  ],
+  "batdeaths_cow": 92661,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "125": {
+  "name": "Saudi-Yemeni War",
+  "id": "cow_125",
+  "start": 1934,
+  "end": 1934,
+  "sideA": [
+   "SAU"
+  ],
+  "sideB": [
+   "YAR"
+  ],
+  "batdeaths_cow": 2100,
+  "major": false,
+  "major_basis": null
+ },
+ "127": {
+  "name": "Conquest of Ethiopia (Second Italo-Ethiopian War)",
+  "id": "cow_127",
+  "start": 1935,
+  "end": 1936,
+  "sideA": [
+   "ITA"
+  ],
+  "sideB": [
+   "ETH"
+  ],
+  "batdeaths_cow": 20000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "130": {
+  "name": "Third Sino-Japanese War",
+  "id": "cow_130",
+  "start": 1937,
+  "end": 1941,
+  "sideA": [
+   "JPN"
+  ],
+  "sideB": [
+   "CHN"
+  ],
+  "batdeaths_cow": 1000000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "133": {
+  "name": "Changkufeng War (Battle of Lake Khasan)",
+  "id": "cow_133",
+  "start": 1938,
+  "end": 1938,
+  "sideA": [
+   "JPN"
+  ],
+  "sideB": [
+   "RUS"
+  ],
+  "batdeaths_cow": 1726,
+  "major": true,
+  "major_basis": "great power on each side"
+ },
+ "136": {
+  "name": "Nomonhan War (Battles of Khalkhin Gol)",
+  "id": "cow_136",
+  "start": 1939,
+  "end": 1939,
+  "sideA": [
+   "MON",
+   "RUS"
+  ],
+  "sideB": [
+   "JPN"
+  ],
+  "batdeaths_cow": 28000,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "139": {
+  "name": "World War II",
+  "id": "cow_139",
+  "start": 1939,
+  "end": 1945,
+  "sideA": [
+   "AUL",
+   "BEL",
+   "BRA",
+   "BUL",
+   "CAN",
+   "CHN",
+   "ETH",
+   "FRN",
+   "GRC",
+   "ITA",
+   "MON",
+   "NEW",
+   "NOR",
+   "NTH",
+   "POL",
+   "ROM",
+   "RUS",
+   "SAF",
+   "UKG",
+   "USA",
+   "YUG"
+  ],
+  "sideB": [
+   "BUL",
+   "FIN",
+   "FRN",
+   "GMY",
+   "HUN",
+   "ITA",
+   "JPN",
+   "ROM"
+  ],
+  "batdeaths_cow": 16569007,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "142": {
+  "name": "Russo-Finnish War (Winter War)",
+  "id": "cow_142",
+  "start": 1939,
+  "end": 1940,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "FIN"
+  ],
+  "batdeaths_cow": 151798,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "145": {
+  "name": "Franco-Thai War",
+  "id": "cow_145",
+  "start": 1940,
+  "end": 1941,
+  "sideA": [
+   "THI"
+  ],
+  "sideB": [
+   "FRN"
+  ],
+  "batdeaths_cow": 1400,
+  "major": false,
+  "major_basis": null
+ },
+ "147": {
+  "name": "First Kashmir War",
+  "id": "cow_147",
+  "start": 1947,
+  "end": 1949,
+  "sideA": [
+   "IND"
+  ],
+  "sideB": [
+   "PAK"
+  ],
+  "batdeaths_cow": 3500,
+  "major": false,
+  "major_basis": null
+ },
+ "148": {
+  "name": "Arab-Israeli War of 1948",
+  "id": "cow_148",
+  "start": 1948,
+  "end": 1949,
+  "sideA": [
+   "ISR"
+  ],
+  "sideB": [
+   "EGY",
+   "IRQ",
+   "JOR",
+   "LEB",
+   "SYR"
+  ],
+  "batdeaths_cow": 8000,
+  "major": false,
+  "major_basis": null
+ },
+ "151": {
+  "name": "Korean War",
+  "id": "cow_151",
+  "start": 1950,
+  "end": 1953,
+  "sideA": [
+   "AUL",
+   "BEL",
+   "CAN",
+   "COL",
+   "ETH",
+   "FRN",
+   "GRC",
+   "NTH",
+   "PHI",
+   "ROK",
+   "THI",
+   "TUR",
+   "UKG",
+   "USA"
+  ],
+  "sideB": [
+   "CHN",
+   "PRK"
+  ],
+  "batdeaths_cow": 910084,
+  "major": true,
+  "major_basis": "great power on each side; >=10,000 battle deaths"
+ },
+ "153": {
+  "name": "Off-shore Islands War (First Taiwan Strait Crisis)",
+  "id": "cow_153",
+  "start": 1954,
+  "end": 1955,
+  "sideA": [
+   "CHN"
+  ],
+  "sideB": [
+   "TAW"
+  ],
+  "batdeaths_cow": 2370,
+  "major": false,
+  "major_basis": null
+ },
+ "155": {
+  "name": "Sinai War (Suez Crisis)",
+  "id": "cow_155",
+  "start": 1956,
+  "end": 1956,
+  "sideA": [
+   "FRN",
+   "ISR",
+   "UKG"
+  ],
+  "sideB": [
+   "EGY"
+  ],
+  "batdeaths_cow": 3221,
+  "major": false,
+  "major_basis": null
+ },
+ "156": {
+  "name": "Soviet Invasion of Hungary",
+  "id": "cow_156",
+  "start": 1956,
+  "end": 1956,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "HUN"
+  ],
+  "batdeaths_cow": 2426,
+  "major": false,
+  "major_basis": null
+ },
+ "158": {
+  "name": "Ifni War",
+  "id": "cow_158",
+  "start": 1957,
+  "end": 1958,
+  "sideA": [
+   "FRN",
+   "SPN"
+  ],
+  "sideB": [
+   "MOR"
+  ],
+  "batdeaths_cow": 1122,
+  "major": false,
+  "major_basis": null
+ },
+ "159": {
+  "name": "Taiwan Straits War (Second Taiwan Strait Crisis)",
+  "id": "cow_159",
+  "start": 1958,
+  "end": 1958,
+  "sideA": [
+   "CHN"
+  ],
+  "sideB": [
+   "TAW"
+  ],
+  "batdeaths_cow": 1800,
+  "major": false,
+  "major_basis": null
+ },
+ "160": {
+  "name": "Assam War (Sino-Indian War)",
+  "id": "cow_160",
+  "start": 1962,
+  "end": 1962,
+  "sideA": [
+   "CHN"
+  ],
+  "sideB": [
+   "IND"
+  ],
+  "batdeaths_cow": 1853,
+  "major": false,
+  "major_basis": null
+ },
+ "163": {
+  "name": "Vietnam War, Phase 2",
+  "id": "cow_163",
+  "start": 1965,
+  "end": 1975,
+  "sideA": [
+   "DRV"
+  ],
+  "sideB": [
+   "AUL",
+   "CAM",
+   "PHI",
+   "ROK",
+   "RVN",
+   "THI",
+   "USA"
+  ],
+  "batdeaths_cow": 1021442,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "166": {
+  "name": "Second Kashmir War",
+  "id": "cow_166",
+  "start": 1965,
+  "end": 1965,
+  "sideA": [
+   "PAK"
+  ],
+  "sideB": [
+   "IND"
+  ],
+  "batdeaths_cow": 7061,
+  "major": false,
+  "major_basis": null
+ },
+ "169": {
+  "name": "Six Day War",
+  "id": "cow_169",
+  "start": 1967,
+  "end": 1967,
+  "sideA": [
+   "ISR"
+  ],
+  "sideB": [
+   "EGY",
+   "JOR",
+   "SYR"
+  ],
+  "batdeaths_cow": 19600,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "170": {
+  "name": "Second Laotian War, Phase 2",
+  "id": "cow_170",
+  "start": 1968,
+  "end": 1973,
+  "sideA": [
+   "DRV"
+  ],
+  "sideB": [
+   "LAO",
+   "THI",
+   "USA"
+  ],
+  "batdeaths_cow": 13875,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "172": {
+  "name": "War of Attrition",
+  "id": "cow_172",
+  "start": 1969,
+  "end": 1970,
+  "sideA": [
+   "ISR"
+  ],
+  "sideB": [
+   "EGY"
+  ],
+  "batdeaths_cow": 5368,
+  "major": false,
+  "major_basis": null
+ },
+ "175": {
+  "name": "Football War",
+  "id": "cow_175",
+  "start": 1969,
+  "end": 1969,
+  "sideA": [
+   "SAL"
+  ],
+  "sideB": [
+   "HON"
+  ],
+  "batdeaths_cow": 1900,
+  "major": false,
+  "major_basis": null
+ },
+ "176": {
+  "name": "War of the Communist Coalition",
+  "id": "cow_176",
+  "start": 1970,
+  "end": 1971,
+  "sideA": [
+   "DRV"
+  ],
+  "sideB": [
+   "CAM",
+   "RVN",
+   "USA"
+  ],
+  "batdeaths_cow": 6525,
+  "major": false,
+  "major_basis": null
+ },
+ "178": {
+  "name": "War for Bangladesh",
+  "id": "cow_178",
+  "start": 1971,
+  "end": 1971,
+  "sideA": [
+   "IND"
+  ],
+  "sideB": [
+   "PAK"
+  ],
+  "batdeaths_cow": 11223,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "181": {
+  "name": "Yom Kippur War",
+  "id": "cow_181",
+  "start": 1973,
+  "end": 1973,
+  "sideA": [
+   "ISR"
+  ],
+  "sideB": [
+   "EGY",
+   "IRQ",
+   "JOR",
+   "SAU",
+   "SYR"
+  ],
+  "batdeaths_cow": 14439,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "184": {
+  "name": "Turco-Cypriot War",
+  "id": "cow_184",
+  "start": 1974,
+  "end": 1974,
+  "sideA": [
+   "TUR"
+  ],
+  "sideB": [
+   "CYP"
+  ],
+  "batdeaths_cow": 1500,
+  "major": false,
+  "major_basis": null
+ },
+ "186": {
+  "name": "War over Angola",
+  "id": "cow_186",
+  "start": 1975,
+  "end": 1976,
+  "sideA": [
+   "ANG",
+   "CUB"
+  ],
+  "sideB": [
+   "DRC",
+   "SAF"
+  ],
+  "batdeaths_cow": 2700,
+  "major": false,
+  "major_basis": null
+ },
+ "187": {
+  "name": "Second Ogaden War, Phase 2",
+  "id": "cow_187",
+  "start": 1977,
+  "end": 1978,
+  "sideA": [
+   "CUB",
+   "ETH"
+  ],
+  "sideB": [
+   "SOM"
+  ],
+  "batdeaths_cow": 10500,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "189": {
+  "name": "Vietnamese-Cambodian War",
+  "id": "cow_189",
+  "start": 1977,
+  "end": 1979,
+  "sideA": [
+   "DRV"
+  ],
+  "sideB": [
+   "CAM"
+  ],
+  "batdeaths_cow": 8000,
+  "major": false,
+  "major_basis": null
+ },
+ "190": {
+  "name": "Ugandan-Tanzanian War",
+  "id": "cow_190",
+  "start": 1978,
+  "end": 1979,
+  "sideA": [
+   "TAZ"
+  ],
+  "sideB": [
+   "LIB",
+   "UGA"
+  ],
+  "batdeaths_cow": 3000,
+  "major": false,
+  "major_basis": null
+ },
+ "193": {
+  "name": "Sino-Vietnamese Punitive War",
+  "id": "cow_193",
+  "start": 1979,
+  "end": 1979,
+  "sideA": [
+   "CHN"
+  ],
+  "sideB": [
+   "DRV"
+  ],
+  "batdeaths_cow": 21000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "199": {
+  "name": "Iran-Iraq War",
+  "id": "cow_199",
+  "start": 1980,
+  "end": 1988,
+  "sideA": [
+   "IRN"
+  ],
+  "sideB": [
+   "IRQ"
+  ],
+  "batdeaths_cow": 1250000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "202": {
+  "name": "Falklands War",
+  "id": "cow_202",
+  "start": 1982,
+  "end": 1982,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "ARG"
+  ],
+  "batdeaths_cow": 1001,
+  "major": false,
+  "major_basis": null
+ },
+ "205": {
+  "name": "War over Lebanon",
+  "id": "cow_205",
+  "start": 1982,
+  "end": 1982,
+  "sideA": [
+   "ISR"
+  ],
+  "sideB": [
+   "SYR"
+  ],
+  "batdeaths_cow": 1655,
+  "major": false,
+  "major_basis": null
+ },
+ "207": {
+  "name": "War over the Aouzou Strip",
+  "id": "cow_207",
+  "start": 1986,
+  "end": 1987,
+  "sideA": [
+   "CHA"
+  ],
+  "sideB": [
+   "LIB"
+  ],
+  "batdeaths_cow": 8000,
+  "major": false,
+  "major_basis": null
+ },
+ "208": {
+  "name": "Sino-Vietnamese Border War of 1987",
+  "id": "cow_208",
+  "start": 1987,
+  "end": 1987,
+  "sideA": [
+   "CHN"
+  ],
+  "sideB": [
+   "DRV"
+  ],
+  "batdeaths_cow": 4000,
+  "major": false,
+  "major_basis": null
+ },
+ "211": {
+  "name": "Gulf War",
+  "id": "cow_211",
+  "start": 1990,
+  "end": 1991,
+  "sideA": [
+   "CAN",
+   "EGY",
+   "FRN",
+   "ITA",
+   "KUW",
+   "MOR",
+   "OMA",
+   "QAT",
+   "SAU",
+   "SYR",
+   "UAE",
+   "UKG",
+   "USA"
+  ],
+  "sideB": [
+   "IRQ"
+  ],
+  "batdeaths_cow": 41466,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "215": {
+  "name": "War of Bosnian Independence",
+  "id": "cow_215",
+  "start": 1992,
+  "end": 1992,
+  "sideA": [
+   "BOS",
+   "CRO"
+  ],
+  "sideB": [
+   "YUG"
+  ],
+  "batdeaths_cow": 5240,
+  "major": false,
+  "major_basis": null
+ },
+ "216": {
+  "name": "Azeri-Armenian War (First Nagorno-Karabakh War)",
+  "id": "cow_216",
+  "start": 1993,
+  "end": 1994,
+  "sideA": [
+   "ARM"
+  ],
+  "sideB": [
+   "AZE"
+  ],
+  "batdeaths_cow": 14000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "217": {
+  "name": "Cenepa Valley War",
+  "id": "cow_217",
+  "start": 1995,
+  "end": 1995,
+  "sideA": [
+   "PER"
+  ],
+  "sideB": [
+   "ECU"
+  ],
+  "batdeaths_cow": 1500,
+  "major": false,
+  "major_basis": null
+ },
+ "219": {
+  "name": "Badme Border War (Eritrean-Ethiopian War)",
+  "id": "cow_219",
+  "start": 1998,
+  "end": 2000,
+  "sideA": [
+   "ERI"
+  ],
+  "sideB": [
+   "ETH"
+  ],
+  "batdeaths_cow": 120000,
+  "major": true,
+  "major_basis": ">=10,000 battle deaths"
+ },
+ "221": {
+  "name": "War for Kosovo",
+  "id": "cow_221",
+  "start": 1999,
+  "end": 1999,
+  "sideA": [
+   "FRN",
+   "GMY",
+   "ITA",
+   "NTH",
+   "TUR",
+   "UKG",
+   "USA"
+  ],
+  "sideB": [
+   "YUG"
+  ],
+  "batdeaths_cow": 5002,
+  "major": false,
+  "major_basis": null
+ },
+ "223": {
+  "name": "Kargil War",
+  "id": "cow_223",
+  "start": 1999,
+  "end": 1999,
+  "sideA": [
+   "IND"
+  ],
+  "sideB": [
+   "PAK"
+  ],
+  "batdeaths_cow": 1172,
+  "major": false,
+  "major_basis": null
+ },
+ "225": {
+  "name": "Invasion of Afghanistan",
+  "id": "cow_225",
+  "start": 2001,
+  "end": 2001,
+  "sideA": [
+   "AUL",
+   "CAN",
+   "FRN",
+   "UKG",
+   "USA"
+  ],
+  "sideB": [
+   "AFG"
+  ],
+  "batdeaths_cow": 4002,
+  "major": false,
+  "major_basis": null
+ },
+ "227": {
+  "name": "Invasion of Iraq",
+  "id": "cow_227",
+  "start": 2003,
+  "end": 2003,
+  "sideA": [
+   "AUL",
+   "UKG",
+   "USA"
+  ],
+  "sideB": [
+   "IRQ"
+  ],
+  "batdeaths_cow": 7173,
+  "major": false,
+  "major_basis": null
+ }
+}

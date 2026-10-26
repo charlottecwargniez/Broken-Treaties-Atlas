@@ -1,0 +1,4655 @@
+[
+ {
+  "id": "t_adrianople_1829",
+  "name": "Treaty of Adrianople",
+  "date": "1829-09-14",
+  "year": 1829,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "cow_4",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Russo-Turkish War of 1828-29, giving Russia the Danube mouth and confirming Greek autonomy.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Adrianople_(1829)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_guadalupe_hidalgo_1848",
+  "name": "Treaty of Guadalupe Hidalgo",
+  "date": "1848-02-02",
+  "year": 1848,
+  "type": "peace",
+  "parties": [
+   "USA",
+   "MEX"
+  ],
+  "sides": [
+   [
+    "USA"
+   ],
+   [
+    "MEX"
+   ]
+  ],
+  "ends_war": "cow_7",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Mexican-American War; Mexico ceded roughly half its territory, including California, to the United States.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_milan_1849",
+  "name": "Peace of Milan",
+  "date": "1849-08-06",
+  "year": 1849,
+  "type": "peace",
+  "parties": [
+   "AUH",
+   "ITA"
+  ],
+  "sides": [
+   [
+    "AUH"
+   ],
+   [
+    "ITA"
+   ]
+  ],
+  "ends_war": "cow_10",
+  "violated": null,
+  "judgment": null,
+  "summary": "Peace between Austria and Sardinia after Novara; Sardinia paid an indemnity and the territorial status quo was restored (some sources date it 9 August).",
+  "source_url": "https://austria-forum.org/af/AEIOU/Sardinischer_Krieg/Sardinischer_Krieg_english",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_berlin_1850",
+  "name": "Treaty of Berlin (Prussia-Denmark)",
+  "date": "1850-07-02",
+  "year": 1850,
+  "type": "peace",
+  "parties": [
+   "GMY",
+   "DEN"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "DEN"
+   ]
+  ],
+  "ends_war": "cow_13",
+  "violated": null,
+  "judgment": null,
+  "summary": "Prussian-Danish peace ending the First Schleswig War; both sides reserved their rights, and the duchies question was settled by the 1852 London Protocol.",
+  "source_url": "https://en.wikipedia.org/wiki/First_Schleswig_War",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_london_protocol_1852",
+  "name": "London Protocol (1852)",
+  "date": "1852-05-08",
+  "year": 1852,
+  "type": "guarantee",
+  "parties": [
+   "AUH",
+   "FRN",
+   "GMY",
+   "RUS",
+   "UKG",
+   "DEN",
+   "SWD"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": {
+   "led_to": "cow_46",
+   "rationale": "Historians commonly see the unresolved Schleswig-Holstein question left by the protocol, and the dispute over Denmark's 1863 November Constitution, as the direct cause of the 1864 war."
+  },
+  "summary": "Great-power protocol upholding the integrity of the Danish monarchy, including Schleswig and Holstein, as a 'European necessity'.",
+  "source_url": "https://en.wikipedia.org/wiki/London_Protocol_(1852)",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_paris_1856",
+  "name": "Treaty of Paris (1856)",
+  "date": "1856-03-30",
+  "year": 1856,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "FRN",
+   "UKG",
+   "TUR",
+   "ITA",
+   "AUH",
+   "GMY"
+  ],
+  "sides": [
+   [
+    "FRN",
+    "UKG",
+    "TUR",
+    "ITA"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "cow_22",
+  "violated": {
+   "is": true,
+   "year": 1870,
+   "by": [
+    "RUS"
+   ],
+   "how": "Russia repudiated the Black Sea neutralisation clauses in October 1870, and the 1871 London Conference accepted this."
+  },
+  "judgment": null,
+  "summary": "Ended the Crimean War; neutralised the Black Sea (no warships or arsenals) and guaranteed Ottoman integrity.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1856)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_paris_1857",
+  "name": "Treaty of Paris (1857)",
+  "date": "1857-03-04",
+  "year": 1857,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "IRN"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "IRN"
+   ]
+  ],
+  "ends_war": "cow_25",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Anglo-Persian War; Persia withdrew from Herat and recognised Afghan independence.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1857)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_zurich_1859",
+  "name": "Treaty of Zurich",
+  "date": "1859-11-10",
+  "year": 1859,
+  "type": "peace",
+  "parties": [
+   "AUH",
+   "FRN",
+   "ITA"
+  ],
+  "sides": [
+   [
+    "FRN",
+    "ITA"
+   ],
+   [
+    "AUH"
+   ]
+  ],
+  "ends_war": "cow_28",
+  "violated": null,
+  "judgment": null,
+  "summary": "Confirmed the Villafranca armistice ending the Second Italian War of Independence; Austria ceded Lombardy (via France) to Sardinia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Z%C3%BCrich",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_wad_ras_1860",
+  "name": "Treaty of Wad-Ras",
+  "date": "1860-04-26",
+  "year": 1860,
+  "type": "peace",
+  "parties": [
+   "SPN",
+   "MOR"
+  ],
+  "sides": [
+   [
+    "SPN"
+   ],
+   [
+    "MOR"
+   ]
+  ],
+  "ends_war": "cow_31",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Hispano-Moroccan War; Morocco paid an indemnity and recognised Spanish possession of Ceuta and Melilla with enlarged limits.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Wad_Ras",
+  "verification": "search"
+ },
+ {
+  "id": "t_pinsaqui_1863",
+  "name": "Treaty of Pinsaqui",
+  "date": "1863-12-30",
+  "year": 1863,
+  "type": "peace",
+  "parties": [
+   "COL",
+   "ECU"
+  ],
+  "sides": [
+   [
+    "COL"
+   ],
+   [
+    "ECU"
+   ]
+  ],
+  "ends_war": "cow_43",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the 1863 Ecuadorian-Colombian War after Cuaspud, restoring prior relations without territorial change.",
+  "source_url": "https://www.globalsecurity.org/military/world/war/ecuador-colombia.htm",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_vienna_1864",
+  "name": "Treaty of Vienna (1864)",
+  "date": "1864-10-30",
+  "year": 1864,
+  "type": "peace",
+  "parties": [
+   "DEN",
+   "GMY",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "AUH",
+    "GMY"
+   ],
+   [
+    "DEN"
+   ]
+  ],
+  "ends_war": "cow_46",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Second Schleswig War; Denmark ceded Schleswig, Holstein and Lauenburg to Prussia and Austria.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1864)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_loizaga_cotegipe_1872",
+  "name": "Loizaga-Cotegipe Treaty",
+  "date": "1872-01-09",
+  "year": 1872,
+  "type": "peace",
+  "parties": [
+   "BRA",
+   "PAR"
+  ],
+  "sides": [
+   [
+    "BRA"
+   ],
+   [
+    "PAR"
+   ]
+  ],
+  "ends_war": "cow_49",
+  "violated": null,
+  "judgment": null,
+  "summary": "Separate Brazil-Paraguay peace after the Paraguayan War, fixing their border.",
+  "source_url": "https://en.wikipedia.org/wiki/Loizaga%E2%80%93Cotegipe_Treaty",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_machain_irigoyen_1876",
+  "name": "Machain-Irigoyen Treaty",
+  "date": "1876-02-03",
+  "year": 1876,
+  "type": "peace",
+  "parties": [
+   "ARG",
+   "PAR"
+  ],
+  "sides": [
+   [
+    "ARG"
+   ],
+   [
+    "PAR"
+   ]
+  ],
+  "ends_war": "cow_49",
+  "violated": null,
+  "judgment": null,
+  "summary": "Argentina-Paraguay peace and boundary treaty concluding the Paraguayan War (Chaco Boreal north of the Pilcomayo left to arbitration).",
+  "source_url": "https://en.wikipedia.org/wiki/Macha%C3%ADn-Irigoyen_Treaty",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_spain_peru_1879",
+  "name": "Spain-Peru Treaty of Peace and Friendship",
+  "date": "1879-04-14",
+  "year": 1879,
+  "type": "peace",
+  "parties": [
+   "SPN",
+   "PER"
+  ],
+  "sides": [
+   [
+    "PER"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "cow_52",
+  "violated": null,
+  "judgment": null,
+  "summary": "Final peace between Spain and Peru after the Chincha Islands War (an indefinite armistice had been signed in Washington in 1871).",
+  "source_url": "https://en.wikipedia.org/wiki/Chincha_Islands_War",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_spain_chile_1883",
+  "name": "Chilean-Spanish Treaty of 1883",
+  "date": "1883-06-12",
+  "year": 1883,
+  "type": "peace",
+  "parties": [
+   "CHL",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "CHL"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "cow_52",
+  "violated": null,
+  "judgment": null,
+  "summary": "Signed in Chilean-occupied Lima, formally ending the Chincha Islands War between Chile and Spain.",
+  "source_url": "https://en.wikipedia.org/wiki/1883_Chilean%E2%80%93Spanish_Treaty",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_prague_1866",
+  "name": "Peace of Prague",
+  "date": "1866-08-23",
+  "year": 1866,
+  "type": "peace",
+  "parties": [
+   "GMY",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "AUH"
+   ]
+  ],
+  "ends_war": "cow_55",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Austro-Prussian War; dissolved the German Confederation and excluded Austria from German affairs.",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Prague_(1866)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_vienna_1866",
+  "name": "Treaty of Vienna (1866)",
+  "date": "1866-10-03",
+  "year": 1866,
+  "type": "peace",
+  "parties": [
+   "AUH",
+   "ITA"
+  ],
+  "sides": [
+   [
+    "ITA"
+   ],
+   [
+    "AUH"
+   ]
+  ],
+  "ends_war": "cow_55",
+  "violated": null,
+  "judgment": null,
+  "summary": "Austro-Italian peace ending the Third Italian War of Independence; Venetia passed to Italy.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1866)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_london_1867",
+  "name": "Treaty of London (1867)",
+  "date": "1867-05-11",
+  "year": 1867,
+  "type": "guarantee",
+  "parties": [
+   "AUH",
+   "BEL",
+   "FRN",
+   "ITA",
+   "LUX",
+   "NTH",
+   "GMY",
+   "RUS",
+   "UKG"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1914,
+   "by": [
+    "GMY"
+   ],
+   "how": "Germany occupied neutral Luxembourg on 2 August 1914 (and again in 1940)."
+  },
+  "judgment": null,
+  "summary": "Settled the Luxembourg crisis: Prussian garrison withdrawn and Luxembourg's perpetual neutrality placed under collective guarantee.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_London_(1867)",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_frankfurt_1871",
+  "name": "Treaty of Frankfurt",
+  "date": "1871-05-10",
+  "year": 1871,
+  "type": "peace",
+  "parties": [
+   "GMY",
+   "FRN"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "cow_58",
+  "violated": null,
+  "judgment": {
+   "led_to": "cow_106",
+   "rationale": "A standard interpretation holds that the annexation of Alsace-Lorraine created lasting French revanchism and Franco-German enmity that structured the alliance blocs of 1914."
+  },
+  "summary": "Ended the Franco-Prussian War; France ceded Alsace and most of Lorraine and paid 5 billion francs.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Frankfurt_(1871)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_san_stefano_1878",
+  "name": "Treaty of San Stefano",
+  "date": "1878-03-03",
+  "year": 1878,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "cow_61",
+  "violated": null,
+  "judgment": null,
+  "summary": "Preliminary peace ending the Russo-Turkish War of 1877-78, creating a large autonomous Bulgaria; revised at the Congress of Berlin.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_San_Stefano",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_berlin_1878",
+  "name": "Treaty of Berlin (1878)",
+  "date": "1878-07-13",
+  "year": 1878,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR",
+   "UKG",
+   "AUH",
+   "FRN",
+   "GMY",
+   "ITA"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "cow_61",
+  "violated": {
+   "is": true,
+   "year": 1908,
+   "by": [
+    "AUH"
+   ],
+   "how": "Austria-Hungary unilaterally annexed Bosnia-Herzegovina in October 1908, beyond the occupation mandate of Article 25."
+  },
+  "judgment": {
+   "led_to": "cow_100",
+   "rationale": "Historians widely see the Berlin settlement's frustration of Balkan national aspirations (Bulgaria, Serbia, Macedonia) as a root of the Balkan Wars and, through the Bosnian question, of the 1914 crisis."
+  },
+  "summary": "Great-power revision of San Stefano: Serbia, Montenegro and Romania independent, Bulgaria reduced, Austria-Hungary to occupy Bosnia-Herzegovina.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Berlin_(1878)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_ancon_1883",
+  "name": "Treaty of Ancon",
+  "date": "1883-10-20",
+  "year": 1883,
+  "type": "peace",
+  "parties": [
+   "CHL",
+   "PER"
+  ],
+  "sides": [
+   [
+    "CHL"
+   ],
+   [
+    "PER"
+   ]
+  ],
+  "ends_war": "cow_64",
+  "violated": null,
+  "judgment": null,
+  "summary": "Chile-Peru peace ending the War of the Pacific; Peru ceded Tarapaca, Tacna and Arica placed under Chilean control pending a plebiscite.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Anc%C3%B3n",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_valparaiso_1884",
+  "name": "Truce Pact of Valparaiso",
+  "date": "1884-04-04",
+  "year": 1884,
+  "type": "armistice",
+  "parties": [
+   "BOL",
+   "CHL"
+  ],
+  "sides": [
+   [
+    "CHL"
+   ],
+   [
+    "BOL"
+   ]
+  ],
+  "ends_war": "cow_64",
+  "violated": null,
+  "judgment": null,
+  "summary": "Indefinite Chile-Bolivia truce ending hostilities in the War of the Pacific; Bolivia's coast (Antofagasta) left under Chilean administration.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Valparaiso",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_chile_bolivia_1904",
+  "name": "Treaty of Peace and Friendship (Chile-Bolivia)",
+  "date": "1904-10-20",
+  "year": 1904,
+  "type": "peace",
+  "parties": [
+   "CHL",
+   "BOL"
+  ],
+  "sides": [
+   [
+    "CHL"
+   ],
+   [
+    "BOL"
+   ]
+  ],
+  "ends_war": "cow_64",
+  "violated": null,
+  "judgment": null,
+  "summary": "Definitive Chile-Bolivia peace; Bolivia recognised the loss of its coastline in exchange for a railway and transit rights.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Peace_and_Friendship_(1904)",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_tientsin_1885",
+  "name": "Treaty of Tientsin (1885)",
+  "date": "1885-06-09",
+  "year": 1885,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "CHN"
+  ],
+  "sides": [
+   [
+    "FRN"
+   ],
+   [
+    "CHN"
+   ]
+  ],
+  "ends_war": "cow_67",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Sino-French War; China recognised the French protectorate over Annam and Tonkin.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Tientsin_(1885)",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_shimonoseki_1895",
+  "name": "Treaty of Shimonoseki",
+  "date": "1895-04-17",
+  "year": 1895,
+  "type": "peace",
+  "parties": [
+   "JPN",
+   "CHN"
+  ],
+  "sides": [
+   [
+    "JPN"
+   ],
+   [
+    "CHN"
+   ]
+  ],
+  "ends_war": "cow_73",
+  "violated": null,
+  "judgment": {
+   "led_to": "cow_85",
+   "rationale": "Historians commonly argue that the Triple Intervention forcing Japan to return Liaodong, which Russia then leased, fuelled the Russo-Japanese rivalry over Manchuria and Korea that led to the 1904 war."
+  },
+  "summary": "Ended the First Sino-Japanese War; China recognised Korean independence and ceded Taiwan, the Pescadores and (until the Triple Intervention) Liaodong.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_constantinople_1897",
+  "name": "Treaty of Constantinople (1897)",
+  "date": "1897-12-04",
+  "year": 1897,
+  "type": "peace",
+  "parties": [
+   "TUR",
+   "GRC"
+  ],
+  "sides": [
+   [
+    "TUR"
+   ],
+   [
+    "GRC"
+   ]
+  ],
+  "ends_war": "cow_76",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Greco-Turkish War of 1897; Thessaly largely returned to Greece with minor border changes and a heavy indemnity.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Constantinople_(1897)",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_paris_1898",
+  "name": "Treaty of Paris (1898)",
+  "date": "1898-12-10",
+  "year": 1898,
+  "type": "peace",
+  "parties": [
+   "USA",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "USA"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "cow_79",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Spanish-American War; Spain relinquished Cuba and ceded Puerto Rico, Guam and the Philippines.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1898)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_boxer_protocol_1901",
+  "name": "Boxer Protocol",
+  "date": "1901-09-07",
+  "year": 1901,
+  "type": "peace",
+  "parties": [
+   "CHN",
+   "UKG",
+   "FRN",
+   "GMY",
+   "RUS",
+   "USA",
+   "JPN",
+   "ITA",
+   "AUH",
+   "BEL",
+   "NTH",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "FRN",
+    "GMY",
+    "RUS",
+    "USA",
+    "JPN",
+    "ITA",
+    "AUH",
+    "BEL",
+    "NTH",
+    "SPN"
+   ],
+   [
+    "CHN"
+   ]
+  ],
+  "ends_war": "cow_82",
+  "violated": null,
+  "judgment": null,
+  "summary": "Settlement after the Boxer Rebellion imposing a 450 million tael indemnity and foreign legation guards on China.",
+  "source_url": "https://en.wikipedia.org/wiki/Boxer_Protocol",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_portsmouth_1905",
+  "name": "Treaty of Portsmouth",
+  "date": "1905-09-05",
+  "year": 1905,
+  "type": "peace",
+  "parties": [
+   "JPN",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "JPN"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "cow_85",
+  "violated": null,
+  "judgment": {
+   "led_to": "cow_121",
+   "rationale": "One common interpretation traces Japan's 1931 seizure of Manchuria to the railway zone and Kwantung leasehold it gained at Portsmouth, which anchored Japanese expansion there."
+  },
+  "summary": "US-mediated end of the Russo-Japanese War; Russia ceded southern Sakhalin, the Liaodong lease and the South Manchuria Railway and recognised Japan's paramountcy in Korea.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Portsmouth",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_marblehead_1906",
+  "name": "Marblehead Pact",
+  "date": "1906-07-20",
+  "year": 1906,
+  "type": "peace",
+  "parties": [
+   "GUA",
+   "SAL",
+   "HON"
+  ],
+  "sides": [
+   [
+    "GUA"
+   ],
+   [
+    "HON",
+    "SAL"
+   ]
+  ],
+  "ends_war": "cow_88",
+  "violated": null,
+  "judgment": null,
+  "summary": "Preliminary peace signed aboard USS Marblehead under US-Mexican auspices ending the 1906 Guatemala-El Salvador/Honduras war.",
+  "source_url": "https://history.state.gov/historicaldocuments/frus1906p1/ch124",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_washington_1907",
+  "name": "General Treaty of Peace and Amity (Washington 1907)",
+  "date": "1907-12-20",
+  "year": 1907,
+  "type": "peace",
+  "parties": [
+   "COS",
+   "GUA",
+   "HON",
+   "NIC",
+   "SAL"
+  ],
+  "sides": [
+   [
+    "NIC"
+   ],
+   [
+    "HON",
+    "SAL"
+   ]
+  ],
+  "ends_war": "cow_91",
+  "violated": null,
+  "judgment": null,
+  "summary": "Treaty of the 1907 Central American Peace Conference ending the 1907 war and creating the Central American Court of Justice.",
+  "source_url": "https://en.wikipedia.org/wiki/War_of_1907",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_ouchy_1912",
+  "name": "Treaty of Ouchy (First Treaty of Lausanne)",
+  "date": "1912-10-18",
+  "year": 1912,
+  "type": "peace",
+  "parties": [
+   "ITA",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "ITA"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "cow_97",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Italo-Turkish War; Ottoman withdrawal from Tripolitania and Cyrenaica, Italy to hold the Dodecanese temporarily.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Ouchy",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_london_1913",
+  "name": "Treaty of London (1913)",
+  "date": "1913-05-30",
+  "year": 1913,
+  "type": "peace",
+  "parties": [
+   "TUR",
+   "BUL",
+   "GRC",
+   "YUG",
+   "MNK"
+  ],
+  "sides": [
+   [
+    "BUL",
+    "GRC",
+    "YUG",
+    "MNK"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "cow_100",
+  "violated": null,
+  "judgment": {
+   "led_to": "cow_103",
+   "rationale": "Historians agree the treaty left the division of Macedonia among the victors unresolved, prompting Bulgaria's attack on its former allies a month later."
+  },
+  "summary": "Ended the First Balkan War; Ottoman Empire ceded nearly all European territory west of the Enos-Midia line (MNK = Kingdom of Montenegro).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_London_(1913)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_bucharest_1913",
+  "name": "Treaty of Bucharest (1913)",
+  "date": "1913-08-10",
+  "year": 1913,
+  "type": "peace",
+  "parties": [
+   "BUL",
+   "ROM",
+   "YUG",
+   "GRC",
+   "MNK"
+  ],
+  "sides": [
+   [
+    "GRC",
+    "ROM",
+    "YUG",
+    "MNK"
+   ],
+   [
+    "BUL"
+   ]
+  ],
+  "ends_war": "cow_103",
+  "violated": null,
+  "judgment": {
+   "led_to": "cow_106",
+   "rationale": "A common interpretation is that Bulgarian revisionism after Bucharest drove Sofia into the Central Powers in 1915, while Serbia's enlargement intensified the Austro-Serbian confrontation."
+  },
+  "summary": "Ended the Second Balkan War; Bulgaria lost most of Macedonia to Serbia and Greece and southern Dobruja to Romania.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1913)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_constantinople_1913",
+  "name": "Treaty of Constantinople (1913)",
+  "date": "1913-09-29",
+  "year": 1913,
+  "type": "peace",
+  "parties": [
+   "TUR",
+   "BUL"
+  ],
+  "sides": [
+   [
+    "TUR"
+   ],
+   [
+    "BUL"
+   ]
+  ],
+  "ends_war": "cow_103",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ottoman-Bulgarian peace after the Second Balkan War; Edirne returned to the Ottoman Empire.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Constantinople_(1913)",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_london_1839",
+  "name": "Treaty of London (1839)",
+  "date": "1839-04-19",
+  "year": 1839,
+  "type": "guarantee",
+  "parties": [
+   "UKG",
+   "AUH",
+   "FRN",
+   "GMY",
+   "RUS",
+   "NTH",
+   "BEL"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1914,
+   "by": [
+    "GMY"
+   ],
+   "how": "Germany invaded neutral Belgium on 4 August 1914, prompting Britain's declaration of war."
+  },
+  "judgment": null,
+  "summary": "Recognised Belgian independence and placed its perpetual neutrality under great-power guarantee (the 'scrap of paper').",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_London_(1839)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_london_1915",
+  "name": "Treaty of London (1915)",
+  "date": "1915-04-26",
+  "year": 1915,
+  "type": "other",
+  "parties": [
+   "UKG",
+   "FRN",
+   "RUS",
+   "ITA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Secret pact promising Italy Austro-Hungarian and Ottoman territory in return for entering the war on the Entente side.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_London_(1915)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_brest_litovsk_1918",
+  "name": "Treaty of Brest-Litovsk",
+  "date": "1918-03-03",
+  "year": 1918,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "GMY",
+   "AUH",
+   "TUR",
+   "BUL"
+  ],
+  "sides": [
+   [
+    "GMY",
+    "AUH",
+    "TUR",
+    "BUL"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "cow_106",
+  "violated": {
+   "is": true,
+   "year": 1918,
+   "by": [
+    "RUS"
+   ],
+   "how": "The Soviet government annulled the treaty on 13 November 1918 after Germany's armistice in the west."
+  },
+  "judgment": {
+   "led_to": "cow_109",
+   "rationale": "Historians often link the post-1918 borderland wars, including the Polish-Soviet War, to the vacuum left when the German-imposed Brest-Litovsk order in Eastern Europe collapsed."
+  },
+  "summary": "Soviet Russia's separate peace with the Central Powers, surrendering Poland, the Baltic lands, Finland and Ukraine.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_compiegne_1918",
+  "name": "Armistice of 11 November 1918",
+  "date": "1918-11-11",
+  "year": 1918,
+  "type": "armistice",
+  "parties": [
+   "GMY",
+   "FRN",
+   "UKG"
+  ],
+  "sides": [
+   [
+    "FRN",
+    "UKG"
+   ],
+   [
+    "GMY"
+   ]
+  ],
+  "ends_war": "cow_106",
+  "violated": null,
+  "judgment": null,
+  "summary": "Armistice signed at Compiegne ending fighting on the Western Front.",
+  "source_url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_versailles_1919",
+  "name": "Treaty of Versailles",
+  "date": "1919-06-28",
+  "year": 1919,
+  "type": "peace",
+  "parties": [
+   "GMY",
+   "FRN",
+   "UKG",
+   "USA",
+   "ITA",
+   "JPN",
+   "BEL",
+   "BRA",
+   "CZE",
+   "GRC",
+   "POL",
+   "POR",
+   "ROM",
+   "YUG"
+  ],
+  "sides": [
+   [
+    "FRN",
+    "UKG",
+    "USA",
+    "ITA",
+    "JPN",
+    "BEL",
+    "BRA",
+    "CZE",
+    "GRC",
+    "POL",
+    "POR",
+    "ROM",
+    "YUG"
+   ],
+   [
+    "GMY"
+   ]
+  ],
+  "ends_war": "cow_106",
+  "violated": {
+   "is": true,
+   "year": 1935,
+   "by": [
+    "GMY"
+   ],
+   "how": "Germany repudiated the military clauses in March 1935 (conscription, Luftwaffe) and remilitarised the Rhineland in March 1936."
+  },
+  "judgment": {
+   "led_to": "cow_139",
+   "rationale": "A long-standing interpretation holds that the treaty's terms fed German revisionism exploited by the Nazis, though many historians stress its weak enforcement as much as its harshness."
+  },
+  "summary": "Peace with Germany: territorial losses, war-guilt clause, reparations, disarmament and a demilitarised Rhineland (principal signatories listed; US did not ratify).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_saint_germain_1919",
+  "name": "Treaty of Saint-Germain-en-Laye",
+  "date": "1919-09-10",
+  "year": 1919,
+  "type": "peace",
+  "parties": [
+   "AUS",
+   "UKG",
+   "FRN",
+   "ITA",
+   "USA",
+   "JPN",
+   "CZE",
+   "POL",
+   "ROM",
+   "YUG"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "FRN",
+    "ITA",
+    "USA",
+    "JPN",
+    "CZE",
+    "POL",
+    "ROM",
+    "YUG"
+   ],
+   [
+    "AUS"
+   ]
+  ],
+  "ends_war": "cow_106",
+  "violated": {
+   "is": true,
+   "year": 1938,
+   "by": [
+    "GMY"
+   ],
+   "how": "The March 1938 Anschluss breached the treaty's ban on Austrian union with Germany."
+  },
+  "judgment": null,
+  "summary": "Peace with Austria: dissolution of the Habsburg Empire recognised and union with Germany (Anschluss) prohibited (principal signatories listed).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Saint-Germain-en-Laye_(1919)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_neuilly_1919",
+  "name": "Treaty of Neuilly-sur-Seine",
+  "date": "1919-11-27",
+  "year": 1919,
+  "type": "peace",
+  "parties": [
+   "BUL",
+   "UKG",
+   "FRN",
+   "ITA",
+   "JPN",
+   "GRC",
+   "ROM",
+   "YUG"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "FRN",
+    "ITA",
+    "JPN",
+    "GRC",
+    "ROM",
+    "YUG"
+   ],
+   [
+    "BUL"
+   ]
+  ],
+  "ends_war": "cow_106",
+  "violated": null,
+  "judgment": null,
+  "summary": "Peace with Bulgaria: loss of Western Thrace and border districts, reparations and army limits (principal signatories listed).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Neuilly-sur-Seine",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_trianon_1920",
+  "name": "Treaty of Trianon",
+  "date": "1920-06-04",
+  "year": 1920,
+  "type": "peace",
+  "parties": [
+   "HUN",
+   "UKG",
+   "FRN",
+   "ITA",
+   "JPN",
+   "CZE",
+   "ROM",
+   "YUG"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "FRN",
+    "ITA",
+    "JPN",
+    "CZE",
+    "ROM",
+    "YUG"
+   ],
+   [
+    "HUN"
+   ]
+  ],
+  "ends_war": "cow_106",
+  "violated": null,
+  "judgment": {
+   "led_to": "cow_139",
+   "rationale": "Historians widely regard Trianon revisionism as the main driver of Hungary's alignment with Nazi Germany and its participation in the Second World War."
+  },
+  "summary": "Peace with Hungary, which lost about two-thirds of its territory; also settled the 1919 Hungarian war with Romania and Czechoslovakia (cow_112).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Trianon",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_sevres_1920",
+  "name": "Treaty of Sevres",
+  "date": "1920-08-10",
+  "year": 1920,
+  "type": "peace",
+  "parties": [
+   "TUR",
+   "UKG",
+   "FRN",
+   "ITA",
+   "JPN",
+   "GRC"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "FRN",
+    "ITA",
+    "JPN",
+    "GRC"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "cow_106",
+  "violated": null,
+  "judgment": null,
+  "summary": "Partition peace with the Ottoman Empire; never ratified, rejected by the Turkish nationalists and superseded by Lausanne (1923).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_tartu_estonia_1920",
+  "name": "Treaty of Tartu (Russian-Estonian)",
+  "date": "1920-02-02",
+  "year": 1920,
+  "type": "peace",
+  "parties": [
+   "EST",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "EST"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "cow_107",
+  "violated": {
+   "is": true,
+   "year": 1940,
+   "by": [
+    "RUS"
+   ],
+   "how": "The Soviet occupation and annexation of Estonia in June-August 1940 contravened the treaty's recognition of Estonian sovereignty."
+  },
+  "judgment": null,
+  "summary": "Soviet Russia recognised Estonian independence 'in perpetuity', ending the Estonian War of Independence.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Tartu_(Russian%E2%80%93Estonian)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_tartu_finland_1920",
+  "name": "Treaty of Tartu (Finland-Russia)",
+  "date": "1920-10-14",
+  "year": 1920,
+  "type": "peace",
+  "parties": [
+   "FIN",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "FIN"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "cow_107",
+  "violated": null,
+  "judgment": null,
+  "summary": "Fixed the Finnish-Soviet border (Finland gained Petsamo), ending the Finnish expeditions and hostilities of 1918-20.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Tartu_(Finland%E2%80%93Russia)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_riga_latvia_1920",
+  "name": "Latvian-Soviet Peace Treaty",
+  "date": "1920-08-11",
+  "year": 1920,
+  "type": "peace",
+  "parties": [
+   "LAT",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "LAT"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "cow_108",
+  "violated": {
+   "is": true,
+   "year": 1940,
+   "by": [
+    "RUS"
+   ],
+   "how": "The Soviet occupation and annexation of Latvia in 1940 contravened the treaty's recognition of Latvian sovereignty."
+  },
+  "judgment": null,
+  "summary": "Soviet Russia recognised Latvian independence, ending the Latvian War of Independence.",
+  "source_url": "https://en.wikipedia.org/wiki/Latvian%E2%80%93Soviet_Peace_Treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_riga_1921",
+  "name": "Peace of Riga",
+  "date": "1921-03-18",
+  "year": 1921,
+  "type": "peace",
+  "parties": [
+   "POL",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "POL"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "cow_109",
+  "violated": {
+   "is": true,
+   "year": 1939,
+   "by": [
+    "RUS"
+   ],
+   "how": "The Soviet invasion of eastern Poland on 17 September 1939 overturned the Riga frontier."
+  },
+  "judgment": null,
+  "summary": "Ended the Polish-Soviet War, fixing Poland's eastern border until 1939 (Soviet Ukraine also signed).",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Riga",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_suwalki_1920",
+  "name": "Suwalki Agreement",
+  "date": "1920-10-07",
+  "year": 1920,
+  "type": "ceasefire",
+  "parties": [
+   "POL",
+   "LIT"
+  ],
+  "sides": [
+   [
+    "POL"
+   ],
+   [
+    "LIT"
+   ]
+  ],
+  "ends_war": "cow_117",
+  "violated": {
+   "is": true,
+   "year": 1920,
+   "by": [
+    "POL"
+   ],
+   "how": "Days later General Zeligowski's staged 'mutiny', covertly approved by Pilsudski, seized Vilnius (9 October 1920)."
+  },
+  "judgment": null,
+  "summary": "Polish-Lithuanian armistice and demarcation line leaving Vilnius on the Lithuanian side.",
+  "source_url": "https://en.wikipedia.org/wiki/Suwa%C5%82ki_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_ankara_1921",
+  "name": "Treaty of Ankara (1921)",
+  "date": "1921-10-20",
+  "year": 1921,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "FRN"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "cow_116",
+  "violated": null,
+  "judgment": null,
+  "summary": "Franco-Turkish (Grand National Assembly) peace ending the Cilicia campaign; France withdrew from Cilicia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Ankara_(1921)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_lausanne_1923",
+  "name": "Treaty of Lausanne",
+  "date": "1923-07-24",
+  "year": 1923,
+  "type": "peace",
+  "parties": [
+   "TUR",
+   "UKG",
+   "FRN",
+   "ITA",
+   "JPN",
+   "GRC",
+   "ROM",
+   "YUG"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "FRN",
+    "ITA",
+    "JPN",
+    "GRC",
+    "ROM",
+    "YUG"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "cow_115",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Territorial provisions have largely endured; often cited as the most durable post-WWI settlement."
+  },
+  "judgment": null,
+  "summary": "Replaced Sevres, recognising the Republic of Turkey's borders and ending the Greco-Turkish War and the Allied-Ottoman state of war.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Lausanne",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_washington_naval_1922",
+  "name": "Washington Naval Treaty",
+  "date": "1922-02-06",
+  "year": 1922,
+  "type": "other",
+  "parties": [
+   "USA",
+   "UKG",
+   "JPN",
+   "FRN",
+   "ITA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Capital-ship ratios among the five naval powers; Japan gave notice of withdrawal in December 1934 and the treaty lapsed at the end of 1936.",
+  "source_url": "https://en.wikipedia.org/wiki/Washington_Naval_Treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_nine_power_1922",
+  "name": "Nine-Power Treaty",
+  "date": "1922-02-06",
+  "year": 1922,
+  "type": "guarantee",
+  "parties": [
+   "USA",
+   "UKG",
+   "JPN",
+   "FRN",
+   "ITA",
+   "BEL",
+   "NTH",
+   "POR",
+   "CHN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1931,
+   "by": [
+    "JPN"
+   ],
+   "how": "Japan's seizure of Manchuria from 1931 and the 1937 invasion of China breached the guarantee (the 1937 Brussels Conference was convened under it)."
+  },
+  "judgment": null,
+  "summary": "Committed the signatories to respect China's sovereignty, independence and territorial integrity (Open Door).",
+  "source_url": "https://en.wikipedia.org/wiki/Nine-Power_Treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_rapallo_1922",
+  "name": "Treaty of Rapallo (1922)",
+  "date": "1922-04-16",
+  "year": 1922,
+  "type": "normalization",
+  "parties": [
+   "GMY",
+   "RUS"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Germany and Soviet Russia renounced war claims and established diplomatic relations.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Rapallo_(1922)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_locarno_1925",
+  "name": "Locarno Treaties (Rhineland Pact)",
+  "date": "1925-12-01",
+  "year": 1925,
+  "type": "guarantee",
+  "parties": [
+   "GMY",
+   "FRN",
+   "BEL",
+   "UKG",
+   "ITA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1936,
+   "by": [
+    "GMY"
+   ],
+   "how": "Germany denounced the pact and remilitarised the Rhineland on 7 March 1936."
+  },
+  "judgment": null,
+  "summary": "Guaranteed the Franco-German and Belgian-German borders and the demilitarised Rhineland, with Britain and Italy as guarantors.",
+  "source_url": "https://en.wikipedia.org/wiki/Locarno_Treaties",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_italo_ethiopian_1928",
+  "name": "Italo-Ethiopian Treaty of 1928",
+  "date": "1928-08-02",
+  "year": 1928,
+  "type": "other",
+  "parties": [
+   "ITA",
+   "ETH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1935,
+   "by": [
+    "ITA"
+   ],
+   "how": "Italy invaded Ethiopia in October 1935 without recourse to the treaty's dispute procedures."
+  },
+  "judgment": null,
+  "summary": "Twenty-year treaty of friendship with commitment to settle disputes through conciliation/arbitration.",
+  "source_url": "https://en.wikipedia.org/wiki/Italo-Ethiopian_Treaty_of_1928",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_kellogg_briand_1928",
+  "name": "Kellogg-Briand Pact",
+  "date": "1928-08-27",
+  "year": 1928,
+  "type": "nonaggression",
+  "parties": [
+   "USA",
+   "FRN",
+   "GMY",
+   "UKG",
+   "ITA",
+   "JPN",
+   "BEL",
+   "POL",
+   "CZE",
+   "CAN",
+   "AUL",
+   "NEW",
+   "SAF",
+   "IRE"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1931,
+   "by": [
+    "JPN",
+    "ITA",
+    "GMY"
+   ],
+   "how": "Japan's 1931 invasion of Manchuria, Italy's 1935 invasion of Ethiopia and Germany's 1939 aggression contravened the pact; it underpinned the crimes-against-peace charges at Nuremberg."
+  },
+  "judgment": null,
+  "summary": "Renunciation of war as an instrument of national policy (original signatories listed; later near-universal adherence).",
+  "source_url": "https://en.wikipedia.org/wiki/Kellogg%E2%80%93Briand_Pact",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_khabarovsk_1929",
+  "name": "Khabarovsk Protocol",
+  "date": "1929-12-22",
+  "year": 1929,
+  "type": "peace",
+  "parties": [
+   "CHN",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "CHN"
+   ]
+  ],
+  "ends_war": "cow_118",
+  "violated": null,
+  "judgment": null,
+  "summary": "Restored the status quo ante on the Chinese Eastern Railway, ending the 1929 Sino-Soviet conflict.",
+  "source_url": "https://history.state.gov/historicaldocuments/frus1929v02/d397",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_soviet_finnish_nap_1932",
+  "name": "Soviet-Finnish Non-Aggression Pact",
+  "date": "1932-01-21",
+  "year": 1932,
+  "type": "nonaggression",
+  "parties": [
+   "RUS",
+   "FIN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1939,
+   "by": [
+    "RUS"
+   ],
+   "how": "The USSR denounced the pact on 28 November 1939 and invaded Finland on 30 November 1939."
+  },
+  "judgment": null,
+  "summary": "Mutual non-aggression treaty, extended in 1934 to 1945.",
+  "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Finnish_Non-Aggression_Pact",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_soviet_polish_nap_1932",
+  "name": "Soviet-Polish Non-Aggression Pact",
+  "date": "1932-07-25",
+  "year": 1932,
+  "type": "nonaggression",
+  "parties": [
+   "RUS",
+   "POL"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1939,
+   "by": [
+    "RUS"
+   ],
+   "how": "The Soviet Union invaded Poland on 17 September 1939 while the pact was in force."
+  },
+  "judgment": null,
+  "summary": "Mutual non-aggression treaty, extended in 1934 to 1945.",
+  "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Polish_Non-Aggression_Pact",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_tanggu_1933",
+  "name": "Tanggu Truce",
+  "date": "1933-05-31",
+  "year": 1933,
+  "type": "armistice",
+  "parties": [
+   "CHN",
+   "JPN"
+  ],
+  "sides": [
+   [
+    "JPN"
+   ],
+   [
+    "CHN"
+   ]
+  ],
+  "ends_war": "cow_121",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ceasefire creating a demilitarised zone south of the Great Wall, de facto accepting Japan's control of Manchuria.",
+  "source_url": "https://en.wikipedia.org/wiki/Tanggu_Truce",
+  "verification": "search"
+ },
+ {
+  "id": "t_german_polish_1934",
+  "name": "German-Polish Declaration of Non-Aggression",
+  "date": "1934-01-26",
+  "year": 1934,
+  "type": "nonaggression",
+  "parties": [
+   "GMY",
+   "POL"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1939,
+   "by": [
+    "GMY"
+   ],
+   "how": "Hitler renounced the declaration on 28 April 1939 and invaded Poland on 1 September 1939."
+  },
+  "judgment": null,
+  "summary": "Ten-year German-Polish non-aggression declaration.",
+  "source_url": "https://en.wikipedia.org/wiki/German%E2%80%93Polish_declaration_of_non-aggression",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_taif_1934",
+  "name": "Treaty of Taif",
+  "date": "1934-05-20",
+  "year": 1934,
+  "type": "peace",
+  "parties": [
+   "SAU",
+   "YAR"
+  ],
+  "sides": [
+   [
+    "SAU"
+   ],
+   [
+    "YAR"
+   ]
+  ],
+  "ends_war": "cow_125",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Saudi-Yemeni War; Asir, Najran and Jizan remained Saudi.",
+  "source_url": "https://al-bab.com/albab-orig/albab/yemen/pol/int1.htm",
+  "verification": "search"
+ },
+ {
+  "id": "t_chaco_protocol_1935",
+  "name": "Chaco Peace Protocol (Buenos Aires)",
+  "date": "1935-06-12",
+  "year": 1935,
+  "type": "armistice",
+  "parties": [
+   "BOL",
+   "PAR"
+  ],
+  "sides": [
+   [
+    "PAR"
+   ],
+   [
+    "BOL"
+   ]
+  ],
+  "ends_war": "cow_124",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ceasefire protocol ending fighting in the Chaco War, signed in Buenos Aires.",
+  "source_url": "https://www.abc.com.py/nacionales/2026/06/12/hace-91-anos-la-paz-llego-al-chaco-luego-de-tres-anos-de-guerra-entre-paraguay-y-bolivia/",
+  "verification": "search"
+ },
+ {
+  "id": "t_chaco_treaty_1938",
+  "name": "Treaty of Peace, Friendship and Boundaries (Chaco)",
+  "date": "1938-07-21",
+  "year": 1938,
+  "type": "peace",
+  "parties": [
+   "BOL",
+   "PAR"
+  ],
+  "sides": [
+   [
+    "PAR"
+   ],
+   [
+    "BOL"
+   ]
+  ],
+  "ends_war": "cow_124",
+  "violated": null,
+  "judgment": null,
+  "summary": "Definitive Bolivia-Paraguay peace awarding most of the Chaco Boreal to Paraguay.",
+  "source_url": "https://en.wikipedia.org/wiki/Chaco_War",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_anglo_german_naval_1935",
+  "name": "Anglo-German Naval Agreement",
+  "date": "1935-06-18",
+  "year": 1935,
+  "type": "other",
+  "parties": [
+   "UKG",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1939,
+   "by": [
+    "GMY"
+   ],
+   "how": "Hitler denounced the agreement on 28 April 1939."
+  },
+  "judgment": null,
+  "summary": "Limited the German navy to 35 percent of British surface tonnage.",
+  "source_url": "https://en.wikipedia.org/wiki/Anglo-German_Naval_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_montreux_1936",
+  "name": "Montreux Convention",
+  "date": "1936-07-20",
+  "year": 1936,
+  "type": "other",
+  "parties": [
+   "TUR",
+   "UKG",
+   "FRN",
+   "RUS",
+   "JPN",
+   "BUL",
+   "GRC",
+   "ROM",
+   "YUG",
+   "AUL"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Remains in force; Turkey invoked it to close the Straits to belligerent warships in 2022."
+  },
+  "judgment": null,
+  "summary": "Restored Turkish control of the Straits and regulated warship passage; still in force.",
+  "source_url": "https://en.wikipedia.org/wiki/Montreux_Convention_Regarding_the_Regime_of_the_Straits",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_munich_1938",
+  "name": "Munich Agreement",
+  "date": "1938-09-30",
+  "year": 1938,
+  "type": "other",
+  "parties": [
+   "GMY",
+   "UKG",
+   "FRN",
+   "ITA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1939,
+   "by": [
+    "GMY"
+   ],
+   "how": "Germany occupied the rest of Bohemia and Moravia on 15 March 1939."
+  },
+  "judgment": {
+   "led_to": "cow_139",
+   "rationale": "Munich is the standard example of failed appeasement: historians argue it emboldened Hitler and convinced Britain and France that Germany could not be contained without war."
+  },
+  "summary": "Ceded the Czechoslovak Sudetenland to Germany, with an Anglo-French guarantee of the rump state (Czechoslovakia not a signatory).",
+  "source_url": "https://en.wikipedia.org/wiki/Munich_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_lake_khasan_1938",
+  "name": "Lake Khasan ceasefire",
+  "date": "1938-08-11",
+  "year": 1938,
+  "type": "ceasefire",
+  "parties": [
+   "JPN",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "JPN"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "cow_133",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ceasefire negotiated in Moscow after Japan requested peace; fighting stopped on 11 August 1938.",
+  "source_url": "https://en.wikipedia.org/wiki/Battle_of_Lake_Khasan",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_molotov_ribbentrop_1939",
+  "name": "Molotov-Ribbentrop Pact",
+  "date": "1939-08-23",
+  "year": 1939,
+  "type": "nonaggression",
+  "parties": [
+   "GMY",
+   "RUS"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1941,
+   "by": [
+    "GMY"
+   ],
+   "how": "Germany invaded the Soviet Union on 22 June 1941."
+  },
+  "judgment": {
+   "led_to": "cow_139",
+   "rationale": "Historians generally hold that the pact cleared the way for the German invasion of Poland by removing the threat of a two-front war."
+  },
+  "summary": "German-Soviet non-aggression treaty with a secret protocol dividing Eastern Europe into spheres of influence.",
+  "source_url": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_khalkhin_gol_1939",
+  "name": "Molotov-Togo ceasefire (Khalkhin Gol)",
+  "date": "1939-09-15",
+  "year": 1939,
+  "type": "ceasefire",
+  "parties": [
+   "RUS",
+   "JPN"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "JPN"
+   ]
+  ],
+  "ends_war": "cow_136",
+  "violated": null,
+  "judgment": null,
+  "summary": "Soviet-Japanese ceasefire ending the Nomonhan/Khalkhin Gol fighting, effective 16 September 1939.",
+  "source_url": "https://en.wikipedia.org/wiki/Battles_of_Khalkhin_Gol",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_moscow_1940",
+  "name": "Moscow Peace Treaty",
+  "date": "1940-03-12",
+  "year": 1940,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "FIN"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "FIN"
+   ]
+  ],
+  "ends_war": "cow_142",
+  "violated": null,
+  "judgment": {
+   "led_to": "cow_139",
+   "rationale": "Historians widely see Finland's wish to recover the territories lost in 1940 as the main reason it joined the German attack on the USSR in 1941 (Continuation War)."
+  },
+  "summary": "Ended the Winter War; Finland ceded Karelia and other areas.",
+  "source_url": "https://en.wikipedia.org/wiki/Moscow_Peace_Treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_tokyo_1941",
+  "name": "Treaty of Tokyo (1941)",
+  "date": "1941-05-09",
+  "year": 1941,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "THI"
+  ],
+  "sides": [
+   [
+    "THI"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "cow_145",
+  "violated": null,
+  "judgment": null,
+  "summary": "Japanese-mediated peace ending the Franco-Thai War; Vichy France ceded border areas of Laos and Cambodia.",
+  "source_url": "https://en.wikipedia.org/wiki/Franco-Thai_War",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_soviet_japanese_neutrality_1941",
+  "name": "Soviet-Japanese Neutrality Pact",
+  "date": "1941-04-13",
+  "year": 1941,
+  "type": "nonaggression",
+  "parties": [
+   "RUS",
+   "JPN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1945,
+   "by": [
+    "RUS"
+   ],
+   "how": "The USSR denounced the pact in April 1945 and attacked Japan on 9 August 1945 while it was still formally in force."
+  },
+  "judgment": null,
+  "summary": "Five-year mutual neutrality pact.",
+  "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_Neutrality_Pact",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_cassibile_1943",
+  "name": "Armistice of Cassibile",
+  "date": "1943-09-03",
+  "year": 1943,
+  "type": "armistice",
+  "parties": [
+   "ITA",
+   "USA",
+   "UKG"
+  ],
+  "sides": [
+   [
+    "USA",
+    "UKG"
+   ],
+   [
+    "ITA"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Italy's armistice with the Allies, announced 8 September 1943.",
+  "source_url": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_moscow_armistice_1944",
+  "name": "Moscow Armistice",
+  "date": "1944-09-19",
+  "year": 1944,
+  "type": "armistice",
+  "parties": [
+   "FIN",
+   "RUS",
+   "UKG"
+  ],
+  "sides": [
+   [
+    "RUS",
+    "UKG"
+   ],
+   [
+    "FIN"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Continuation War; Finland restored the 1940 border and ceded Petsamo.",
+  "source_url": "https://en.wikipedia.org/wiki/Moscow_Armistice",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_german_surrender_1945",
+  "name": "German Instrument of Surrender",
+  "date": "1945-05-08",
+  "year": 1945,
+  "type": "armistice",
+  "parties": [
+   "GMY",
+   "RUS",
+   "UKG",
+   "USA",
+   "FRN"
+  ],
+  "sides": [
+   [
+    "RUS",
+    "UKG",
+    "USA",
+    "FRN"
+   ],
+   [
+    "GMY"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Unconditional surrender of the German armed forces, signed in Berlin-Karlshorst (after the Reims signing of 7 May).",
+  "source_url": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_japanese_surrender_1945",
+  "name": "Japanese Instrument of Surrender",
+  "date": "1945-09-02",
+  "year": 1945,
+  "type": "armistice",
+  "parties": [
+   "JPN",
+   "USA",
+   "CHN",
+   "UKG",
+   "RUS",
+   "AUL",
+   "CAN",
+   "FRN",
+   "NTH",
+   "NEW"
+  ],
+  "sides": [
+   [
+    "USA",
+    "CHN",
+    "UKG",
+    "RUS",
+    "AUL",
+    "CAN",
+    "FRN",
+    "NTH",
+    "NEW"
+   ],
+   [
+    "JPN"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Japan's formal surrender aboard USS Missouri.",
+  "source_url": "https://en.wikipedia.org/wiki/Japanese_Instrument_of_Surrender",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_paris_italy_1947",
+  "name": "Paris Peace Treaty with Italy (1947)",
+  "date": "1947-02-10",
+  "year": 1947,
+  "type": "peace",
+  "parties": [
+   "ITA",
+   "UKG",
+   "USA",
+   "RUS",
+   "FRN",
+   "GRC",
+   "YUG",
+   "ETH"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "USA",
+    "RUS",
+    "FRN",
+    "GRC",
+    "YUG",
+    "ETH"
+   ],
+   [
+    "ITA"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Italy ceded its colonies, the Dodecanese and border areas and paid reparations; principal Allied signatories listed.",
+  "source_url": "https://en.wikipedia.org/wiki/Paris_Peace_Treaties,_1947",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_paris_romania_1947",
+  "name": "Paris Peace Treaty with Romania (1947)",
+  "date": "1947-02-10",
+  "year": 1947,
+  "type": "peace",
+  "parties": [
+   "ROM",
+   "RUS",
+   "UKG",
+   "USA"
+  ],
+  "sides": [
+   [
+    "RUS",
+    "UKG",
+    "USA"
+   ],
+   [
+    "ROM"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Romania confirmed the loss of Bessarabia and northern Bukovina and regained northern Transylvania; principal Allied signatories listed.",
+  "source_url": "https://en.wikipedia.org/wiki/Paris_Peace_Treaties,_1947",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_paris_hungary_1947",
+  "name": "Paris Peace Treaty with Hungary (1947)",
+  "date": "1947-02-10",
+  "year": 1947,
+  "type": "peace",
+  "parties": [
+   "HUN",
+   "RUS",
+   "UKG",
+   "USA",
+   "CZE",
+   "YUG"
+  ],
+  "sides": [
+   [
+    "RUS",
+    "UKG",
+    "USA",
+    "CZE",
+    "YUG"
+   ],
+   [
+    "HUN"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Hungary returned to its 1938 borders minus three villages ceded to Czechoslovakia; principal Allied signatories listed.",
+  "source_url": "https://en.wikipedia.org/wiki/Paris_Peace_Treaties,_1947",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_paris_bulgaria_1947",
+  "name": "Paris Peace Treaty with Bulgaria (1947)",
+  "date": "1947-02-10",
+  "year": 1947,
+  "type": "peace",
+  "parties": [
+   "BUL",
+   "RUS",
+   "UKG",
+   "USA",
+   "GRC",
+   "YUG"
+  ],
+  "sides": [
+   [
+    "RUS",
+    "UKG",
+    "USA",
+    "GRC",
+    "YUG"
+   ],
+   [
+    "BUL"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Bulgaria kept southern Dobruja and returned its wartime annexations; principal Allied signatories listed.",
+  "source_url": "https://en.wikipedia.org/wiki/Paris_Peace_Treaties,_1947",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_paris_finland_1947",
+  "name": "Paris Peace Treaty with Finland (1947)",
+  "date": "1947-02-10",
+  "year": 1947,
+  "type": "peace",
+  "parties": [
+   "FIN",
+   "RUS",
+   "UKG"
+  ],
+  "sides": [
+   [
+    "RUS",
+    "UKG"
+   ],
+   [
+    "FIN"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Finland confirmed the 1944 armistice borders and paid reparations to the USSR; principal Allied signatories listed.",
+  "source_url": "https://en.wikipedia.org/wiki/Paris_Peace_Treaties,_1947",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_san_francisco_1951",
+  "name": "Treaty of San Francisco",
+  "date": "1951-09-08",
+  "year": 1951,
+  "type": "peace",
+  "parties": [
+   "JPN",
+   "USA",
+   "UKG",
+   "FRN",
+   "AUL",
+   "CAN",
+   "NEW",
+   "NTH",
+   "PHI"
+  ],
+  "sides": [
+   [
+    "USA",
+    "UKG",
+    "FRN",
+    "AUL",
+    "CAN",
+    "NEW",
+    "NTH",
+    "PHI"
+   ],
+   [
+    "JPN"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Peace with Japan signed by 49 nations (principal signatories listed; USSR attended but did not sign, China not invited).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_San_Francisco",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_taipei_1952",
+  "name": "Treaty of Taipei",
+  "date": "1952-04-28",
+  "year": 1952,
+  "type": "peace",
+  "parties": [
+   "JPN",
+   "TAW"
+  ],
+  "sides": [
+   [
+    "TAW"
+   ],
+   [
+    "JPN"
+   ]
+  ],
+  "ends_war": "cow_130",
+  "violated": null,
+  "judgment": null,
+  "summary": "Peace between Japan and the Republic of China, ending their state of war.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Taipei",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_austrian_state_treaty_1955",
+  "name": "Austrian State Treaty",
+  "date": "1955-05-15",
+  "year": 1955,
+  "type": "other",
+  "parties": [
+   "AUS",
+   "USA",
+   "UKG",
+   "FRN",
+   "RUS"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Implemented; occupation forces withdrew in 1955."
+  },
+  "judgment": null,
+  "summary": "Ended the four-power occupation and re-established a sovereign Austria, banning Anschluss; followed by Austria's declaration of permanent neutrality.",
+  "source_url": "https://en.wikipedia.org/wiki/Austrian_State_Treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_soviet_japanese_1956",
+  "name": "Soviet-Japanese Joint Declaration of 1956",
+  "date": "1956-10-19",
+  "year": 1956,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "JPN"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "JPN"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Soviet-Japanese state of war and restored relations; no peace treaty on the Kuril dispute followed.",
+  "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_Joint_Declaration_of_1956",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_japan_china_1978",
+  "name": "Treaty of Peace and Friendship between Japan and China",
+  "date": "1978-08-12",
+  "year": 1978,
+  "type": "peace",
+  "parties": [
+   "JPN",
+   "CHN"
+  ],
+  "sides": [
+   [
+    "CHN"
+   ],
+   [
+    "JPN"
+   ]
+  ],
+  "ends_war": "cow_130",
+  "violated": null,
+  "judgment": null,
+  "summary": "Japan-PRC peace treaty following the 1972 normalisation communique.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Peace_and_Friendship_between_Japan_and_China",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_moscow_treaty_1970",
+  "name": "Treaty of Moscow (1970)",
+  "date": "1970-08-12",
+  "year": 1970,
+  "type": "nonaggression",
+  "parties": [
+   "GFR",
+   "RUS"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Observed until superseded by German reunification arrangements."
+  },
+  "judgment": null,
+  "summary": "West German-Soviet renunciation of force and recognition of existing European borders (Ostpolitik).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Moscow_(1970)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_warsaw_treaty_1970",
+  "name": "Treaty of Warsaw (1970)",
+  "date": "1970-12-07",
+  "year": 1970,
+  "type": "nonaggression",
+  "parties": [
+   "GFR",
+   "POL"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Observed; border confirmed by the 1990 German-Polish Border Treaty."
+  },
+  "judgment": null,
+  "summary": "West Germany recognised the Oder-Neisse line and both renounced the use of force.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Warsaw_(1970)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_two_plus_four_1990",
+  "name": "Treaty on the Final Settlement with Respect to Germany",
+  "date": "1990-09-12",
+  "year": 1990,
+  "type": "peace",
+  "parties": [
+   "GFR",
+   "GDR",
+   "USA",
+   "UKG",
+   "FRN",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "USA",
+    "UKG",
+    "FRN",
+    "RUS"
+   ],
+   [
+    "GFR",
+    "GDR"
+   ]
+  ],
+  "ends_war": "cow_139",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Implemented; Soviet troops left Germany by 1994."
+  },
+  "judgment": null,
+  "summary": "Two Plus Four Treaty ending four-power rights and serving as the final WWII peace settlement for Germany.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_on_the_Final_Settlement_with_Respect_to_Germany",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_armistice_israel_egypt_1949",
+  "name": "Israel-Egypt Armistice Agreement",
+  "date": "1949-02-24",
+  "year": 1949,
+  "type": "armistice",
+  "parties": [
+   "ISR",
+   "EGY"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "EGY"
+   ]
+  ],
+  "ends_war": "cow_148",
+  "violated": null,
+  "judgment": null,
+  "summary": "UN-mediated armistice at Rhodes/Ras en-Naqoura/Mahanayim ending the 1948 war between Israel and Egypt (Iraq never signed).",
+  "source_url": "https://en.wikipedia.org/wiki/1949_Armistice_Agreements",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_armistice_israel_lebanon_1949",
+  "name": "Israel-Lebanon Armistice Agreement",
+  "date": "1949-03-23",
+  "year": 1949,
+  "type": "armistice",
+  "parties": [
+   "ISR",
+   "LEB"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "LEB"
+   ]
+  ],
+  "ends_war": "cow_148",
+  "violated": null,
+  "judgment": null,
+  "summary": "UN-mediated armistice at Rhodes/Ras en-Naqoura/Mahanayim ending the 1948 war between Israel and Lebanon (Iraq never signed).",
+  "source_url": "https://en.wikipedia.org/wiki/1949_Armistice_Agreements",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_armistice_israel_jordan_1949",
+  "name": "Israel-Jordan Armistice Agreement",
+  "date": "1949-04-03",
+  "year": 1949,
+  "type": "armistice",
+  "parties": [
+   "ISR",
+   "JOR"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "JOR"
+   ]
+  ],
+  "ends_war": "cow_148",
+  "violated": null,
+  "judgment": null,
+  "summary": "UN-mediated armistice at Rhodes/Ras en-Naqoura/Mahanayim ending the 1948 war between Israel and Jordan (Iraq never signed).",
+  "source_url": "https://en.wikipedia.org/wiki/1949_Armistice_Agreements",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_armistice_israel_syria_1949",
+  "name": "Israel-Syria Armistice Agreement",
+  "date": "1949-07-20",
+  "year": 1949,
+  "type": "armistice",
+  "parties": [
+   "ISR",
+   "SYR"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "SYR"
+   ]
+  ],
+  "ends_war": "cow_148",
+  "violated": null,
+  "judgment": null,
+  "summary": "UN-mediated armistice at Rhodes/Ras en-Naqoura/Mahanayim ending the 1948 war between Israel and Syria (Iraq never signed).",
+  "source_url": "https://en.wikipedia.org/wiki/1949_Armistice_Agreements",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_attrition_ceasefire_1970",
+  "name": "War of Attrition ceasefire",
+  "date": "1970-08-07",
+  "year": 1970,
+  "type": "ceasefire",
+  "parties": [
+   "ISR",
+   "EGY"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "EGY"
+   ]
+  ],
+  "ends_war": "cow_172",
+  "violated": {
+   "is": true,
+   "year": 1970,
+   "by": [
+    "EGY"
+   ],
+   "how": "Egypt and the USSR moved surface-to-air missile batteries into the standstill zone immediately after the ceasefire, which the US confirmed."
+  },
+  "judgment": null,
+  "summary": "US (Rogers initiative) brokered ceasefire ending the War of Attrition.",
+  "source_url": "https://en.wikipedia.org/wiki/War_of_Attrition",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_sinai_i_1974",
+  "name": "Egyptian-Israeli Disengagement Agreement (Sinai I)",
+  "date": "1974-01-18",
+  "year": 1974,
+  "type": "armistice",
+  "parties": [
+   "EGY",
+   "ISR"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "EGY"
+   ]
+  ],
+  "ends_war": "cow_181",
+  "violated": null,
+  "judgment": null,
+  "summary": "Kissinger-brokered separation of forces on the Suez front after the Yom Kippur War.",
+  "source_url": "https://en.wikipedia.org/wiki/Sinai_Interim_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_israel_syria_1974",
+  "name": "Agreement on Disengagement between Israel and Syria",
+  "date": "1974-05-31",
+  "year": 1974,
+  "type": "armistice",
+  "parties": [
+   "ISR",
+   "SYR"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "SYR"
+   ]
+  ],
+  "ends_war": "cow_181",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "The Golan line remained quiet for decades; Israel moved into the buffer zone after the fall of Assad in December 2024."
+  },
+  "judgment": null,
+  "summary": "Golan disengagement after the Yom Kippur War, creating the UNDOF buffer zone.",
+  "source_url": "https://en.wikipedia.org/wiki/Agreement_on_Disengagement_between_Israel_and_Syria",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_egypt_israel_1979",
+  "name": "Egypt-Israel Peace Treaty",
+  "date": "1979-03-26",
+  "year": 1979,
+  "type": "peace",
+  "parties": [
+   "EGY",
+   "ISR",
+   "USA"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "EGY"
+   ]
+  ],
+  "ends_war": "cow_181",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Has held since 1979."
+  },
+  "judgment": null,
+  "summary": "Peace following the Camp David Accords; Israel returned Sinai, mutual recognition (US witness).",
+  "source_url": "https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_algiers_1975",
+  "name": "Algiers Agreement (1975)",
+  "date": "1975-03-06",
+  "year": 1975,
+  "type": "other",
+  "parties": [
+   "IRN",
+   "IRQ"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1980,
+   "by": [
+    "IRQ"
+   ],
+   "how": "Saddam Hussein abrogated the agreement on 17 September 1980, days before invading Iran."
+  },
+  "judgment": {
+   "led_to": "cow_199",
+   "rationale": "Historians generally treat Iraq's abrogation of the Algiers accord and claim to the Shatt al-Arab as a central casus belli of the Iran-Iraq War."
+  },
+  "summary": "Iran-Iraq agreement fixing the Shatt al-Arab border on the thalweg in exchange for Iran ending support for Iraqi Kurds.",
+  "source_url": "https://en.wikipedia.org/wiki/1975_Algiers_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_unsc598_ceasefire_1988",
+  "name": "Iran-Iraq ceasefire (UNSC Resolution 598)",
+  "date": "1988-08-20",
+  "year": 1988,
+  "type": "ceasefire",
+  "parties": [
+   "IRN",
+   "IRQ"
+  ],
+  "sides": [
+   [
+    "IRN"
+   ],
+   [
+    "IRQ"
+   ]
+  ],
+  "ends_war": "cow_199",
+  "violated": null,
+  "judgment": null,
+  "summary": "UN-monitored ceasefire accepted by both parties ending the Iran-Iraq War.",
+  "source_url": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_safwan_1991",
+  "name": "Safwan ceasefire talks",
+  "date": "1991-03-03",
+  "year": 1991,
+  "type": "ceasefire",
+  "parties": [
+   "USA",
+   "SAU",
+   "IRQ"
+  ],
+  "sides": [
+   [
+    "USA",
+    "SAU"
+   ],
+   [
+    "IRQ"
+   ]
+  ],
+  "ends_war": "cow_211",
+  "violated": null,
+  "judgment": null,
+  "summary": "Coalition-Iraqi military talks setting Gulf War ceasefire terms, formalised by UNSC Resolution 687 (3 April 1991).",
+  "source_url": "https://en.wikipedia.org/wiki/Safwan_Airfield",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_oslo_1993",
+  "name": "Oslo I Accord",
+  "date": "1993-09-13",
+  "year": 1993,
+  "type": "other",
+  "parties": [
+   "ISR",
+   "PLO",
+   "USA",
+   "RUS"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Israel-PLO Declaration of Principles on interim self-government, witnessed by the US and Russia.",
+  "source_url": "https://en.wikipedia.org/wiki/Oslo_I_Accord",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_israel_jordan_1994",
+  "name": "Israel-Jordan Peace Treaty",
+  "date": "1994-10-26",
+  "year": 1994,
+  "type": "peace",
+  "parties": [
+   "ISR",
+   "JOR"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "JOR"
+   ]
+  ],
+  "ends_war": "cow_169",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Has held since 1994."
+  },
+  "judgment": null,
+  "summary": "Ended the state of war between Israel and Jordan (in force since 1948; last direct fighting in 1967) and fixed their border.",
+  "source_url": "https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_abraham_accords_2020",
+  "name": "Abraham Accords",
+  "date": "2020-09-15",
+  "year": 2020,
+  "type": "normalization",
+  "parties": [
+   "ISR",
+   "UAE",
+   "BAH",
+   "USA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Israel normalised relations with the UAE and Bahrain under US auspices; Morocco and Sudan followed, and Kazakhstan announced accession in November 2025.",
+  "source_url": "https://www.aa.com.tr/en/world/kazakhstan-confirms-joining-abraham-accords/3737753",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_israel_lebanon_ceasefire_2024",
+  "name": "2024 Israel-Lebanon ceasefire agreement",
+  "date": "2024-11-26",
+  "year": 2024,
+  "type": "ceasefire",
+  "parties": [
+   "ISR",
+   "LEB",
+   "USA",
+   "FRN"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "LEB"
+   ]
+  ],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 2025,
+   "by": [
+    "ISR"
+   ],
+   "how": "Israel kept forces at several positions in southern Lebanon after the withdrawal deadlines; the truce collapsed when Hezbollah (a non-signatory) attacked Israel on 2 March 2026."
+  },
+  "judgment": null,
+  "summary": "US/French-brokered cessation of hostilities after the Israel-Hezbollah war (Hezbollah approved but did not sign); broke down on 2 March 2026 when Hezbollah joined the Iran war.",
+  "source_url": "https://en.wikipedia.org/wiki/2024_Israel%E2%80%93Lebanon_ceasefire_agreement",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_twelve_day_ceasefire_2025",
+  "name": "Twelve-Day War ceasefire",
+  "date": "2025-06-24",
+  "year": 2025,
+  "type": "ceasefire",
+  "parties": [
+   "ISR",
+   "IRN",
+   "USA"
+  ],
+  "sides": [
+   [
+    "ISR",
+    "USA"
+   ],
+   [
+    "IRN"
+   ]
+  ],
+  "ends_war": "w_twelve_day_war_2025",
+  "violated": null,
+  "judgment": null,
+  "summary": "US-brokered (announced) ceasefire ending the June 2025 Israel-Iran war; no signed text. Superseded by the war that began 28 February 2026.",
+  "source_url": "https://en.wikipedia.org/wiki/Twelve-Day_War",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_iran_war_ceasefire_2026",
+  "name": "2026 Iran war ceasefire",
+  "date": "2026-04-08",
+  "year": 2026,
+  "type": "ceasefire",
+  "parties": [
+   "USA",
+   "IRN",
+   "ISR"
+  ],
+  "sides": [
+   [
+    "USA",
+    "ISR"
+   ],
+   [
+    "IRN"
+   ]
+  ],
+  "ends_war": "w_iran_war_2026",
+  "violated": {
+   "is": true,
+   "year": 2026,
+   "by": [
+    "IRN",
+    "USA"
+   ],
+   "how": "Both sides violated it repeatedly and the US-Iran ceasefire collapsed on 8 July 2026 after attacks by both sides."
+  },
+  "judgment": null,
+  "summary": "Pakistan-mediated two-week ceasefire, extended indefinitely by Trump on 21 April; strained by blockades and the Lebanon front.",
+  "source_url": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_islamabad_mou_2026",
+  "name": "Islamabad Memorandum of Understanding",
+  "date": "2026-06-17",
+  "year": 2026,
+  "type": "ceasefire",
+  "parties": [
+   "USA",
+   "IRN"
+  ],
+  "sides": [
+   [
+    "USA"
+   ],
+   [
+    "IRN"
+   ]
+  ],
+  "ends_war": "w_iran_war_2026",
+  "violated": {
+   "is": true,
+   "year": 2026,
+   "by": [
+    "IRN",
+    "USA"
+   ],
+   "how": "The ceasefire collapsed on 8 July 2026 after attacks by both sides; US-side accounts cite Iranian attacks on commercial shipping in the Strait of Hormuz."
+  },
+  "judgment": null,
+  "summary": "US-Iran MoU signed by both presidents: halt to operations on all fronts, lifting of blockades, reopening of Hormuz and 60 days of nuclear talks.",
+  "source_url": "https://foreignpolicy.com/2026/06/17/trump-us-iran-memorandum-of-understanding-mou-deal-read-full-text/",
+  "verification": "search"
+ },
+ {
+  "id": "t_israel_lebanon_truce_2026",
+  "name": "2026 Israel-Lebanon truce",
+  "date": "2026-04-16",
+  "year": 2026,
+  "type": "ceasefire",
+  "parties": [
+   "ISR",
+   "LEB",
+   "USA"
+  ],
+  "sides": [
+   [
+    "ISR"
+   ],
+   [
+    "LEB"
+   ]
+  ],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "US-announced Israel-Lebanon truce during the 2026 Lebanon war (Israel vs Hezbollah), repeatedly extended; Hezbollah rejected later Israel-Lebanon frameworks.",
+  "source_url": "https://en.wikipedia.org/wiki/2026_Lebanon_war",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_karachi_1949",
+  "name": "Karachi Agreement",
+  "date": "1949-07-27",
+  "year": 1949,
+  "type": "armistice",
+  "parties": [
+   "IND",
+   "PAK"
+  ],
+  "sides": [
+   [
+    "IND"
+   ],
+   [
+    "PAK"
+   ]
+  ],
+  "ends_war": "cow_147",
+  "violated": null,
+  "judgment": null,
+  "summary": "UNCIP-supervised agreement delineating the Kashmir ceasefire line after the ceasefire of 1 January 1949.",
+  "source_url": "https://en.wikipedia.org/wiki/Karachi_Agreement",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_korean_armistice_1953",
+  "name": "Korean Armistice Agreement",
+  "date": "1953-07-27",
+  "year": 1953,
+  "type": "armistice",
+  "parties": [
+   "USA",
+   "PRK",
+   "CHN"
+  ],
+  "sides": [
+   [
+    "USA"
+   ],
+   [
+    "PRK",
+    "CHN"
+   ]
+  ],
+  "ends_war": "cow_151",
+  "violated": null,
+  "judgment": null,
+  "summary": "Signed by the UN Command (US), the Korean People's Army and the Chinese People's Volunteers; South Korea did not sign. No peace treaty followed.",
+  "source_url": "https://en.wikipedia.org/wiki/Korean_Armistice_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_geneva_1954",
+  "name": "Geneva Accords (1954)",
+  "date": "1954-07-20",
+  "year": 1954,
+  "type": "armistice",
+  "parties": [
+   "FRN",
+   "DRV"
+  ],
+  "sides": [
+   [
+    "FRN"
+   ],
+   [
+    "DRV"
+   ]
+  ],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Cessation-of-hostilities agreements ending the First Indochina War and partitioning Vietnam at the 17th parallel pending 1956 elections (extra-state war, not in COW inter-state file).",
+  "source_url": "https://en.wikipedia.org/wiki/1954_Geneva_Conference",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_laos_neutrality_1962",
+  "name": "International Agreement on the Neutrality of Laos",
+  "date": "1962-07-23",
+  "year": 1962,
+  "type": "guarantee",
+  "parties": [
+   "LAO",
+   "MYA",
+   "CAM",
+   "CAN",
+   "CHN",
+   "DRV",
+   "FRN",
+   "IND",
+   "POL",
+   "RVN",
+   "THI",
+   "RUS",
+   "UKG",
+   "USA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1962,
+   "by": [
+    "DRV"
+   ],
+   "how": "North Vietnam kept about 7,000 troops in Laos and used the Ho Chi Minh Trail; the US later conducted a bombing campaign in Laos."
+  },
+  "judgment": null,
+  "summary": "Fourteen-nation Geneva agreement guaranteeing Laotian neutrality and the withdrawal of foreign troops.",
+  "source_url": "https://en.wikipedia.org/wiki/International_Agreement_on_the_Neutrality_of_Laos",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_tashkent_1966",
+  "name": "Tashkent Declaration",
+  "date": "1966-01-10",
+  "year": 1966,
+  "type": "peace",
+  "parties": [
+   "IND",
+   "PAK",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "IND"
+   ],
+   [
+    "PAK"
+   ]
+  ],
+  "ends_war": "cow_166",
+  "violated": null,
+  "judgment": null,
+  "summary": "Soviet-mediated agreement restoring pre-war positions after the 1965 India-Pakistan war.",
+  "source_url": "https://en.wikipedia.org/wiki/Tashkent_Declaration",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_simla_1972",
+  "name": "Simla Agreement",
+  "date": "1972-07-02",
+  "year": 1972,
+  "type": "peace",
+  "parties": [
+   "IND",
+   "PAK"
+  ],
+  "sides": [
+   [
+    "IND"
+   ],
+   [
+    "PAK"
+   ]
+  ],
+  "ends_war": "cow_178",
+  "violated": {
+   "is": true,
+   "year": 1999,
+   "by": [
+    "PAK"
+   ],
+   "how": "Pakistani forces' 1999 Kargil incursion across the Line of Control contravened the commitment not to alter the LoC unilaterally."
+  },
+  "judgment": null,
+  "summary": "Post-1971 war agreement converting the Kashmir ceasefire line into the Line of Control and committing to bilateral settlement.",
+  "source_url": "https://en.wikipedia.org/wiki/Simla_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_paris_peace_accords_1973",
+  "name": "Paris Peace Accords",
+  "date": "1973-01-27",
+  "year": 1973,
+  "type": "peace",
+  "parties": [
+   "USA",
+   "DRV",
+   "RVN",
+   "PRG"
+  ],
+  "sides": [
+   [
+    "USA",
+    "RVN"
+   ],
+   [
+    "DRV",
+    "PRG"
+   ]
+  ],
+  "ends_war": "cow_163",
+  "violated": {
+   "is": true,
+   "year": 1975,
+   "by": [
+    "DRV"
+   ],
+   "how": "North Vietnam's 1975 offensive conquered South Vietnam; both Vietnamese sides had violated the ceasefire from 1973."
+  },
+  "judgment": null,
+  "summary": "Ceasefire and US withdrawal agreement for Vietnam (PRG = South Vietnamese Provisional Revolutionary Government).",
+  "source_url": "https://en.wikipedia.org/wiki/Paris_Peace_Accords",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_lahore_1999",
+  "name": "Lahore Declaration",
+  "date": "1999-02-21",
+  "year": 1999,
+  "type": "other",
+  "parties": [
+   "IND",
+   "PAK"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1999,
+   "by": [
+    "PAK"
+   ],
+   "how": "The Kargil infiltration in spring 1999, weeks after signing, contravened the declaration's commitments."
+  },
+  "judgment": null,
+  "summary": "India-Pakistan nuclear confidence-building and peace commitments signed by Vajpayee and Sharif.",
+  "source_url": "https://en.wikipedia.org/wiki/Lahore_Declaration",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_paris_cambodia_1991",
+  "name": "Paris Peace Agreements (Cambodia)",
+  "date": "1991-10-23",
+  "year": 1991,
+  "type": "peace",
+  "parties": [
+   "CAM",
+   "DRV",
+   "CHN",
+   "USA",
+   "RUS",
+   "UKG",
+   "FRN",
+   "THI",
+   "LAO",
+   "INS"
+  ],
+  "sides": [
+   [
+    "DRV"
+   ],
+   [
+    "CAM"
+   ]
+  ],
+  "ends_war": "cow_189",
+  "violated": null,
+  "judgment": null,
+  "summary": "Comprehensive settlement of the Cambodian conflict following Vietnam's 1978-79 invasion, establishing UNTAC (principal signatories listed).",
+  "source_url": "https://en.wikipedia.org/wiki/1991_Paris_Peace_Agreements",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_sino_vietnamese_border_1999",
+  "name": "Sino-Vietnamese Land Border Treaty",
+  "date": "1999-12-30",
+  "year": 1999,
+  "type": "other",
+  "parties": [
+   "CHN",
+   "DRV"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Land boundary treaty settling the border fought over in 1979 and 1984-87.",
+  "source_url": "https://en.wikipedia.org/wiki/China%E2%80%93Vietnam_border",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_india_pakistan_ceasefire_2025",
+  "name": "India-Pakistan ceasefire of 10 May 2025",
+  "date": "2025-05-10",
+  "year": 2025,
+  "type": "ceasefire",
+  "parties": [
+   "IND",
+   "PAK"
+  ],
+  "sides": [
+   [
+    "IND"
+   ],
+   [
+    "PAK"
+   ]
+  ],
+  "ends_war": "w_india_pakistan_2025",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ceasefire agreed between the two DGMOs after four days of strikes, announced first by President Trump.",
+  "source_url": "https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_putrajaya_2025",
+  "name": "Putrajaya ceasefire (Cambodia-Thailand)",
+  "date": "2025-07-28",
+  "year": 2025,
+  "type": "ceasefire",
+  "parties": [
+   "THI",
+   "CAM",
+   "MAL"
+  ],
+  "sides": [
+   [
+    "THI"
+   ],
+   [
+    "CAM"
+   ]
+  ],
+  "ends_war": "w_cambodia_thailand_2025_jul",
+  "violated": null,
+  "judgment": null,
+  "summary": "Malaysia-brokered unconditional ceasefire ending the July 2025 border war.",
+  "source_url": "https://en.wikipedia.org/wiki/2025_Cambodian%E2%80%93Thai_border_crisis",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_kuala_lumpur_2025",
+  "name": "Kuala Lumpur Peace Accord",
+  "date": "2025-10-26",
+  "year": 2025,
+  "type": "peace",
+  "parties": [
+   "THI",
+   "CAM",
+   "MAL",
+   "USA"
+  ],
+  "sides": [
+   [
+    "THI"
+   ],
+   [
+    "CAM"
+   ]
+  ],
+  "ends_war": "w_cambodia_thailand_2025_jul",
+  "violated": {
+   "is": true,
+   "year": 2025,
+   "by": [
+    "THI"
+   ],
+   "how": "Thailand suspended implementation on 10 November 2025 after a landmine injured Thai soldiers; full fighting resumed on 8 December 2025."
+  },
+  "judgment": null,
+  "summary": "Joint declaration consolidating the July ceasefire, signed by Hun Manet and Anutin, witnessed by Anwar Ibrahim and Donald Trump.",
+  "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_Peace_Accord",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_thai_cambodia_ceasefire_dec_2025",
+  "name": "Cambodia-Thailand ceasefire of 27 December 2025",
+  "date": "2025-12-27",
+  "year": 2025,
+  "type": "ceasefire",
+  "parties": [
+   "THI",
+   "CAM"
+  ],
+  "sides": [
+   [
+    "THI"
+   ],
+   [
+    "CAM"
+   ]
+  ],
+  "ends_war": "w_cambodia_thailand_2025_dec",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ceasefire signed by the two defence ministers at the border, reaffirming the July deal; reported holding as of mid-2026.",
+  "source_url": "https://www.npr.org/2025/12/27/g-s1-103785/thailand-cambodia-new-ceasefire-agreement",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_doha_afg_pak_2025",
+  "name": "Doha ceasefire (Afghanistan-Pakistan)",
+  "date": "2025-10-19",
+  "year": 2025,
+  "type": "ceasefire",
+  "parties": [
+   "PAK",
+   "AFG",
+   "QAT",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "PAK"
+   ],
+   [
+    "AFG"
+   ]
+  ],
+  "ends_war": "w_afg_pak_2025",
+  "violated": null,
+  "judgment": null,
+  "summary": "Qatar- and Turkey-mediated immediate ceasefire after the October 2025 clashes; collapsed in late February 2026 when open war began.",
+  "source_url": "https://www.omanobserver.om/article/1178331/world/asia/pakistan-afghanistan-agree-to-immediate-ceasefire",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_rio_protocol_1942",
+  "name": "Rio de Janeiro Protocol",
+  "date": "1942-01-29",
+  "year": 1942,
+  "type": "peace",
+  "parties": [
+   "PER",
+   "ECU",
+   "ARG",
+   "BRA",
+   "CHL",
+   "USA"
+  ],
+  "sides": [
+   [
+    "PER"
+   ],
+   [
+    "ECU"
+   ]
+  ],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1960,
+   "by": [
+    "ECU"
+   ],
+   "how": "Ecuador declared the protocol null in 1960 under President Velasco Ibarra, though the guarantors rejected this."
+  },
+  "judgment": {
+   "led_to": "cow_217",
+   "rationale": "The incomplete demarcation of the Cordillera del Condor under the protocol is generally seen as the root of the 1981 Paquisha incident and the 1995 Cenepa War."
+  },
+  "summary": "Ended the 1941 Ecuadorian-Peruvian war, awarding most of the disputed Amazon area to Peru, with four guarantor states (the 1941 war is not in the COW inter-state file).",
+  "source_url": "https://en.wikipedia.org/wiki/Rio_Protocol",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_angra_de_cintra_1958",
+  "name": "Treaty of Angra de Cintra",
+  "date": "1958-04-01",
+  "year": 1958,
+  "type": "peace",
+  "parties": [
+   "SPN",
+   "MOR"
+  ],
+  "sides": [
+   [
+    "SPN"
+   ],
+   [
+    "MOR"
+   ]
+  ],
+  "ends_war": "cow_158",
+  "violated": null,
+  "judgment": null,
+  "summary": "Spain ceded the Tarfaya strip to Morocco, helping end the Ifni War.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Angra_de_Cintra",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_cyprus_guarantee_1960",
+  "name": "Treaty of Guarantee (Cyprus)",
+  "date": "1960-08-16",
+  "year": 1960,
+  "type": "guarantee",
+  "parties": [
+   "CYP",
+   "GRC",
+   "TUR",
+   "UKG"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1974,
+   "by": [
+    "GRC"
+   ],
+   "how": "The Greek junta's July 1974 coup against Makarios sought union with Greece; Turkey invoked the treaty to invade, and its continued occupation is itself widely contested."
+  },
+  "judgment": null,
+  "summary": "Greece, Turkey and Britain guaranteed Cypriot independence and banned both union with another state and partition.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Guarantee_(1960)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_geneva_declaration_1974",
+  "name": "Geneva Declaration on Cyprus",
+  "date": "1974-07-30",
+  "year": 1974,
+  "type": "ceasefire",
+  "parties": [
+   "TUR",
+   "GRC",
+   "UKG"
+  ],
+  "sides": [
+   [
+    "TUR"
+   ],
+   [
+    "GRC"
+   ]
+  ],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1974,
+   "by": [
+    "TUR"
+   ],
+   "how": "Turkey launched its second offensive on 14 August 1974 after the second Geneva conference broke down, until a ceasefire on 16 August."
+  },
+  "judgment": null,
+  "summary": "Tripartite (Turkey, Greece, UK guarantor) declaration consolidating the Cyprus ceasefire with a UNFICYP security zone; Cyprus itself (COW opponent in cow_184) not a signatory.",
+  "source_url": "https://unficyp.unmissions.org/en/node/73114",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_lima_1980",
+  "name": "General Peace Treaty (El Salvador-Honduras)",
+  "date": "1980-10-30",
+  "year": 1980,
+  "type": "peace",
+  "parties": [
+   "SAL",
+   "HON"
+  ],
+  "sides": [
+   [
+    "SAL"
+   ],
+   [
+    "HON"
+   ]
+  ],
+  "ends_war": "cow_175",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Implemented; the ICJ ruled on the border in 1992."
+  },
+  "judgment": null,
+  "summary": "Lima treaty formally ending the 1969 Football War and sending the border dispute to the ICJ.",
+  "source_url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Peru_relations",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_helsinki_1975",
+  "name": "Helsinki Final Act",
+  "date": "1975-08-01",
+  "year": 1975,
+  "type": "other",
+  "parties": [
+   "AUS",
+   "BEL",
+   "BUL",
+   "CAN",
+   "CYP",
+   "CZE",
+   "DEN",
+   "FIN",
+   "FRN",
+   "GDR",
+   "GFR",
+   "GRC",
+   "VAT",
+   "HUN",
+   "ICE",
+   "IRE",
+   "ITA",
+   "LIE",
+   "LUX",
+   "MLT",
+   "MNC",
+   "NTH",
+   "NOR",
+   "POL",
+   "POR",
+   "ROM",
+   "SNM",
+   "SPN",
+   "SWD",
+   "SWZ",
+   "TUR",
+   "RUS",
+   "UKG",
+   "USA",
+   "YUG"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 2014,
+   "by": [
+    "RUS"
+   ],
+   "how": "Russia's 2014 annexation of Crimea is widely cited as a breach of the Act's principles of territorial integrity and inviolable frontiers."
+  },
+  "judgment": null,
+  "summary": "CSCE political commitments on the inviolability of frontiers, non-use of force and human rights (not a legally binding treaty).",
+  "source_url": "https://en.wikipedia.org/wiki/Helsinki_Final_Act",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_inf_1987",
+  "name": "INF Treaty",
+  "date": "1987-12-08",
+  "year": 1987,
+  "type": "other",
+  "parties": [
+   "USA",
+   "RUS"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 2014,
+   "by": [
+    "RUS"
+   ],
+   "how": "The US formally found Russia in violation (9M729 missile) in 2014 and withdrew in August 2019; Russia denied the charge."
+  },
+  "judgment": null,
+  "summary": "Eliminated US and Soviet ground-launched missiles with 500-5,500 km range.",
+  "source_url": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_chad_libya_ceasefire_1987",
+  "name": "Chad-Libya ceasefire",
+  "date": "1987-09-11",
+  "year": 1987,
+  "type": "ceasefire",
+  "parties": [
+   "CHA",
+   "LIB"
+  ],
+  "sides": [
+   [
+    "CHA"
+   ],
+   [
+    "LIB"
+   ]
+  ],
+  "ends_war": "cow_207",
+  "violated": null,
+  "judgment": null,
+  "summary": "OAU-brokered ceasefire ending the Toyota War.",
+  "source_url": "https://en.wikipedia.org/wiki/Chadian%E2%80%93Libyan_War",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_algiers_framework_1989",
+  "name": "Framework Agreement on the Peaceful Settlement of the Territorial Dispute (Chad-Libya)",
+  "date": "1989-08-31",
+  "year": 1989,
+  "type": "peace",
+  "parties": [
+   "CHA",
+   "LIB"
+  ],
+  "sides": [
+   [
+    "CHA"
+   ],
+   [
+    "LIB"
+   ]
+  ],
+  "ends_war": "cow_207",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Libya complied with the 1994 ICJ judgment."
+  },
+  "judgment": null,
+  "summary": "Algiers agreement referring the Aouzou Strip to the ICJ, which ruled for Chad in 1994; Libya withdrew by May 1994.",
+  "source_url": "https://en.wikipedia.org/wiki/Chadian%E2%80%93Libyan_War",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_ethiopia_somalia_1988",
+  "name": "Ethiopia-Somalia peace agreement",
+  "date": "1988-04-06",
+  "year": 1988,
+  "type": "peace",
+  "parties": [
+   "ETH",
+   "SOM"
+  ],
+  "sides": [
+   [
+    "ETH"
+   ],
+   [
+    "SOM"
+   ]
+  ],
+  "ends_war": "cow_187",
+  "violated": null,
+  "judgment": null,
+  "summary": "Agreement ending mutual support for rebel groups and disengaging forces after the Ogaden conflict (some sources date it 3 April 1988).",
+  "source_url": "https://en.wikipedia.org/wiki/Ethiopia%E2%80%93Somalia_relations",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_new_york_accords_1988",
+  "name": "New York Accords (Tripartite Accord)",
+  "date": "1988-12-22",
+  "year": 1988,
+  "type": "peace",
+  "parties": [
+   "ANG",
+   "CUB",
+   "SAF"
+  ],
+  "sides": [
+   [
+    "ANG",
+    "CUB"
+   ],
+   [
+    "SAF"
+   ]
+  ],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Angola-Cuba-South Africa agreement: Cuban withdrawal from Angola and Namibian independence (ends the later South African Border War phase, not the COW 1975-76 war).",
+  "source_url": "https://en.wikipedia.org/wiki/New_York_Accords",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_madrid_1989",
+  "name": "Madrid Joint Statement (Argentina-UK)",
+  "date": "1989-10-19",
+  "year": 1989,
+  "type": "peace",
+  "parties": [
+   "ARG",
+   "UKG"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "ARG"
+   ]
+  ],
+  "ends_war": "cow_202",
+  "violated": null,
+  "judgment": null,
+  "summary": "Formal cessation of hostilities after the Falklands War under a sovereignty 'umbrella'; full diplomatic relations restored in February 1990.",
+  "source_url": "https://peacemaker.un.org/sites/default/files/document/files/2024/05/joint20statement20issued20at20madrid20on201920october20198920by20the20delegations20of20the20republic.pdf",
+  "verification": "search"
+ },
+ {
+  "id": "t_bishkek_1994",
+  "name": "Bishkek Protocol",
+  "date": "1994-05-05",
+  "year": 1994,
+  "type": "ceasefire",
+  "parties": [
+   "ARM",
+   "AZE",
+   "NKR",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "ARM",
+    "NKR"
+   ],
+   [
+    "AZE"
+   ]
+  ],
+  "ends_war": "cow_216",
+  "violated": null,
+  "judgment": null,
+  "summary": "Russian/CIS-brokered protocol leading to the ceasefire of 12 May 1994 that froze the First Nagorno-Karabakh War; broke down in 2016 and 2020 amid mutual accusations.",
+  "source_url": "https://en.wikipedia.org/wiki/Bishkek_Protocol",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_budapest_memorandum_1994",
+  "name": "Budapest Memorandum",
+  "date": "1994-12-05",
+  "year": 1994,
+  "type": "guarantee",
+  "parties": [
+   "UKR",
+   "RUS",
+   "USA",
+   "UKG"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 2014,
+   "by": [
+    "RUS"
+   ],
+   "how": "Russia annexed Crimea and backed the Donbas war in 2014, and invaded Ukraine in 2022."
+  },
+  "judgment": null,
+  "summary": "Security assurances to Ukraine (respect for its borders, no threat or use of force) in exchange for giving up Soviet nuclear weapons.",
+  "source_url": "https://en.wikipedia.org/wiki/Budapest_Memorandum",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_itamaraty_1995",
+  "name": "Itamaraty Peace Declaration",
+  "date": "1995-02-17",
+  "year": 1995,
+  "type": "ceasefire",
+  "parties": [
+   "ECU",
+   "PER",
+   "ARG",
+   "BRA",
+   "CHL",
+   "USA"
+  ],
+  "sides": [
+   [
+    "PER"
+   ],
+   [
+    "ECU"
+   ]
+  ],
+  "ends_war": "cow_217",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ceasefire and separation of forces ending the Cenepa War, with the Rio Protocol guarantors as witnesses.",
+  "source_url": "https://www.peaceagreements.org/view/352",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_dayton_1995",
+  "name": "Dayton Agreement",
+  "date": "1995-12-14",
+  "year": 1995,
+  "type": "peace",
+  "parties": [
+   "BOS",
+   "CRO",
+   "YUG"
+  ],
+  "sides": [
+   [
+    "BOS",
+    "CRO"
+   ],
+   [
+    "YUG"
+   ]
+  ],
+  "ends_war": "cow_215",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "The ceasefire and inter-entity boundary have held since 1995."
+  },
+  "judgment": null,
+  "summary": "Initialled at Dayton on 21 November and signed in Paris; ended the Bosnian War (witnessed by the US, UK, France, Germany, Russia and the EU).",
+  "source_url": "https://en.wikipedia.org/wiki/Dayton_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_ukraine_russia_friendship_1997",
+  "name": "Russian-Ukrainian Friendship Treaty",
+  "date": "1997-05-31",
+  "year": 1997,
+  "type": "other",
+  "parties": [
+   "RUS",
+   "UKR"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 2014,
+   "by": [
+    "RUS"
+   ],
+   "how": "Russia's 2014 annexation of Crimea violated the treaty's mutual recognition of borders."
+  },
+  "judgment": null,
+  "summary": "Treaty of friendship, cooperation and partnership recognising the inviolability of existing borders; Ukraine let it lapse in 2019.",
+  "source_url": "https://en.wikipedia.org/wiki/Russian%E2%80%93Ukrainian_Friendship_Treaty",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_brasilia_1998",
+  "name": "Brasilia Presidential Act",
+  "date": "1998-10-26",
+  "year": 1998,
+  "type": "peace",
+  "parties": [
+   "ECU",
+   "PER"
+  ],
+  "sides": [
+   [
+    "PER"
+   ],
+   [
+    "ECU"
+   ]
+  ],
+  "ends_war": "cow_217",
+  "violated": {
+   "is": false,
+   "year": null,
+   "by": [],
+   "how": "Border demarcated and peace held since 1998."
+  },
+  "judgment": null,
+  "summary": "Definitive Peru-Ecuador peace and border settlement under guarantor arbitration.",
+  "source_url": "https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_kumanovo_1999",
+  "name": "Kumanovo Agreement",
+  "date": "1999-06-09",
+  "year": 1999,
+  "type": "armistice",
+  "parties": [
+   "YUG",
+   "FRN",
+   "GMY",
+   "ITA",
+   "NTH",
+   "TUR",
+   "UKG",
+   "USA"
+  ],
+  "sides": [
+   [
+    "FRN",
+    "GMY",
+    "ITA",
+    "NTH",
+    "TUR",
+    "UKG",
+    "USA"
+   ],
+   [
+    "YUG"
+   ]
+  ],
+  "ends_war": "cow_221",
+  "violated": null,
+  "judgment": null,
+  "summary": "Military-technical agreement between NATO/KFOR and Yugoslavia ending the Kosovo War with Yugoslav withdrawal from Kosovo.",
+  "source_url": "https://en.wikipedia.org/wiki/Kumanovo_Agreement",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_algiers_2000",
+  "name": "Algiers Agreement (2000)",
+  "date": "2000-12-12",
+  "year": 2000,
+  "type": "peace",
+  "parties": [
+   "ERI",
+   "ETH"
+  ],
+  "sides": [
+   [
+    "ERI"
+   ],
+   [
+    "ETH"
+   ]
+  ],
+  "ends_war": "cow_219",
+  "violated": {
+   "is": true,
+   "year": 2003,
+   "by": [
+    "ETH"
+   ],
+   "how": "Ethiopia refused to implement the 2002 Boundary Commission ruling awarding Badme to Eritrea until 2018."
+  },
+  "judgment": null,
+  "summary": "Comprehensive peace ending the Eritrean-Ethiopian War and creating a binding Boundary Commission.",
+  "source_url": "https://en.wikipedia.org/wiki/Algiers_Agreement_(2000)",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_asmara_2018",
+  "name": "Eritrea-Ethiopia Joint Declaration of Peace and Friendship",
+  "date": "2018-07-09",
+  "year": 2018,
+  "type": "peace",
+  "parties": [
+   "ERI",
+   "ETH"
+  ],
+  "sides": [
+   [
+    "ERI"
+   ],
+   [
+    "ETH"
+   ]
+  ],
+  "ends_war": "cow_219",
+  "violated": null,
+  "judgment": null,
+  "summary": "Abiy-Isaias declaration formally ending the state of war; followed by the Jeddah agreement of 16 September 2018.",
+  "source_url": "https://en.wikipedia.org/wiki/2018_Eritrea%E2%80%93Ethiopia_summit",
+  "verification": "knowledge"
+ },
+ {
+  "id": "t_six_point_2008",
+  "name": "Six-point ceasefire plan (Russia-Georgia)",
+  "date": "2008-08-12",
+  "year": 2008,
+  "type": "ceasefire",
+  "parties": [
+   "RUS",
+   "GRG",
+   "FRN"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "GRG"
+   ]
+  ],
+  "ends_war": "w_russo_georgian_2008",
+  "violated": {
+   "is": true,
+   "year": 2008,
+   "by": [
+    "RUS"
+   ],
+   "how": "Russia recognised Abkhazia and South Ossetia on 26 August 2008 and kept forces beyond pre-war positions, which the EU regarded as non-compliance."
+  },
+  "judgment": null,
+  "summary": "EU-mediated (French presidency) ceasefire; signed by Georgia 15 August and Russia 16 August 2008.",
+  "source_url": "https://military-history.fandom.com/wiki/2008_South_Ossetia_War",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_djibouti_eritrea_2010",
+  "name": "Djibouti-Eritrea Qatar-mediated agreement",
+  "date": "2010-06-06",
+  "year": 2010,
+  "type": "peace",
+  "parties": [
+   "DJI",
+   "ERI",
+   "QAT"
+  ],
+  "sides": [
+   [
+    "DJI"
+   ],
+   [
+    "ERI"
+   ]
+  ],
+  "ends_war": "w_djibouti_eritrea_2008",
+  "violated": null,
+  "judgment": null,
+  "summary": "Qatar-mediated agreement to settle the Ras Doumeira border dispute, with Qatari peacekeepers deployed until 2017.",
+  "source_url": "https://www.peaceagreements.org/agreements/721",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_addis_cooperation_2012",
+  "name": "Sudan-South Sudan Cooperation Agreement",
+  "date": "2012-09-27",
+  "year": 2012,
+  "type": "peace",
+  "parties": [
+   "SUD",
+   "SSD"
+  ],
+  "sides": [
+   [
+    "SSD"
+   ],
+   [
+    "SUD"
+   ]
+  ],
+  "ends_war": "w_heglig_2012",
+  "violated": null,
+  "judgment": null,
+  "summary": "Package of eight Addis Ababa agreements on security, oil and borders after the Heglig crisis (Abyei unresolved).",
+  "source_url": "https://en.wikipedia.org/wiki/Heglig_Crisis",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_minsk_i_2014",
+  "name": "Minsk Protocol",
+  "date": "2014-09-05",
+  "year": 2014,
+  "type": "ceasefire",
+  "parties": [
+   "UKR",
+   "RUS",
+   "DPR",
+   "LPR"
+  ],
+  "sides": [
+   [
+    "UKR"
+   ],
+   [
+    "RUS",
+    "DPR",
+    "LPR"
+   ]
+  ],
+  "ends_war": "w_russia_ukraine_2014",
+  "violated": null,
+  "judgment": null,
+  "summary": "Trilateral Contact Group (OSCE, Ukraine, Russia) ceasefire for Donbas, also signed by DPR/LPR leaders; collapsed by January 2015.",
+  "source_url": "https://en.wikipedia.org/wiki/Minsk_agreements",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_minsk_ii_2015",
+  "name": "Minsk II (Package of Measures)",
+  "date": "2015-02-12",
+  "year": 2015,
+  "type": "ceasefire",
+  "parties": [
+   "UKR",
+   "RUS",
+   "DPR",
+   "LPR"
+  ],
+  "sides": [
+   [
+    "UKR"
+   ],
+   [
+    "RUS",
+    "DPR",
+    "LPR"
+   ]
+  ],
+  "ends_war": "w_russia_ukraine_2014",
+  "violated": {
+   "is": true,
+   "year": 2022,
+   "by": [
+    "RUS"
+   ],
+   "how": "Russia recognised the DPR and LPR on 21 February 2022 and Putin declared the agreements no longer existed before the full invasion."
+  },
+  "judgment": null,
+  "summary": "Renewed Donbas ceasefire and political roadmap negotiated in the Normandy format (Germany, France).",
+  "source_url": "https://en.wikipedia.org/wiki/Minsk_agreements",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_moscow_karabakh_2016",
+  "name": "Moscow ceasefire of 5 April 2016",
+  "date": "2016-04-05",
+  "year": 2016,
+  "type": "ceasefire",
+  "parties": [
+   "ARM",
+   "AZE",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "ARM"
+   ],
+   [
+    "AZE"
+   ]
+  ],
+  "ends_war": "w_karabakh_2016",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ceasefire agreed in Moscow by Armenian and Azerbaijani chiefs of staff ending the Four-Day War.",
+  "source_url": "https://en.wikipedia.org/wiki/2016_Nagorno-Karabakh_conflict",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_idlib_moscow_2020",
+  "name": "Moscow Idlib ceasefire protocol",
+  "date": "2020-03-05",
+  "year": 2020,
+  "type": "ceasefire",
+  "parties": [
+   "TUR",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "TUR"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "w_turkey_syria_2020",
+  "violated": null,
+  "judgment": null,
+  "summary": "Erdogan-Putin protocol (Russia acting for the Syrian government side) ending Operation Spring Shield, with joint patrols on the M4.",
+  "source_url": "https://en.wikipedia.org/wiki/Operation_Spring_Shield",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_karabakh_ceasefire_2020",
+  "name": "2020 Nagorno-Karabakh ceasefire agreement",
+  "date": "2020-11-09",
+  "year": 2020,
+  "type": "ceasefire",
+  "parties": [
+   "ARM",
+   "AZE",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "ARM"
+   ],
+   [
+    "AZE"
+   ]
+  ],
+  "ends_war": "w_karabakh_2020",
+  "violated": {
+   "is": true,
+   "year": 2023,
+   "by": [
+    "AZE"
+   ],
+   "how": "Azerbaijan's 2022-23 blockade of the Lachin corridor and its September 2023 offensive contravened the corridor and ceasefire provisions (Azerbaijan disputes this)."
+  },
+  "judgment": null,
+  "summary": "Trilateral statement ending the Second Nagorno-Karabakh War: territorial handovers to Azerbaijan and Russian peacekeepers on the Lachin corridor.",
+  "source_url": "https://en.wikipedia.org/wiki/2020_Nagorno-Karabakh_ceasefire_agreement",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_kgz_tjk_2022",
+  "name": "Kyrgyzstan-Tajikistan peace protocol",
+  "date": "2022-09-20",
+  "year": 2022,
+  "type": "ceasefire",
+  "parties": [
+   "KYR",
+   "TAJ"
+  ],
+  "sides": [
+   [
+    "KYR"
+   ],
+   [
+    "TAJ"
+   ]
+  ],
+  "ends_war": "w_kgz_tjk_2022",
+  "violated": null,
+  "judgment": null,
+  "summary": "Agreement signed after the 16 September ceasefire failed, ending the September 2022 border war.",
+  "source_url": "https://en.wikipedia.org/wiki/2022_Kyrgyzstan%E2%80%93Tajikistan_clashes",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_kgz_tjk_border_2025",
+  "name": "Kyrgyzstan-Tajikistan border treaty",
+  "date": "2025-03-13",
+  "year": 2025,
+  "type": "other",
+  "parties": [
+   "KYR",
+   "TAJ"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Japarov and Rahmon signed a treaty delimiting the entire border that had produced repeated armed clashes.",
+  "source_url": "https://www.intellinews.com/kyrgyzstan-tajikistan-sign-long-sought-deal-on-border-known-for-armed-clashes-371641",
+  "verification": "search"
+ },
+ {
+  "id": "t_drc_rwanda_2025",
+  "name": "DRC-Rwanda Washington peace agreement",
+  "date": "2025-06-27",
+  "year": 2025,
+  "type": "peace",
+  "parties": [
+   "DRC",
+   "RWA",
+   "USA"
+  ],
+  "sides": [
+   [
+    "DRC"
+   ],
+   [
+    "RWA"
+   ]
+  ],
+  "ends_war": "w_drc_rwanda_2022",
+  "violated": {
+   "is": true,
+   "year": 2025,
+   "by": [
+    "RWA"
+   ],
+   "how": "Rwandan troops did not withdraw and M23 seized Uvira in December 2025; the US Treasury sanctioned the Rwandan military for violating the agreement in March 2026."
+  },
+  "judgment": null,
+  "summary": "Signed by the two foreign ministers under US auspices: Rwandan withdrawal, FDLR neutralisation, regional economic framework.",
+  "source_url": "https://en.wikipedia.org/wiki/2025_DRC%E2%80%93Rwanda_peace_agreement",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_washington_accords_2025",
+  "name": "Washington Accords for Peace and Prosperity",
+  "date": "2025-12-04",
+  "year": 2025,
+  "type": "peace",
+  "parties": [
+   "DRC",
+   "RWA",
+   "USA"
+  ],
+  "sides": [
+   [
+    "DRC"
+   ],
+   [
+    "RWA"
+   ]
+  ],
+  "ends_war": "w_drc_rwanda_2022",
+  "violated": {
+   "is": true,
+   "year": 2025,
+   "by": [
+    "RWA"
+   ],
+   "how": "The Rwanda-backed M23 offensive on Uvira (2-10 December 2025) followed within days; the US sanctioned the Rwandan military in March 2026."
+  },
+  "judgment": null,
+  "summary": "Signed by Presidents Tshisekedi and Kagame in Trump's presence, building on the June agreement; fighting continued days later.",
+  "source_url": "https://en.wikipedia.org/wiki/2025_DRC%E2%80%93Rwanda_peace_agreement",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_washington_arm_aze_2025",
+  "name": "Armenia-Azerbaijan peace agreement (Washington)",
+  "date": "2025-08-08",
+  "year": 2025,
+  "type": "peace",
+  "parties": [
+   "ARM",
+   "AZE",
+   "USA"
+  ],
+  "sides": [
+   [
+    "ARM"
+   ],
+   [
+    "AZE"
+   ]
+  ],
+  "ends_war": "w_karabakh_2020",
+  "violated": null,
+  "judgment": null,
+  "summary": "Peace treaty text initialled (not signed) by Pashinyan and Aliyev at the White House, with a joint declaration mediated by Trump; formal signature and ratification pending.",
+  "source_url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Azerbaijan_peace_agreement",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_us_venezuela_relations_2026",
+  "name": "US-Venezuela restoration of diplomatic relations",
+  "date": "2026-03-05",
+  "year": 2026,
+  "type": "normalization",
+  "parties": [
+   "USA",
+   "VEN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "After the January 2026 US operation that captured Maduro, the US and the Rodriguez-led government agreed to restore diplomatic and consular relations.",
+  "source_url": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela",
+  "verification": "fetched"
+ },
+ {
+  "id": "t_new_start_2010",
+  "name": "New START",
+  "date": "2010-04-08",
+  "year": 2010,
+  "type": "other",
+  "parties": [
+   "USA",
+   "RUS"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 2023,
+   "by": [
+    "RUS"
+   ],
+   "how": "Russia suspended participation and inspections in February 2023, which the US State Department declared non-compliance."
+  },
+  "judgment": null,
+  "summary": "Strategic nuclear arms limits (1,550 deployed warheads) with verification; expired 5 February 2026 without replacement.",
+  "source_url": "https://en.wikipedia.org/wiki/New_START",
+  "verification": "knowledge"
+ }
+]

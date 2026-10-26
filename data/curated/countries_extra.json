@@ -1,0 +1,162 @@
+[
+ {
+  "code": "HRE",
+  "name": "Holy Roman Empire (as a body; Reich, imperial army or Reichsarmee)",
+  "start": 962,
+  "end": 1806
+ },
+ {
+  "code": "PLC",
+  "name": "Polish-Lithuanian Commonwealth",
+  "start": 1569,
+  "end": 1795
+ },
+ {
+  "code": "VNC",
+  "name": "Republic of Venice",
+  "start": 697,
+  "end": 1797,
+  "note": "VEN is taken by Venezuela in COW, so VNC is used."
+ },
+ {
+  "code": "GEN",
+  "name": "Republic of Genoa",
+  "start": 1005,
+  "end": 1797
+ },
+ {
+  "code": "CRI",
+  "name": "Crimean Khanate",
+  "start": 1441,
+  "end": 1783
+ },
+ {
+  "code": "MRT",
+  "name": "Maratha Confederacy",
+  "start": 1674,
+  "end": 1818
+ },
+ {
+  "code": "MYS",
+  "name": "Kingdom (Sultanate) of Mysore",
+  "start": 1399,
+  "end": 1799,
+  "note": "End year marks the end of independent rule (fall of Seringapatam 1799)."
+ },
+ {
+  "code": "DWA",
+  "name": "Duchy of Warsaw",
+  "start": 1807,
+  "end": 1815
+ },
+ {
+  "code": "AUH",
+  "name": "Habsburg Monarchy / Austrian Empire",
+  "note": "Used for the Austrian Habsburg monarchy, including when the Habsburg ruler acted as Holy Roman Emperor."
+ },
+ {
+  "code": "BAD",
+  "name": "Baden",
+  "note": "Margraviate, then Electorate and Grand Duchy, of Baden."
+ },
+ {
+  "code": "BAV",
+  "name": "Bavaria",
+  "note": "Electorate (from 1806 Kingdom) of Bavaria, before COW's 1816 start."
+ },
+ {
+  "code": "DEN",
+  "name": "Denmark-Norway",
+  "note": "Used for the united Danish-Norwegian monarchy until 1814."
+ },
+ {
+  "code": "FRN",
+  "name": "France",
+  "note": "Used for the Kingdom, the Republic and the Empire of France."
+ },
+ {
+  "code": "GMY",
+  "name": "Brandenburg-Prussia / Prussia",
+  "note": "Used for Brandenburg-Prussia and the Kingdom of Prussia (COW 'Germany' successor)."
+ },
+ {
+  "code": "HAN",
+  "name": "Hanover",
+  "note": "Electorate of Brunswick-Luneburg (Hanover), in personal union with Britain from 1714."
+ },
+ {
+  "code": "HSE",
+  "name": "Hesse-Kassel",
+  "note": "Landgraviate of Hesse-Kassel (COW 'Hesse Electoral')."
+ },
+ {
+  "code": "IRN",
+  "name": "Persia (Qajar Iran)",
+  "note": "Used for Persia; Peru holds the code PER in COW."
+ },
+ {
+  "code": "ITA",
+  "name": "Savoy / Kingdom of Sardinia",
+  "note": "Used for the Duchy of Savoy (Piedmont) and, from 1720, the Kingdom of Sardinia (COW 'Italy' predecessor)."
+ },
+ {
+  "code": "MOD",
+  "name": "Modena",
+  "note": "Duchy of Modena (acceded to Aix-la-Chapelle 1748)."
+ },
+ {
+  "code": "NTH",
+  "name": "Dutch Republic / Batavian Republic / United Netherlands",
+  "note": "Used for the United Provinces, the Batavian Republic (1795-1806) and the United Netherlands from 1813-15."
+ },
+ {
+  "code": "POR",
+  "name": "Portugal",
+  "note": "Used for the Kingdom of Portugal."
+ },
+ {
+  "code": "RUS",
+  "name": "Tsardom of Russia / Russian Empire",
+  "note": "Used for Muscovy/Tsardom of Russia and the Russian Empire."
+ },
+ {
+  "code": "SAX",
+  "name": "Saxony",
+  "note": "Electorate (from 1806 Kingdom) of Saxony; Augustus II/III were also Kings of Poland."
+ },
+ {
+  "code": "SIC",
+  "name": "Kingdom of Naples / Two Sicilies",
+  "note": "Used for the Bourbon Kingdom of Naples (and Sicily)."
+ },
+ {
+  "code": "SPN",
+  "name": "Spain",
+  "note": "Used for Habsburg and Bourbon Spain; in the Peninsular War it means patriot Bourbon Spain, not Joseph Bonaparte's kingdom."
+ },
+ {
+  "code": "SWD",
+  "name": "Sweden",
+  "note": "Used for the Swedish Empire and Sweden (Sweden-Norway from 1814)."
+ },
+ {
+  "code": "TUR",
+  "name": "Ottoman Empire",
+  "note": "Used for the Ottoman Empire."
+ },
+ {
+  "code": "UKG",
+  "name": "England / Great Britain / United Kingdom",
+  "note": "Used for England before 1707, Great Britain 1707-1800 and the UK from 1801; in Indian wars it also stands for the British East India Company."
+ },
+ {
+  "code": "USA",
+  "name": "United States",
+  "note": "Used from 1776, before COW's 1816 start."
+ },
+ {
+  "code": "WRT",
+  "name": "Wurttemberg",
+  "note": "Duchy, then Electorate and Kingdom, of Wurttemberg."
+ }
+]

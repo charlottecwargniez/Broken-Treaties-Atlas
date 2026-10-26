@@ -1,0 +1,1040 @@
+[
+ {
+  "id": "w_eighty_years",
+  "name": "Eighty Years' War",
+  "start": 1568,
+  "end": 1648,
+  "sideA": [
+   "NTH"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Starts before 1648; included because the Peace of Munster (Jan 1648) ended it."
+ },
+ {
+  "id": "w_thirty_years",
+  "name": "Thirty Years' War",
+  "start": 1618,
+  "end": 1648,
+  "sideA": [
+   "SWD",
+   "FRN",
+   "DEN"
+  ],
+  "sideB": [
+   "AUH",
+   "HRE",
+   "SPN",
+   "BAV",
+   "SAX"
+  ],
+  "deaths_est": 4500000,
+  "major": true,
+  "note": "Deaths 4.5-8 million (Wikipedia death-toll list; low end used). Denmark fought 1625-29; Saxony allied with Sweden 1631-35, then with the Emperor 1635-45 (placed on imperial side); France openly at war from 1635."
+ },
+ {
+  "id": "w_franco_spanish_1635",
+  "name": "Franco-Spanish War",
+  "start": 1635,
+  "end": 1659,
+  "sideA": [
+   "FRN"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "England (Protectorate) allied with France against Spain 1657-59; see Anglo-Spanish War 1654-1660."
+ },
+ {
+  "id": "w_portuguese_restoration",
+  "name": "Portuguese Restoration War",
+  "start": 1640,
+  "end": 1668,
+  "sideA": [
+   "POR"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Starts before 1648; ended by the Treaty of Lisbon (1668), mediated by England."
+ },
+ {
+  "id": "w_anglo_dutch_1",
+  "name": "First Anglo-Dutch War",
+  "start": 1652,
+  "end": 1654,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "NTH"
+  ],
+  "deaths_est": null,
+  "major": true
+ },
+ {
+  "id": "w_anglo_spanish_1654",
+  "name": "Anglo-Spanish War (1654-1660)",
+  "start": 1654,
+  "end": 1660,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "deaths_est": 15000,
+  "major": true,
+  "note": "c. 7,500 killed in action per side (Wikipedia infobox). France allied with England 1657-59. Hostilities ended 1660 without a treaty; formally closed by the Treaties of Madrid 1667/1670."
+ },
+ {
+  "id": "w_russo_polish_1654",
+  "name": "Russo-Polish War (1654-1667)",
+  "start": 1654,
+  "end": 1667,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "PLC",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Cossack Hetmanate fought on both sides at different times (not coded)."
+ },
+ {
+  "id": "w_second_northern",
+  "name": "Second Northern War",
+  "start": 1655,
+  "end": 1660,
+  "sideA": [
+   "SWD"
+  ],
+  "sideB": [
+   "PLC",
+   "DEN",
+   "AUH",
+   "NTH",
+   "GMY"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Brandenburg-Prussia fought with Sweden 1656-57 but against it 1655-56 and 1657-60 (placed against). Russia's part is coded separately as the Russo-Swedish War 1656-1658. Includes the Dano-Swedish wars of 1657-58 and 1658-60."
+ },
+ {
+  "id": "w_russo_swedish_1656",
+  "name": "Russo-Swedish War (1656-1658)",
+  "start": 1656,
+  "end": 1658,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "SWD"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Truce of Valiesar 1658; formal peace at Cardis 1661."
+ },
+ {
+  "id": "w_austro_turkish_1663",
+  "name": "Austro-Turkish War (1663-1664)",
+  "start": 1663,
+  "end": 1664,
+  "sideA": [
+   "AUH",
+   "HRE"
+  ],
+  "sideB": [
+   "TUR",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "France sent a 6,000-man corps and League of the Rhine contingents fought on the Habsburg side (not coded)."
+ },
+ {
+  "id": "w_anglo_dutch_2",
+  "name": "Second Anglo-Dutch War",
+  "start": 1665,
+  "end": 1667,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "NTH",
+   "FRN",
+   "DEN"
+  ],
+  "deaths_est": null,
+  "major": true
+ },
+ {
+  "id": "w_devolution",
+  "name": "War of Devolution",
+  "start": 1667,
+  "end": 1668,
+  "sideA": [
+   "FRN"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "deaths_est": null,
+  "major": true
+ },
+ {
+  "id": "w_polish_ottoman_1672",
+  "name": "Polish-Ottoman War (1672-1676)",
+  "start": 1672,
+  "end": 1676,
+  "sideA": [
+   "PLC"
+  ],
+  "sideB": [
+   "TUR",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Peace of Buczacz (1672) ended the first phase; Poland-Lithuania resumed the war in 1673; Zurawno (1676) ended it."
+ },
+ {
+  "id": "w_franco_dutch",
+  "name": "Franco-Dutch War",
+  "start": 1672,
+  "end": 1678,
+  "sideA": [
+   "FRN",
+   "UKG"
+  ],
+  "sideB": [
+   "NTH",
+   "AUH",
+   "HRE",
+   "SPN",
+   "GMY"
+  ],
+  "deaths_est": 340000,
+  "major": true,
+  "note": "England fought alongside France only 1672-74 (Third Anglo-Dutch War) and then left. Sweden's part is coded as the Scanian War. Munster and Cologne fought for France (not coded)."
+ },
+ {
+  "id": "w_anglo_dutch_3",
+  "name": "Third Anglo-Dutch War",
+  "start": 1672,
+  "end": 1674,
+  "sideA": [
+   "UKG",
+   "FRN"
+  ],
+  "sideB": [
+   "NTH"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Overlaps with the Franco-Dutch War."
+ },
+ {
+  "id": "w_scanian",
+  "name": "Scanian War",
+  "start": 1675,
+  "end": 1679,
+  "sideA": [
+   "DEN",
+   "GMY",
+   "NTH"
+  ],
+  "sideB": [
+   "SWD",
+   "FRN"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Northern theatre of the Franco-Dutch War; France fought on Sweden's behalf and negotiated its peace treaties."
+ },
+ {
+  "id": "w_russo_turkish_1676",
+  "name": "Russo-Turkish War (1676-1681)",
+  "start": 1676,
+  "end": 1681,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "TUR",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Some Wikipedia pages date it 1672-1681."
+ },
+ {
+  "id": "w_reunions",
+  "name": "War of the Reunions",
+  "start": 1683,
+  "end": 1684,
+  "sideA": [
+   "FRN"
+  ],
+  "sideB": [
+   "SPN",
+   "HRE",
+   "GEN"
+  ],
+  "deaths_est": null,
+  "major": true
+ },
+ {
+  "id": "w_great_turkish",
+  "name": "Great Turkish War",
+  "start": 1683,
+  "end": 1699,
+  "sideA": [
+   "AUH",
+   "HRE",
+   "PLC",
+   "VNC"
+  ],
+  "sideB": [
+   "TUR",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Holy League war. Russia joined in 1686; its part is coded separately as the Russo-Turkish War 1686-1700. Wikipedia's casualty figures (300,000 and 90,000 killed and wounded) are not split into deaths."
+ },
+ {
+  "id": "w_russo_turkish_1686",
+  "name": "Russo-Turkish War (1686-1700)",
+  "start": 1686,
+  "end": 1700,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "TUR",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": false
+ },
+ {
+  "id": "w_nine_years",
+  "name": "Nine Years' War",
+  "start": 1688,
+  "end": 1697,
+  "sideA": [
+   "NTH",
+   "UKG",
+   "AUH",
+   "HRE",
+   "SPN",
+   "ITA"
+  ],
+  "sideB": [
+   "FRN"
+  ],
+  "deaths_est": 680000,
+  "major": true,
+  "note": "Savoy (ITA) left the Grand Alliance by the Treaty of Turin in 1696."
+ },
+ {
+  "id": "w_great_northern",
+  "name": "Great Northern War",
+  "start": 1700,
+  "end": 1721,
+  "sideA": [
+   "RUS",
+   "DEN",
+   "SAX",
+   "PLC",
+   "GMY",
+   "HAN"
+  ],
+  "sideB": [
+   "SWD"
+  ],
+  "deaths_est": 600000,
+  "major": true,
+  "note": "Military deaths: Sweden's side 200,000+, coalition 400,000+ (Wikipedia). Denmark fought 1700 and 1709-20; Saxony 1700-06 and from 1709; Prussia 1715-20; Hanover 1715-19. Poland-Lithuania was split, with a pro-Swedish faction 1705-09. Britain gave only naval support."
+ },
+ {
+  "id": "w_spanish_succession",
+  "name": "War of the Spanish Succession",
+  "start": 1701,
+  "end": 1714,
+  "sideA": [
+   "UKG",
+   "NTH",
+   "AUH",
+   "HRE",
+   "GMY",
+   "HAN",
+   "POR",
+   "ITA"
+  ],
+  "sideB": [
+   "FRN",
+   "SPN",
+   "BAV"
+  ],
+  "deaths_est": 400000,
+  "major": true,
+  "note": "Deaths 0.4-1.25 million (low end used). Savoy and Portugal joined the Grand Alliance in 1703 (Savoy had been allied with France 1701-03). Bavaria was effectively knocked out after 1704. SPN = Bourbon Spain."
+ },
+ {
+  "id": "w_russo_turkish_1710",
+  "name": "Russo-Turkish War (1710-1713) / Pruth campaign",
+  "start": 1710,
+  "end": 1713,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "TUR",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Swedish and Cossack contingents fought on the Ottoman side (not coded)."
+ },
+ {
+  "id": "w_austro_turkish_1716",
+  "name": "Austro-Turkish War (1716-1718)",
+  "start": 1716,
+  "end": 1718,
+  "sideA": [
+   "AUH",
+   "VNC"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Venice had been at war with the Ottomans since 1714 (Ottoman-Venetian War 1714-18, folded in here). Wikipedia gives c. 40,000 and 80,000 killed or wounded, not deaths."
+ },
+ {
+  "id": "w_quadruple_alliance",
+  "name": "War of the Quadruple Alliance",
+  "start": 1718,
+  "end": 1720,
+  "sideA": [
+   "UKG",
+   "FRN",
+   "AUH",
+   "ITA",
+   "NTH"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Dutch Republic joined in 1719."
+ },
+ {
+  "id": "w_anglo_spanish_1727",
+  "name": "Anglo-Spanish War (1727-1729)",
+  "start": 1727,
+  "end": 1729,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "deaths_est": 4600,
+  "major": true,
+  "note": "c. 4,600 killed (4,118 British, 492 Spanish) per Wikipedia infobox; marked major only because both sides were great powers."
+ },
+ {
+  "id": "w_polish_succession",
+  "name": "War of the Polish Succession",
+  "start": 1733,
+  "end": 1735,
+  "sideA": [
+   "FRN",
+   "SPN",
+   "ITA"
+  ],
+  "sideB": [
+   "AUH",
+   "RUS",
+   "SAX",
+   "HRE"
+  ],
+  "deaths_est": 88000,
+  "major": true,
+  "note": "Fighting ended with the preliminaries of Oct 1735; final peace at Vienna in 1738. Parma and a Prussian imperial contingent were minor participants (not coded). The Commonwealth was split between Leszczynski and Augustus III (not coded)."
+ },
+ {
+  "id": "w_russo_turkish_1735",
+  "name": "Russo-Turkish War (1735-1739)",
+  "start": 1735,
+  "end": 1739,
+  "sideA": [
+   "RUS",
+   "AUH"
+  ],
+  "sideB": [
+   "TUR",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Austria entered in 1737 (Austro-Turkish War 1737-39, folded in here). Ended by the Treaties of Belgrade and Nis (1739)."
+ },
+ {
+  "id": "w_jenkins_ear",
+  "name": "War of Jenkins' Ear",
+  "start": 1739,
+  "end": 1748,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "SPN"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Merged into the War of the Austrian Succession from 1740; ended by Aix-la-Chapelle 1748."
+ },
+ {
+  "id": "w_austrian_succession",
+  "name": "War of the Austrian Succession",
+  "start": 1740,
+  "end": 1748,
+  "sideA": [
+   "AUH",
+   "UKG",
+   "HAN",
+   "NTH",
+   "ITA",
+   "SAX"
+  ],
+  "sideB": [
+   "FRN",
+   "GMY",
+   "SPN",
+   "BAV",
+   "SIC",
+   "GEN"
+  ],
+  "deaths_est": 750000,
+  "major": true,
+  "note": "Prussia made separate peaces in 1742 (Breslau/Berlin) and 1745 (Dresden), covering the First and Second Silesian Wars. Bavaria fought with France 1741-45. Saxony was with France 1741-42 and with Austria 1743-45 (placed with Austria). Russia and Sweden fought each other separately (Russo-Swedish War 1741-43)."
+ },
+ {
+  "id": "w_russo_swedish_1741",
+  "name": "Russo-Swedish War (1741-1743)",
+  "start": 1741,
+  "end": 1743,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "SWD"
+  ],
+  "deaths_est": null,
+  "major": false
+ },
+ {
+  "id": "w_seven_years",
+  "name": "Seven Years' War",
+  "start": 1756,
+  "end": 1763,
+  "sideA": [
+   "GMY",
+   "UKG",
+   "HAN",
+   "HSE",
+   "POR"
+  ],
+  "sideB": [
+   "FRN",
+   "AUH",
+   "RUS",
+   "SPN",
+   "SWD",
+   "SAX",
+   "HRE"
+  ],
+  "deaths_est": 1000000,
+  "major": true,
+  "note": "Deaths 1-1.5 million (low end used). Russia fought against Prussia until 1762, made peace and briefly allied with it (May-July 1762). Spain entered in 1761/62, Portugal in 1762, Sweden fought 1757-62 (Pomeranian War). HRE = Reichsarmee."
+ },
+ {
+  "id": "w_russo_turkish_1768",
+  "name": "Russo-Turkish War (1768-1774)",
+  "start": 1768,
+  "end": 1774,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "TUR",
+   "CRI"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Large war, but no Wikipedia death total was verified, so it is marked not major under the strict criterion. The Bar Confederation fought on the Ottoman side (not coded)."
+ },
+ {
+  "id": "w_anglo_maratha_1",
+  "name": "First Anglo-Maratha War",
+  "start": 1775,
+  "end": 1782,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "MRT"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "UKG here stands for the British East India Company."
+ },
+ {
+  "id": "w_american_revolution",
+  "name": "American Revolutionary War",
+  "start": 1775,
+  "end": 1783,
+  "sideA": [
+   "USA",
+   "FRN",
+   "SPN"
+  ],
+  "sideB": [
+   "UKG"
+  ],
+  "deaths_est": 180000,
+  "major": true,
+  "note": "Deaths 180,000-230,000 (Wikipedia death-toll list; low end used). France entered in 1778, Spain in 1779. The Dutch part is coded separately (Fourth Anglo-Dutch War). Hired German auxiliaries (e.g. Hesse-Kassel) fought for Britain (not coded)."
+ },
+ {
+  "id": "w_bavarian_succession",
+  "name": "War of the Bavarian Succession",
+  "start": 1778,
+  "end": 1779,
+  "sideA": [
+   "GMY",
+   "SAX"
+  ],
+  "sideB": [
+   "AUH"
+  ],
+  "deaths_est": null,
+  "major": true
+ },
+ {
+  "id": "w_anglo_dutch_4",
+  "name": "Fourth Anglo-Dutch War",
+  "start": 1780,
+  "end": 1784,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "NTH"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Linked to the American Revolutionary War. The Netherlands was no longer a great power by this date (Levy)."
+ },
+ {
+  "id": "w_anglo_mysore_2",
+  "name": "Second Anglo-Mysore War",
+  "start": 1780,
+  "end": 1784,
+  "sideA": [
+   "MYS",
+   "FRN"
+  ],
+  "sideB": [
+   "UKG"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "UKG = British East India Company together with Crown forces. France took part as part of the global Anglo-French war, which is why the war is marked major."
+ },
+ {
+  "id": "w_russo_turkish_1787",
+  "name": "Russo-Turkish War (1787-1792)",
+  "start": 1787,
+  "end": 1792,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Wikipedia infobox lists 59,000-72,000 killed for one side, so the death total exceeds 50,000; the per-side split is unclear, so no single estimate is given. Austria's part is coded separately (Austro-Turkish War 1788-1791)."
+ },
+ {
+  "id": "w_austro_turkish_1788",
+  "name": "Austro-Turkish War (1788-1791)",
+  "start": 1788,
+  "end": 1791,
+  "sideA": [
+   "AUH"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Austria declared war in Feb 1788 as Russia's ally; Wikipedia lists it as 1787-1791."
+ },
+ {
+  "id": "w_russo_swedish_1788",
+  "name": "Russo-Swedish War (1788-1790)",
+  "start": 1788,
+  "end": 1790,
+  "sideA": [
+   "SWD"
+  ],
+  "sideB": [
+   "RUS"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Denmark-Norway briefly attacked Sweden in 1788 (Theatre War; not coded)."
+ },
+ {
+  "id": "w_anglo_mysore_3",
+  "name": "Third Anglo-Mysore War",
+  "start": 1789,
+  "end": 1792,
+  "sideA": [
+   "UKG",
+   "MRT"
+  ],
+  "sideB": [
+   "MYS"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "UKG = British East India Company; Hyderabad and Travancore also fought against Mysore (not coded)."
+ },
+ {
+  "id": "w_polish_russian_1792",
+  "name": "Polish-Russian War of 1792",
+  "start": 1792,
+  "end": 1792,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "PLC"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "The Targowica Confederation sided with Russia; the war was followed by the Second Partition (1793)."
+ },
+ {
+  "id": "w_first_coalition",
+  "name": "War of the First Coalition",
+  "start": 1792,
+  "end": 1797,
+  "sideA": [
+   "AUH",
+   "HRE",
+   "GMY",
+   "UKG",
+   "NTH",
+   "SPN",
+   "ITA",
+   "SIC",
+   "POR"
+  ],
+  "sideB": [
+   "FRN"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Prussia and Spain left in 1795 (Basel); Spain then allied with France (1796). The Dutch Republic fought France 1793-95 and then became the Batavian Republic, a French ally (placed with the coalition). Sardinia left in 1796. Britain fought on alone after Campo Formio."
+ },
+ {
+  "id": "w_kosciuszko_1794",
+  "name": "Kosciuszko Uprising (Polish-Russian/Prussian War of 1794)",
+  "start": 1794,
+  "end": 1794,
+  "sideA": [
+   "RUS",
+   "GMY"
+  ],
+  "sideB": [
+   "PLC"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Followed by the Third Partition (1795)."
+ },
+ {
+  "id": "w_second_coalition",
+  "name": "War of the Second Coalition",
+  "start": 1798,
+  "end": 1802,
+  "sideA": [
+   "AUH",
+   "HRE",
+   "UKG",
+   "RUS",
+   "TUR",
+   "SIC",
+   "POR"
+  ],
+  "sideB": [
+   "FRN",
+   "SPN"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Russia withdrew in 1799; Austria and Naples made peace in 1801. Spain fought Britain and Portugal (War of the Oranges, 1801) as France's ally."
+ },
+ {
+  "id": "w_quasi_war",
+  "name": "Quasi-War",
+  "start": 1798,
+  "end": 1800,
+  "sideA": [
+   "USA"
+  ],
+  "sideB": [
+   "FRN"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "Undeclared naval war."
+ },
+ {
+  "id": "w_anglo_mysore_4",
+  "name": "Fourth Anglo-Mysore War",
+  "start": 1798,
+  "end": 1799,
+  "sideA": [
+   "UKG"
+  ],
+  "sideB": [
+   "MYS"
+  ],
+  "deaths_est": null,
+  "major": false,
+  "note": "UKG = British East India Company; Hyderabad fought with the British. Ended with Tipu Sultan's death at Seringapatam; no peace treaty."
+ },
+ {
+  "id": "w_russo_persian_1804",
+  "name": "Russo-Persian War (1804-1813)",
+  "start": 1804,
+  "end": 1813,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "IRN"
+  ],
+  "deaths_est": null,
+  "major": false
+ },
+ {
+  "id": "w_third_coalition",
+  "name": "War of the Third Coalition",
+  "start": 1805,
+  "end": 1806,
+  "sideA": [
+   "AUH",
+   "UKG",
+   "RUS",
+   "SWD",
+   "SIC"
+  ],
+  "sideB": [
+   "FRN",
+   "SPN",
+   "BAV",
+   "WRT",
+   "BAD"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Wikipedia gives 160,000 coalition and 62,050 French-side casualties (killed, wounded and captured), not deaths."
+ },
+ {
+  "id": "w_fourth_coalition",
+  "name": "War of the Fourth Coalition",
+  "start": 1806,
+  "end": 1807,
+  "sideA": [
+   "GMY",
+   "RUS",
+   "UKG",
+   "SWD"
+  ],
+  "sideB": [
+   "FRN",
+   "SAX"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Saxony fought with Prussia until Dec 1806 and then joined France (placed with France). Confederation of the Rhine contingents fought with France (not coded)."
+ },
+ {
+  "id": "w_russo_turkish_1806",
+  "name": "Russo-Turkish War (1806-1812)",
+  "start": 1806,
+  "end": 1812,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "TUR"
+  ],
+  "deaths_est": null,
+  "major": false
+ },
+ {
+  "id": "w_peninsular",
+  "name": "Peninsular War",
+  "start": 1808,
+  "end": 1814,
+  "sideA": [
+   "SPN",
+   "UKG",
+   "POR"
+  ],
+  "sideB": [
+   "FRN"
+  ],
+  "deaths_est": 1000000,
+  "major": true,
+  "note": "Deaths over 1,000,000 including civilians (Wikipedia). Some sources date the start to Oct 1807. SPN = patriot (Bourbon) Spain."
+ },
+ {
+  "id": "w_finnish_war",
+  "name": "Finnish War",
+  "start": 1808,
+  "end": 1809,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "SWD"
+  ],
+  "deaths_est": null,
+  "major": false
+ },
+ {
+  "id": "w_fifth_coalition",
+  "name": "War of the Fifth Coalition",
+  "start": 1809,
+  "end": 1809,
+  "sideA": [
+   "AUH",
+   "UKG"
+  ],
+  "sideB": [
+   "FRN",
+   "BAV",
+   "SAX",
+   "WRT",
+   "DWA"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Britain's part was the Walcheren expedition and the Peninsula; Russia was nominally allied with France (not coded)."
+ },
+ {
+  "id": "w_french_invasion_russia",
+  "name": "French invasion of Russia",
+  "start": 1812,
+  "end": 1812,
+  "sideA": [
+   "RUS"
+  ],
+  "sideB": [
+   "FRN",
+   "AUH",
+   "GMY",
+   "DWA",
+   "SAX",
+   "BAV",
+   "WRT"
+  ],
+  "deaths_est": 510000,
+  "major": true,
+  "note": "Dead: French side 300,000-350,000, Russia 210,000 (Wikipedia infobox; low end summed). Austria and Prussia supplied auxiliary corps under the 1812 alliances with France."
+ },
+ {
+  "id": "w_war_1812",
+  "name": "War of 1812",
+  "start": 1812,
+  "end": 1815,
+  "sideA": [
+   "USA"
+  ],
+  "sideB": [
+   "UKG"
+  ],
+  "deaths_est": 35000,
+  "major": false,
+  "note": "Deaths from all causes: US up to 15,000, UK c. 10,000, Indigenous allies c. 10,000 (Wikipedia infobox). Formally ended with ratification in Feb 1815."
+ },
+ {
+  "id": "w_sixth_coalition",
+  "name": "War of the Sixth Coalition",
+  "start": 1813,
+  "end": 1814,
+  "sideA": [
+   "RUS",
+   "GMY",
+   "UKG",
+   "SWD",
+   "AUH",
+   "SPN",
+   "POR"
+  ],
+  "sideB": [
+   "FRN",
+   "DEN",
+   "DWA",
+   "SAX",
+   "BAV",
+   "WRT"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Wikipedia dates it from 24 Dec 1812; Prussia declared war on 13 Mar 1813 and Austria joined in Aug 1813. Bavaria (Treaty of Ried, Oct 1813), Saxony (at Leipzig) and Wurttemberg (late 1813) switched to the coalition but fought longer with France. Denmark made peace at Kiel in Jan 1814. Combat casualties were c. 526,000 coalition and 610,000 French side (not deaths)."
+ },
+ {
+  "id": "w_seventh_coalition",
+  "name": "War of the Seventh Coalition (Hundred Days)",
+  "start": 1815,
+  "end": 1815,
+  "sideA": [
+   "UKG",
+   "GMY",
+   "NTH",
+   "HAN",
+   "AUH",
+   "RUS"
+  ],
+  "sideB": [
+   "FRN"
+  ],
+  "deaths_est": null,
+  "major": true,
+  "note": "Russian armies entered France after Waterloo and saw little combat. Several smaller states joined only nominally (not coded)."
+ }
+]

@@ -1,0 +1,3002 @@
+[
+ {
+  "id": "t_munster_1648",
+  "name": "Peace of Munster",
+  "date": "1648-01-30",
+  "year": 1648,
+  "type": "peace",
+  "parties": [
+   "SPN",
+   "NTH"
+  ],
+  "sides": [
+   [
+    "NTH"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_eighty_years",
+  "violated": null,
+  "judgment": null,
+  "summary": "Spain recognised the independence of the Dutch Republic, ending the Eighty Years' War; signed within the Westphalian congress (date from memory, not verified in this session).",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_M%C3%BCnster"
+ },
+ {
+  "id": "t_westphalia_1648",
+  "name": "Peace of Westphalia (Treaties of Osnabruck and Munster)",
+  "date": "1648-10-24",
+  "year": 1648,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "SWD",
+   "AUH",
+   "HRE",
+   "BAV",
+   "SAX",
+   "GMY"
+  ],
+  "sides": [
+   [
+    "FRN",
+    "SWD"
+   ],
+   [
+    "AUH",
+    "HRE",
+    "BAV",
+    "SAX"
+   ]
+  ],
+  "ends_war": "w_thirty_years",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Thirty Years' War in the Empire, with territorial gains for France, Sweden, Brandenburg and Bavaria and confirmed rights for the imperial estates; the Franco-Spanish war continued. Brandenburg (GMY), Bavaria and Saxony are listed as imperial estates.",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
+ },
+ {
+  "id": "t_westminster_1654",
+  "name": "Treaty of Westminster (1654)",
+  "date": "1654-04-15",
+  "year": 1654,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "NTH"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "NTH"
+   ]
+  ],
+  "ends_war": "w_anglo_dutch_1",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the First Anglo-Dutch War between the English Commonwealth and the United Provinces (5/15 April 1654).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Westminster_(1654)"
+ },
+ {
+  "id": "t_paris_1657",
+  "name": "Treaty of Paris (1657)",
+  "date": "1657-03",
+  "year": 1657,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "FRN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Cromwell's England and Louis XIV's France allied against Spain (exact day not verified).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1657)"
+ },
+ {
+  "id": "t_roskilde_1658",
+  "name": "Treaty of Roskilde",
+  "date": "1658-03-08",
+  "year": 1658,
+  "type": "peace",
+  "parties": [
+   "DEN",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "DEN"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_second_northern",
+  "violated": {
+   "is": true,
+   "year": 1658,
+   "by": [
+    "SWD"
+   ],
+   "how": "Charles X Gustav renewed the attack on Denmark-Norway in August 1658, in defiance of the treaty."
+  },
+  "judgment": null,
+  "summary": "Denmark-Norway ceded Scania, Halland, Blekinge, Bohuslan, Bornholm and Trondelag to Sweden, ending the Dano-Swedish War of 1657-58 (26 Feb O.S./8 Mar N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Roskilde"
+ },
+ {
+  "id": "t_pyrenees_1659",
+  "name": "Treaty of the Pyrenees",
+  "date": "1659-11-07",
+  "year": 1659,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "FRN"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_franco_spanish_1635",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Franco-Spanish War begun in 1635; France gained Roussillon and Artois and Louis XIV married Maria Theresa.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_the_Pyrenees"
+ },
+ {
+  "id": "t_oliva_1660",
+  "name": "Treaty of Oliva",
+  "date": "1660-05-03",
+  "year": 1660,
+  "type": "peace",
+  "parties": [
+   "PLC",
+   "SWD",
+   "AUH",
+   "GMY"
+  ],
+  "sides": [
+   [
+    "SWD"
+   ],
+   [
+    "PLC",
+    "AUH",
+    "GMY"
+   ]
+  ],
+  "ends_war": "w_second_northern",
+  "violated": null,
+  "judgment": null,
+  "summary": "Peace among Sweden, Poland-Lithuania, the Habsburgs and Brandenburg-Prussia; Poland recognised Swedish Livonia and Prussian sovereignty.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Oliva"
+ },
+ {
+  "id": "t_copenhagen_1660",
+  "name": "Treaty of Copenhagen (1660)",
+  "date": "1660-05-27",
+  "year": 1660,
+  "type": "peace",
+  "parties": [
+   "DEN",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "DEN"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_second_northern",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Dano-Swedish War of 1658-60; Bornholm and Trondelag returned to Denmark-Norway, while Sweden kept Scania, Halland, Blekinge and Bohuslan.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Copenhagen_(1660)"
+ },
+ {
+  "id": "t_cardis_1661",
+  "name": "Treaty of Cardis",
+  "date": "1661",
+  "year": 1661,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_russo_swedish_1656",
+  "violated": null,
+  "judgment": null,
+  "summary": "Russia and Sweden restored the pre-war borders, formally ending the Russo-Swedish War of 1656-58 (exact day not verified).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Cardis"
+ },
+ {
+  "id": "t_vasvar_1664",
+  "name": "Peace of Vasvar",
+  "date": "1664-08-10",
+  "year": 1664,
+  "type": "peace",
+  "parties": [
+   "AUH",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "AUH"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_austro_turkish_1663",
+  "violated": null,
+  "judgment": null,
+  "summary": "Twenty-year Habsburg-Ottoman peace after the Battle of Saint Gotthard, leaving the Ottomans their recent gains in Hungary (date taken as the war's end date in Wikipedia).",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Vasv%C3%A1r"
+ },
+ {
+  "id": "t_andrusovo_1667",
+  "name": "Truce of Andrusovo",
+  "date": "1667-02-09",
+  "year": 1667,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "PLC"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "PLC"
+   ]
+  ],
+  "ends_war": "w_russo_polish_1654",
+  "violated": null,
+  "judgment": null,
+  "summary": "A 13.5-year truce giving Russia Smolensk, Left-bank Ukraine and (temporarily) Kiev.",
+  "source_url": "https://en.wikipedia.org/wiki/Truce_of_Andrusovo"
+ },
+ {
+  "id": "t_breda_1667",
+  "name": "Treaty of Breda (1667)",
+  "date": "1667-07-31",
+  "year": 1667,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "NTH",
+   "FRN",
+   "DEN"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "NTH",
+    "FRN",
+    "DEN"
+   ]
+  ],
+  "ends_war": "w_anglo_dutch_2",
+  "violated": null,
+  "judgment": null,
+  "summary": "Three bilateral treaties between England and the Dutch Republic, France and Denmark-Norway ended the Second Anglo-Dutch War; England kept New Amsterdam and the Dutch kept Suriname.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)"
+ },
+ {
+  "id": "t_triple_alliance_1668",
+  "name": "Triple Alliance (1668)",
+  "date": "1668-01-23",
+  "year": 1668,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "NTH",
+   "SWD"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1672,
+   "by": [
+    "UKG"
+   ],
+   "how": "England secretly undertook at Dover (1670) to abandon the alliance and in 1672 joined France in attacking the Dutch Republic."
+  },
+  "judgment": null,
+  "summary": "England and the Dutch Republic (Sweden joined in May 1668) combined to force France to end the War of Devolution.",
+  "source_url": "https://en.wikipedia.org/wiki/Triple_Alliance_(1668)"
+ },
+ {
+  "id": "t_lisbon_1668",
+  "name": "Treaty of Lisbon (1668)",
+  "date": "1668-02-13",
+  "year": 1668,
+  "type": "peace",
+  "parties": [
+   "POR",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "POR"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_portuguese_restoration",
+  "violated": null,
+  "judgment": null,
+  "summary": "Spain recognised Portugal's independence under the House of Braganza, with English mediation.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Lisbon_(1668)"
+ },
+ {
+  "id": "t_aix_1668",
+  "name": "Treaty of Aix-la-Chapelle (1668)",
+  "date": "1668-05-02",
+  "year": 1668,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "FRN"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_devolution",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the War of Devolution; France kept towns in the Spanish Netherlands but returned Franche-Comte, under Triple Alliance mediation.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Aix-la-Chapelle_(1668)"
+ },
+ {
+  "id": "t_dover_1670",
+  "name": "Secret Treaty of Dover",
+  "date": "1670-06-01",
+  "year": 1670,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "FRN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Charles II secretly agreed to join Louis XIV in attacking the Dutch Republic and to convert to Catholicism, in return for French subsidies.",
+  "source_url": "https://en.wikipedia.org/wiki/Secret_Treaty_of_Dover"
+ },
+ {
+  "id": "t_madrid_1670",
+  "name": "Treaty of Madrid (1670)",
+  "date": "1670-07-18",
+  "year": 1670,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_anglo_spanish_1654",
+  "violated": null,
+  "judgment": null,
+  "summary": "Anglo-Spanish peace in which Spain recognised English possession of Jamaica and the Cayman Islands, formally closing the war of 1654-60 (8 July O.S./18 July N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Madrid_(1670)"
+ },
+ {
+  "id": "t_buczacz_1672",
+  "name": "Peace of Buczacz",
+  "date": "1672-10-18",
+  "year": 1672,
+  "type": "peace",
+  "parties": [
+   "PLC",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "PLC"
+   ],
+   [
+    "TUR",
+    "CRI"
+   ]
+  ],
+  "ends_war": "w_polish_ottoman_1672",
+  "violated": {
+   "is": true,
+   "year": 1673,
+   "by": [
+    "PLC"
+   ],
+   "how": "The Sejm refused to ratify the treaty and Poland-Lithuania resumed the war in spring 1673."
+  },
+  "judgment": null,
+  "summary": "Poland-Lithuania ceded Podolia and agreed to pay tribute to the Ottomans, ending the first phase of the war.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Buchach"
+ },
+ {
+  "id": "t_westminster_1674",
+  "name": "Treaty of Westminster (1674)",
+  "date": "1674-02-19",
+  "year": 1674,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "NTH"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "NTH"
+   ]
+  ],
+  "ends_war": "w_anglo_dutch_3",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Third Anglo-Dutch War; England left the war against the Dutch Republic and New Netherland was returned to England (9 Feb O.S./19 Feb N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Westminster_(1674)"
+ },
+ {
+  "id": "t_zurawno_1676",
+  "name": "Treaty of Zurawno",
+  "date": "1676-10-17",
+  "year": 1676,
+  "type": "peace",
+  "parties": [
+   "PLC",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "PLC"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_polish_ottoman_1672",
+  "violated": null,
+  "judgment": null,
+  "summary": "Revised the Buczacz terms and ended the Polish-Ottoman War; the Ottomans kept Podolia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_%C5%BBurawno"
+ },
+ {
+  "id": "t_nijmegen_1678",
+  "name": "Treaties of Nijmegen",
+  "date": "1678-08-10",
+  "year": 1678,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "NTH",
+   "SPN",
+   "AUH",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "FRN",
+    "SWD"
+   ],
+   [
+    "NTH",
+    "SPN",
+    "AUH"
+   ]
+  ],
+  "ends_war": "w_franco_dutch",
+  "violated": null,
+  "judgment": null,
+  "summary": "Series of treaties (France-Dutch 10 Aug 1678, France-Spain 17 Sep 1678, France/Sweden-Emperor 5 Feb 1679, and others) ending the Franco-Dutch War; France gained Franche-Comte.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaties_of_Nijmegen"
+ },
+ {
+  "id": "t_saint_germain_1679",
+  "name": "Treaty of Saint-Germain-en-Laye (1679)",
+  "date": "1679-06-29",
+  "year": 1679,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "GMY",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "SWD",
+    "FRN"
+   ],
+   [
+    "GMY"
+   ]
+  ],
+  "ends_war": "w_scanian",
+  "violated": null,
+  "judgment": null,
+  "summary": "Brandenburg returned most of its conquests in Swedish Pomerania under French pressure (19 June O.S./29 June N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Saint-Germain-en-Laye_(1679)"
+ },
+ {
+  "id": "t_fontainebleau_1679",
+  "name": "Treaty of Fontainebleau (1679)",
+  "date": "1679-09-02",
+  "year": 1679,
+  "type": "peace",
+  "parties": [
+   "DEN",
+   "SWD",
+   "FRN"
+  ],
+  "sides": [
+   [
+    "SWD",
+    "FRN"
+   ],
+   [
+    "DEN"
+   ]
+  ],
+  "ends_war": "w_scanian",
+  "violated": null,
+  "judgment": null,
+  "summary": "France, acting for Sweden, made Denmark-Norway return its Swedish conquests (23 Aug O.S./2 Sep N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Fontainebleau_(1679)"
+ },
+ {
+  "id": "t_lund_1679",
+  "name": "Peace of Lund",
+  "date": "1679-09-26",
+  "year": 1679,
+  "type": "peace",
+  "parties": [
+   "DEN",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "SWD"
+   ],
+   [
+    "DEN"
+   ]
+  ],
+  "ends_war": "w_scanian",
+  "violated": null,
+  "judgment": null,
+  "summary": "Direct Dano-Swedish peace reaffirming the Fontainebleau terms and ending the Scanian War (16 Sep O.S./26 Sep N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Lund"
+ },
+ {
+  "id": "t_bakhchisarai_1681",
+  "name": "Treaty of Bakhchisarai",
+  "date": "1681-01-13",
+  "year": 1681,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR",
+   "CRI"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR",
+    "CRI"
+   ]
+  ],
+  "ends_war": "w_russo_turkish_1676",
+  "violated": null,
+  "judgment": null,
+  "summary": "Twenty-year truce setting the Russo-Ottoman border on the Dnieper (3 Jan O.S./13 Jan N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Bakhchisarai"
+ },
+ {
+  "id": "t_holy_league_1684",
+  "name": "Holy League (1684)",
+  "date": "1684-03-05",
+  "year": 1684,
+  "type": "alliance",
+  "parties": [
+   "AUH",
+   "PLC",
+   "VNC"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Anti-Ottoman alliance of the Habsburgs, Poland-Lithuania and Venice under papal patronage, signed at Linz; Russia joined in 1686.",
+  "source_url": "https://en.wikipedia.org/wiki/Holy_League_(1684)"
+ },
+ {
+  "id": "t_ratisbon_1684",
+  "name": "Truce of Ratisbon",
+  "date": "1684-08-15",
+  "year": 1684,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "AUH",
+   "HRE",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "FRN"
+   ],
+   [
+    "SPN",
+    "AUH",
+    "HRE"
+   ]
+  ],
+  "ends_war": "w_reunions",
+  "violated": {
+   "is": true,
+   "year": 1688,
+   "by": [
+    "FRN"
+   ],
+   "how": "Louis XIV ended the twenty-year truce after four years by invading Philippsburg in September 1688, which started the Nine Years' War."
+  },
+  "judgment": null,
+  "summary": "Twenty-year truce leaving France in possession of Strasbourg and the Reunion gains, ending the War of the Reunions.",
+  "source_url": "https://en.wikipedia.org/wiki/Truce_of_Ratisbon"
+ },
+ {
+  "id": "t_eternal_peace_1686",
+  "name": "Eternal Peace of 1686 (Treaty of Grzymultowski)",
+  "date": "1686-05-06",
+  "year": 1686,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "PLC"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "PLC"
+   ]
+  ],
+  "ends_war": "w_russo_polish_1654",
+  "violated": null,
+  "judgment": null,
+  "summary": "Confirmed Andrusovo, with Kiev going permanently to Russia, and brought Russia into the anti-Ottoman Holy League.",
+  "source_url": "https://en.wikipedia.org/wiki/Polish%E2%80%93Russian_Peace_Treaty_(1686)"
+ },
+ {
+  "id": "t_augsburg_1686",
+  "name": "League of Augsburg",
+  "date": "1686-07",
+  "year": 1686,
+  "type": "alliance",
+  "parties": [
+   "AUH",
+   "SPN",
+   "SWD",
+   "BAV"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Defensive league of the Emperor, imperial circles, Spain (for the Burgundian Circle), Sweden (for Swedish Pomerania) and Bavaria against French expansion (exact day not verified).",
+  "source_url": "https://en.wikipedia.org/wiki/Grand_Alliance_(League_of_Augsburg)"
+ },
+ {
+  "id": "t_grand_alliance_1689",
+  "name": "Grand Alliance (Treaty of Vienna, 1689)",
+  "date": "1689-05-12",
+  "year": 1689,
+  "type": "alliance",
+  "parties": [
+   "AUH",
+   "NTH",
+   "UKG",
+   "SPN",
+   "ITA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Emperor Leopold I and the Dutch Republic allied against France; England acceded in Dec 1689, Spain and Savoy in 1690.",
+  "source_url": "https://en.wikipedia.org/wiki/Grand_Alliance_(League_of_Augsburg)"
+ },
+ {
+  "id": "t_turin_1696",
+  "name": "Treaty of Turin (1696)",
+  "date": "1696-08-29",
+  "year": 1696,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "ITA"
+  ],
+  "sides": [
+   [
+    "ITA"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_nine_years",
+  "violated": null,
+  "judgment": null,
+  "summary": "Separate peace in which Savoy left the Grand Alliance and France returned Pinerolo and Savoy's occupied lands.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Turin_(1696)"
+ },
+ {
+  "id": "t_ryswick_1697",
+  "name": "Peace of Ryswick",
+  "date": "1697-09-20",
+  "year": 1697,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "UKG",
+   "NTH",
+   "SPN",
+   "AUH",
+   "HRE"
+  ],
+  "sides": [
+   [
+    "NTH",
+    "UKG",
+    "SPN",
+    "AUH",
+    "HRE"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_nine_years",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Nine Years' War: treaties of 20-21 Sep 1697 with Spain, England and the Dutch, and of 30 Oct 1697 with the Emperor; France recognised William III.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Ryswick"
+ },
+ {
+  "id": "t_hague_1698",
+  "name": "Treaty of The Hague (1698), First Partition Treaty",
+  "date": "1698-10-11",
+  "year": 1698,
+  "type": "other",
+  "parties": [
+   "FRN",
+   "UKG",
+   "NTH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "England, France and the Dutch Republic agreed in advance how to partition the Spanish monarchy on Charles II's death.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_The_Hague_(1698)"
+ },
+ {
+  "id": "t_karlowitz_1699",
+  "name": "Treaty of Karlowitz",
+  "date": "1699-01-26",
+  "year": 1699,
+  "type": "peace",
+  "parties": [
+   "TUR",
+   "AUH",
+   "PLC",
+   "VNC"
+  ],
+  "sides": [
+   [
+    "AUH",
+    "PLC",
+    "VNC"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_great_turkish",
+  "violated": null,
+  "judgment": null,
+  "summary": "The Ottomans ceded most of Hungary and Transylvania to the Habsburgs, Podolia to Poland and the Morea to Venice; Russia agreed only a truce.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Karlowitz"
+ },
+ {
+  "id": "t_preobrazhenskoye_1699",
+  "name": "Treaty of Preobrazhenskoye",
+  "date": "1699-11-22",
+  "year": 1699,
+  "type": "alliance",
+  "parties": [
+   "RUS",
+   "SAX"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Secret alliance between Peter I and Augustus II (as Elector of Saxony and King of Poland) against Sweden, preparing the Great Northern War.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Preobrazhenskoye"
+ },
+ {
+  "id": "t_london_1700",
+  "name": "Treaty of London (1700), Second Partition Treaty",
+  "date": "1700-03-24",
+  "year": 1700,
+  "type": "other",
+  "parties": [
+   "FRN",
+   "UKG",
+   "NTH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Revised Spanish partition plan giving Spain and the Indies to Archduke Charles and Italian lands to France.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_London_(1700)"
+ },
+ {
+  "id": "t_travendal_1700",
+  "name": "Peace of Travendal",
+  "date": "1700-08-18",
+  "year": 1700,
+  "type": "peace",
+  "parties": [
+   "DEN",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "DEN"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_great_northern",
+  "violated": {
+   "is": true,
+   "year": 1709,
+   "by": [
+    "DEN"
+   ],
+   "how": "Denmark-Norway re-entered the war against Sweden in 1709, after Poltava."
+  },
+  "judgment": null,
+  "summary": "Separate peace that took Denmark-Norway out of the Great Northern War and restored Holstein-Gottorp, with the Maritime Powers among the guarantors.",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Travendal"
+ },
+ {
+  "id": "t_constantinople_1700",
+  "name": "Treaty of Constantinople (1700)",
+  "date": "1700-07-13",
+  "year": 1700,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_russo_turkish_1686",
+  "violated": null,
+  "judgment": null,
+  "summary": "Russia gained Azov and Taganrog and was freed from paying tribute to the Crimean Khan (3 July O.S./13 July N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Constantinople_(1700)"
+ },
+ {
+  "id": "t_hague_1701",
+  "name": "Treaty of The Hague (1701), Grand Alliance",
+  "date": "1701-09-07",
+  "year": 1701,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "AUH",
+   "NTH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "England, the Emperor and the Dutch Republic renewed the Grand Alliance against a Bourbon succession in Spain.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_The_Hague_(1701)"
+ },
+ {
+  "id": "t_methuen_1703",
+  "name": "Methuen Treaty (military alliance)",
+  "date": "1703-05",
+  "year": 1703,
+  "type": "alliance",
+  "parties": [
+   "POR",
+   "UKG",
+   "NTH",
+   "AUH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Portugal joined the Grand Alliance in May 1703 (exact day not verified); a separate Anglo-Portuguese commercial treaty followed on 27 Dec 1703.",
+  "source_url": "https://en.wikipedia.org/wiki/Methuen_Treaty"
+ },
+ {
+  "id": "t_altranstadt_1706",
+  "name": "Treaty of Altranstadt (1706)",
+  "date": "1706-10-13",
+  "year": 1706,
+  "type": "peace",
+  "parties": [
+   "SWD",
+   "SAX"
+  ],
+  "sides": [
+   [
+    "SAX"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_great_northern",
+  "violated": {
+   "is": true,
+   "year": 1709,
+   "by": [
+    "SAX"
+   ],
+   "how": "After Poltava, Augustus II re-entered the war and renewed his Russian alliance at Thorn (1709), which Altranstadt had dissolved."
+  },
+  "judgment": null,
+  "summary": "Augustus II gave up the Polish crown and his Russian alliance, taking Saxony out of the war.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Altranst%C3%A4dt_(1706)"
+ },
+ {
+  "id": "t_thorn_1709",
+  "name": "Treaty of Thorn (1709)",
+  "date": "1709-10-09",
+  "year": 1709,
+  "type": "alliance",
+  "parties": [
+   "RUS",
+   "SAX",
+   "PLC"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Peter I and Augustus II revived their anti-Swedish alliance and agreed to restore Augustus to the Polish throne.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Thorn_(1709)"
+ },
+ {
+  "id": "t_pruth_1711",
+  "name": "Treaty of the Pruth",
+  "date": "1711-07-23",
+  "year": 1711,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR",
+    "CRI"
+   ]
+  ],
+  "ends_war": "w_russo_turkish_1710",
+  "violated": null,
+  "judgment": null,
+  "summary": "After the encircled Russian army was allowed to withdraw, Peter I agreed to return Azov; confirmed by the Treaty of Adrianople (1713). Some sources date it 21 July.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_the_Pruth"
+ },
+ {
+  "id": "t_utrecht_1713",
+  "name": "Peace of Utrecht",
+  "date": "1713-04-11",
+  "year": 1713,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "SPN",
+   "UKG",
+   "NTH",
+   "GMY",
+   "ITA",
+   "POR"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "NTH",
+    "GMY",
+    "ITA",
+    "POR"
+   ],
+   [
+    "FRN",
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_spanish_succession",
+  "violated": null,
+  "judgment": null,
+  "summary": "Series of treaties (France with Britain, the Dutch, Prussia, Savoy and Portugal on 11 Apr 1713; Spain with Britain and Savoy on 13 Jul 1713, the Dutch in 1714 and Portugal in 1715) recognising Philip V on condition the French and Spanish crowns stayed separate.",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Utrecht"
+ },
+ {
+  "id": "t_rastatt_1714",
+  "name": "Treaty of Rastatt",
+  "date": "1714-03-07",
+  "year": 1714,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "AUH"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_spanish_succession",
+  "violated": null,
+  "judgment": null,
+  "summary": "Franco-Habsburg peace giving Austria the Spanish Netherlands, Milan, Naples and Sardinia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Rastatt"
+ },
+ {
+  "id": "t_baden_1714",
+  "name": "Treaty of Baden (1714)",
+  "date": "1714-09-07",
+  "year": 1714,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "HRE"
+  ],
+  "sides": [
+   [
+    "HRE"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_spanish_succession",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended hostilities between France and the Holy Roman Empire as a body.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Baden_(1714)"
+ },
+ {
+  "id": "t_triple_alliance_1717",
+  "name": "Triple Alliance (1717)",
+  "date": "1717-01-04",
+  "year": 1717,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "FRN",
+   "NTH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Britain, France and the Dutch Republic allied to uphold the Utrecht settlement against Bourbon Spain.",
+  "source_url": "https://en.wikipedia.org/wiki/Triple_Alliance_(1717)"
+ },
+ {
+  "id": "t_passarowitz_1718",
+  "name": "Treaty of Passarowitz",
+  "date": "1718-07-21",
+  "year": 1718,
+  "type": "peace",
+  "parties": [
+   "TUR",
+   "AUH",
+   "VNC"
+  ],
+  "sides": [
+   [
+    "AUH",
+    "VNC"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_austro_turkish_1716",
+  "violated": null,
+  "judgment": null,
+  "summary": "Austria gained the Banat, northern Serbia including Belgrade, and Lesser Wallachia, and Venice lost the Morea; also ended the Ottoman-Venetian War of 1714-18.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Passarowitz"
+ },
+ {
+  "id": "t_quadruple_alliance_1718",
+  "name": "Quadruple Alliance (1718)",
+  "date": "1718-08-02",
+  "year": 1718,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "FRN",
+   "AUH",
+   "ITA",
+   "NTH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Britain, France and Austria (with Savoy, and the Dutch joining later) allied to reverse Spain's attacks on Sardinia and Sicily.",
+  "source_url": "https://en.wikipedia.org/wiki/War_of_the_Quadruple_Alliance"
+ },
+ {
+  "id": "t_stockholm_1719",
+  "name": "Treaty of Stockholm (1719)",
+  "date": "1719-11-09",
+  "year": 1719,
+  "type": "peace",
+  "parties": [
+   "SWD",
+   "HAN"
+  ],
+  "sides": [
+   [
+    "HAN"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_great_northern",
+  "violated": null,
+  "judgment": null,
+  "summary": "Sweden ceded Bremen-Verden to Hanover.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaties_of_Stockholm_(Great_Northern_War)"
+ },
+ {
+  "id": "t_stockholm_1720",
+  "name": "Treaty of Stockholm (1720)",
+  "date": "1720-01-21",
+  "year": 1720,
+  "type": "peace",
+  "parties": [
+   "SWD",
+   "GMY"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_great_northern",
+  "violated": null,
+  "judgment": null,
+  "summary": "Sweden ceded southern Swedish Pomerania, including Stettin, Usedom and Wollin, to Prussia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaties_of_Stockholm_(Great_Northern_War)"
+ },
+ {
+  "id": "t_hague_1720",
+  "name": "Treaty of The Hague (1720)",
+  "date": "1720-02-17",
+  "year": 1720,
+  "type": "peace",
+  "parties": [
+   "SPN",
+   "UKG",
+   "FRN",
+   "AUH",
+   "ITA",
+   "NTH"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "FRN",
+    "AUH",
+    "ITA",
+    "NTH"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_quadruple_alliance",
+  "violated": null,
+  "judgment": null,
+  "summary": "Spain acceded to the Quadruple Alliance; Savoy exchanged Sicily for Sardinia with Austria.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_The_Hague_(1720)"
+ },
+ {
+  "id": "t_frederiksborg_1720",
+  "name": "Treaty of Frederiksborg",
+  "date": "1720-07-14",
+  "year": 1720,
+  "type": "peace",
+  "parties": [
+   "DEN",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "DEN"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_great_northern",
+  "violated": null,
+  "judgment": null,
+  "summary": "Dano-Swedish peace in which Sweden gave up its exemption from the Sound Toll and its support for Holstein-Gottorp (3 July O.S./14 July N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Frederiksborg"
+ },
+ {
+  "id": "t_nystad_1721",
+  "name": "Treaty of Nystad",
+  "date": "1721-09-10",
+  "year": 1721,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_great_northern",
+  "violated": null,
+  "judgment": null,
+  "summary": "Sweden ceded Livonia, Estonia, Ingria and part of Karelia to Russia, ending the Great Northern War (30 Aug O.S./10 Sep N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Great_Northern_War"
+ },
+ {
+  "id": "t_vienna_1725",
+  "name": "Treaty of Vienna (1725)",
+  "date": "1725-04-30",
+  "year": 1725,
+  "type": "alliance",
+  "parties": [
+   "AUH",
+   "SPN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Four treaties (30 Apr-5 Nov 1725) made peace between Charles VI and Philip V and created an Austro-Spanish alliance backing the Ostend Company and the Pragmatic Sanction; Russia joined in 1726.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1725)"
+ },
+ {
+  "id": "t_hanover_1725",
+  "name": "Treaty of Hanover (1725)",
+  "date": "1725-09-03",
+  "year": 1725,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "FRN",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Defensive alliance of Britain-Hanover, France and Prussia set against the Austro-Spanish Vienna alliance; the Dutch joined in 1726 and Sweden in 1727.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Hanover_(1725)"
+ },
+ {
+  "id": "t_seville_1729",
+  "name": "Treaty of Seville",
+  "date": "1729-11-09",
+  "year": 1729,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "SPN",
+   "FRN"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_anglo_spanish_1727",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Anglo-Spanish War of 1727-29 on a status quo basis; the Dutch acceded on 29 Nov 1729.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Seville"
+ },
+ {
+  "id": "t_vienna_1731",
+  "name": "Treaty of Vienna (1731)",
+  "date": "1731-03-16",
+  "year": 1731,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "AUH",
+   "NTH",
+   "SPN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Created the Anglo-Austrian alliance: Britain and the Dutch guaranteed the Pragmatic Sanction and Austria dissolved the Ostend Company; Spain signed on 22 July.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1731)"
+ },
+ {
+  "id": "t_turin_1733",
+  "name": "Treaty of Turin (1733)",
+  "date": "1733-09-26",
+  "year": 1733,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "ITA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Secret Franco-Sardinian alliance to seize Milan from Austria at the start of the War of the Polish Succession.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Turin_(1733)"
+ },
+ {
+  "id": "t_escorial_1733",
+  "name": "Treaty of the Escorial (First Family Compact)",
+  "date": "1733-11-07",
+  "year": 1733,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "SPN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "First Bourbon Family Compact between Louis XV and Philip V.",
+  "source_url": "https://en.wikipedia.org/wiki/Pacte_de_Famille"
+ },
+ {
+  "id": "t_vienna_1738",
+  "name": "Treaty of Vienna (1738)",
+  "date": "1738-11-18",
+  "year": 1738,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "FRN"
+   ],
+   [
+    "AUH"
+   ]
+  ],
+  "ends_war": "w_polish_succession",
+  "violated": null,
+  "judgment": null,
+  "summary": "Final peace of the War of the Polish Succession: Augustus III kept Poland, Leszczynski received Lorraine (to pass to France), Francis Stephen received Tuscany and the Spanish Bourbons Naples-Sicily.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1738)"
+ },
+ {
+  "id": "t_belgrade_1739",
+  "name": "Treaty of Belgrade",
+  "date": "1739-09-18",
+  "year": 1739,
+  "type": "peace",
+  "parties": [
+   "AUH",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "AUH"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_russo_turkish_1735",
+  "violated": null,
+  "judgment": null,
+  "summary": "Austria returned northern Serbia, including Belgrade, and Lesser Wallachia to the Ottomans.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Belgrade"
+ },
+ {
+  "id": "t_nis_1739",
+  "name": "Treaty of Nis (1739)",
+  "date": "1739-10-03",
+  "year": 1739,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_russo_turkish_1735",
+  "violated": null,
+  "judgment": null,
+  "summary": "Russia kept Azov (to be demilitarised) but gave up most of its other conquests.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Ni%C5%A1_(1739)"
+ },
+ {
+  "id": "t_berlin_1742",
+  "name": "Treaty of Breslau/Berlin (1742)",
+  "date": "1742-07-28",
+  "year": 1742,
+  "type": "peace",
+  "parties": [
+   "GMY",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "AUH"
+   ]
+  ],
+  "ends_war": "w_austrian_succession",
+  "violated": null,
+  "judgment": null,
+  "summary": "Separate peace ending the First Silesian War; Austria ceded most of Silesia (preliminaries at Breslau on 11 June).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Berlin_(1742)"
+ },
+ {
+  "id": "t_abo_1743",
+  "name": "Treaty of Abo",
+  "date": "1743-08-18",
+  "year": 1743,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_russo_swedish_1741",
+  "violated": null,
+  "judgment": null,
+  "summary": "Sweden ceded part of south-eastern Finland to Russia (7 Aug O.S./18 Aug N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_%C3%85bo"
+ },
+ {
+  "id": "t_worms_1743",
+  "name": "Treaty of Worms (1743)",
+  "date": "1743-09-13",
+  "year": 1743,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "AUH",
+   "ITA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Britain, Austria and Sardinia allied in the War of the Austrian Succession.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Worms_(1743)"
+ },
+ {
+  "id": "t_fontainebleau_1743",
+  "name": "Treaty of Fontainebleau (1743) (Second Family Compact)",
+  "date": "1743-10-25",
+  "year": 1743,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "SPN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Second Bourbon Family Compact, signed during the War of the Austrian Succession.",
+  "source_url": "https://en.wikipedia.org/wiki/Pacte_de_Famille"
+ },
+ {
+  "id": "t_fussen_1745",
+  "name": "Treaty of Fussen",
+  "date": "1745-04-22",
+  "year": 1745,
+  "type": "peace",
+  "parties": [
+   "BAV",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "BAV"
+   ],
+   [
+    "AUH"
+   ]
+  ],
+  "ends_war": "w_austrian_succession",
+  "violated": null,
+  "judgment": null,
+  "summary": "Separate peace in which Bavaria gave up its imperial claims and left the war.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_F%C3%BCssen"
+ },
+ {
+  "id": "t_dresden_1745",
+  "name": "Treaty of Dresden",
+  "date": "1745-12-25",
+  "year": 1745,
+  "type": "peace",
+  "parties": [
+   "GMY",
+   "AUH",
+   "SAX"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "AUH",
+    "SAX"
+   ]
+  ],
+  "ends_war": "w_austrian_succession",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Second Silesian War, confirming Prussian possession of Silesia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Dresden"
+ },
+ {
+  "id": "t_aix_1748",
+  "name": "Treaty of Aix-la-Chapelle (1748)",
+  "date": "1748-10-18",
+  "year": 1748,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "FRN",
+   "NTH",
+   "AUH",
+   "SPN",
+   "ITA",
+   "GEN",
+   "MOD"
+  ],
+  "sides": [
+   [
+    "AUH",
+    "UKG",
+    "NTH",
+    "ITA"
+   ],
+   [
+    "FRN",
+    "SPN",
+    "GEN",
+    "MOD"
+   ]
+  ],
+  "ends_war": "w_austrian_succession",
+  "violated": null,
+  "judgment": {
+   "led_to": "w_seven_years",
+   "rationale": "Many historians see the treaty as an armistice rather than a settlement: it left Maria Theresa determined to recover Silesia and the colonial disputes unresolved, which led to the Diplomatic Revolution and the Seven Years' War."
+  },
+  "summary": "Ended the War of the Austrian Succession largely on a status quo basis, but left Silesia with Prussia. Signed by Britain, France and the Dutch; Austria, Spain and Sardinia acceded in Dec 1748 and Genoa and Modena in Jan 1749.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Aix-la-Chapelle_(1748)"
+ },
+ {
+  "id": "t_westminster_1756",
+  "name": "Convention of Westminster (1756)",
+  "date": "1756-01-16",
+  "year": 1756,
+  "type": "nonaggression",
+  "parties": [
+   "UKG",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Britain and Prussia agreed to keep foreign troops out of Germany, protecting Hanover; this neutrality pact set off the Diplomatic Revolution.",
+  "source_url": "https://en.wikipedia.org/wiki/Diplomatic_Revolution"
+ },
+ {
+  "id": "t_versailles_1756",
+  "name": "First Treaty of Versailles (1756)",
+  "date": "1756-05-01",
+  "year": 1756,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "AUH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Franco-Austrian defensive alliance and neutrality pact (24,000 troops if either was attacked), the core of the Diplomatic Revolution.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles_(1756)"
+ },
+ {
+  "id": "t_versailles_1757",
+  "name": "Second Treaty of Versailles (1757)",
+  "date": "1757-05-01",
+  "year": 1757,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "AUH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Offensive Franco-Austrian alliance against Prussia.",
+  "source_url": "https://en.wikipedia.org/wiki/Diplomatic_Revolution"
+ },
+ {
+  "id": "t_paris_1761",
+  "name": "Third Family Compact (Treaty of Paris, 1761)",
+  "date": "1761-08-15",
+  "year": 1761,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "SPN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Bourbon alliance between Charles III and Louis XV that brought Spain into the Seven Years' War.",
+  "source_url": "https://en.wikipedia.org/wiki/Pacte_de_Famille"
+ },
+ {
+  "id": "t_st_petersburg_1762",
+  "name": "Treaty of Saint Petersburg (1762)",
+  "date": "1762-05-05",
+  "year": 1762,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "GMY"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "w_seven_years",
+  "violated": null,
+  "judgment": null,
+  "summary": "Peter III made peace with Prussia and returned Russian conquests, taking Russia out of the war.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Saint_Petersburg_(1762)"
+ },
+ {
+  "id": "t_hamburg_1762",
+  "name": "Treaty of Hamburg (1762)",
+  "date": "1762-05-22",
+  "year": 1762,
+  "type": "peace",
+  "parties": [
+   "SWD",
+   "GMY"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_seven_years",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Pomeranian War between Sweden and Prussia on a status quo basis.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Hamburg_(1762)"
+ },
+ {
+  "id": "t_paris_1763",
+  "name": "Treaty of Paris (1763)",
+  "date": "1763-02-10",
+  "year": 1763,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "FRN",
+   "SPN",
+   "POR"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "POR"
+   ],
+   [
+    "FRN",
+    "SPN"
+   ]
+  ],
+  "ends_war": "w_seven_years",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Seven Years' War overseas: France ceded Canada and lands east of the Mississippi to Britain, and Spain ceded Florida to Britain.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1763)"
+ },
+ {
+  "id": "t_hubertusburg_1763",
+  "name": "Treaty of Hubertusburg",
+  "date": "1763-02-15",
+  "year": 1763,
+  "type": "peace",
+  "parties": [
+   "GMY",
+   "AUH",
+   "SAX"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "AUH",
+    "SAX"
+   ]
+  ],
+  "ends_war": "w_seven_years",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Third Silesian War on a status quo basis, with Prussia keeping Silesia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Hubertusburg"
+ },
+ {
+  "id": "t_partition_1772",
+  "name": "First Partition of Poland (treaty)",
+  "date": "1772-08-05",
+  "year": 1772,
+  "type": "other",
+  "parties": [
+   "RUS",
+   "GMY",
+   "AUH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Russia, Prussia and Austria annexed about a third of the Polish-Lithuanian Commonwealth's territory (ratified 22 Sep 1772).",
+  "source_url": "https://en.wikipedia.org/wiki/Partitions_of_Poland"
+ },
+ {
+  "id": "t_kaynarca_1774",
+  "name": "Treaty of Kucuk Kaynarca",
+  "date": "1774-07-21",
+  "year": 1774,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR",
+    "CRI"
+   ]
+  ],
+  "ends_war": "w_russo_turkish_1768",
+  "violated": null,
+  "judgment": null,
+  "summary": "Russia gained Kerch, Yenikale and part of Yedisan and access to the Black Sea, and the Crimean Khanate was declared independent of the Ottomans (10 Jul O.S./21 Jul N.S.).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_K%C3%BC%C3%A7%C3%BCk_Kaynarca"
+ },
+ {
+  "id": "t_franco_american_1778",
+  "name": "Treaty of Alliance (1778)",
+  "date": "1778-02-06",
+  "year": 1778,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "USA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": {
+   "is": true,
+   "year": 1798,
+   "by": [
+    "USA"
+   ],
+   "how": "Congress unilaterally annulled the perpetual alliance on 7 July 1798 during the Quasi-War crisis; it was formally abrogated at Mortefontaine in 1800."
+  },
+  "judgment": null,
+  "summary": "Perpetual Franco-American military alliance against Britain, signed in Paris.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Alliance_(1778)"
+ },
+ {
+  "id": "t_aranjuez_1779",
+  "name": "Treaty of Aranjuez (1779)",
+  "date": "1779-04-12",
+  "year": 1779,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "SPN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Spain agreed to join France in the war against Britain.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Aranjuez_(1779)"
+ },
+ {
+  "id": "t_teschen_1779",
+  "name": "Treaty of Teschen",
+  "date": "1779-05-13",
+  "year": 1779,
+  "type": "peace",
+  "parties": [
+   "AUH",
+   "GMY",
+   "FRN",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "AUH"
+   ]
+  ],
+  "ends_war": "w_bavarian_succession",
+  "violated": null,
+  "judgment": null,
+  "summary": "Austria gained only the Innviertel; France and Russia mediated and guaranteed the treaty. Saxony, Prussia's co-belligerent, is not coded as a party because its role in the treaty was not verified.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Teschen"
+ },
+ {
+  "id": "t_armed_neutrality_1780",
+  "name": "First League of Armed Neutrality",
+  "date": "1780-08",
+  "year": 1780,
+  "type": "other",
+  "parties": [
+   "RUS",
+   "DEN",
+   "SWD",
+   "GMY",
+   "AUH",
+   "POR",
+   "SIC"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Russia, Denmark-Norway and Sweden combined to protect neutral shipping against British searches; Prussia, Austria and Portugal joined in 1781-82 and Naples in 1783.",
+  "source_url": "https://en.wikipedia.org/wiki/First_League_of_Armed_Neutrality"
+ },
+ {
+  "id": "t_salbai_1782",
+  "name": "Treaty of Salbai",
+  "date": "1782-05-17",
+  "year": 1782,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "MRT"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "MRT"
+   ]
+  ],
+  "ends_war": "w_anglo_maratha_1",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the First Anglo-Maratha War largely on a status quo basis (UKG = British East India Company).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Salbai"
+ },
+ {
+  "id": "t_paris_1783",
+  "name": "Peace of Paris (1783)",
+  "date": "1783-09-03",
+  "year": 1783,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "USA",
+   "FRN",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "USA",
+    "FRN",
+    "SPN"
+   ],
+   [
+    "UKG"
+   ]
+  ],
+  "ends_war": "w_american_revolution",
+  "violated": null,
+  "judgment": null,
+  "summary": "Britain recognised US independence (Treaty of Paris) and made peace with France and Spain at Versailles; Spain kept Minorca and the Floridas.",
+  "source_url": "https://www.britannica.com/print/article/443717"
+ },
+ {
+  "id": "t_mangalore_1784",
+  "name": "Treaty of Mangalore",
+  "date": "1784-03-11",
+  "year": 1784,
+  "type": "peace",
+  "parties": [
+   "MYS",
+   "UKG"
+  ],
+  "sides": [
+   [
+    "MYS"
+   ],
+   [
+    "UKG"
+   ]
+  ],
+  "ends_war": "w_anglo_mysore_2",
+  "violated": null,
+  "judgment": null,
+  "summary": "Tipu Sultan and the East India Company restored the status quo ante, ending the Second Anglo-Mysore War.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Mangalore"
+ },
+ {
+  "id": "t_paris_1784",
+  "name": "Treaty of Paris (1784)",
+  "date": "1784-05-20",
+  "year": 1784,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "NTH"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "NTH"
+   ]
+  ],
+  "ends_war": "w_anglo_dutch_4",
+  "violated": null,
+  "judgment": null,
+  "summary": "The Dutch ceded Negapatnam to Britain and granted free navigation in the Moluccas, ending the Fourth Anglo-Dutch War.",
+  "source_url": "https://www.britannica.com/print/article/443717"
+ },
+ {
+  "id": "t_triple_alliance_1788",
+  "name": "Triple Alliance (1788)",
+  "date": "1788-08-13",
+  "year": 1788,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "GMY",
+   "NTH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "The Anglo-Prussian alliance of 13 Aug 1788, together with both powers' 1788 agreements with the restored Orangist Dutch Republic, formed the Triple Alliance.",
+  "source_url": "https://en.wikipedia.org/wiki/Triple_Alliance_(1788)"
+ },
+ {
+  "id": "t_varala_1790",
+  "name": "Treaty of Varala",
+  "date": "1790-08-14",
+  "year": 1790,
+  "type": "peace",
+  "parties": [
+   "SWD",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "SWD"
+   ],
+   [
+    "RUS"
+   ]
+  ],
+  "ends_war": "w_russo_swedish_1788",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Russo-Swedish War of 1788-90 on a status quo basis (date from memory; year confirmed in Wikipedia's List of treaties).",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_treaties"
+ },
+ {
+  "id": "t_sistova_1791",
+  "name": "Treaty of Sistova",
+  "date": "1791-08-04",
+  "year": 1791,
+  "type": "peace",
+  "parties": [
+   "AUH",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "AUH"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_austro_turkish_1788",
+  "violated": null,
+  "judgment": null,
+  "summary": "Austria returned its conquests, including Belgrade, to the Ottomans (date from memory; year confirmed in Wikipedia's List of treaties).",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_treaties"
+ },
+ {
+  "id": "t_jassy_1792",
+  "name": "Treaty of Jassy",
+  "date": "1792-01-09",
+  "year": 1792,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_russo_turkish_1787",
+  "violated": null,
+  "judgment": null,
+  "summary": "The Ottomans recognised the Russian annexation of Crimea and ceded Yedisan up to the Dniester.",
+  "source_url": "https://en.wikipedia.org/wiki/Russo-Turkish_War_(1787%E2%80%931792)"
+ },
+ {
+  "id": "t_seringapatam_1792",
+  "name": "Treaty of Seringapatam",
+  "date": "1792-03-18",
+  "year": 1792,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "MYS",
+   "MRT"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "MRT"
+   ],
+   [
+    "MYS"
+   ]
+  ],
+  "ends_war": "w_anglo_mysore_3",
+  "violated": null,
+  "judgment": null,
+  "summary": "Tipu Sultan ceded about half his territory to the East India Company, the Marathas and Hyderabad.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Seringapatam"
+ },
+ {
+  "id": "t_partition_1793",
+  "name": "Second Partition of Poland (treaty)",
+  "date": "1793-01-23",
+  "year": 1793,
+  "type": "other",
+  "parties": [
+   "RUS",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Russia and Prussia annexed large parts of the Commonwealth; the annexations were forced through the Grodno Sejm.",
+  "source_url": "https://en.wikipedia.org/wiki/Partitions_of_Poland"
+ },
+ {
+  "id": "t_jay_1794",
+  "name": "Jay Treaty",
+  "date": "1794-11-19",
+  "year": 1794,
+  "type": "other",
+  "parties": [
+   "UKG",
+   "USA"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Anglo-American treaty settling post-1783 disputes, including British withdrawal from the Northwest forts and arbitration commissions (date from memory; year confirmed in Wikipedia's List of treaties).",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_treaties"
+ },
+ {
+  "id": "t_basel_prussia_1795",
+  "name": "Peace of Basel (France-Prussia)",
+  "date": "1795-04-05",
+  "year": 1795,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "GMY"
+  ],
+  "sides": [
+   [
+    "GMY"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_first_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Separate peace taking Prussia out of the First Coalition and leaving the French on the left bank of the Rhine.",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Basel"
+ },
+ {
+  "id": "t_basel_spain_1795",
+  "name": "Peace of Basel (France-Spain)",
+  "date": "1795-07-22",
+  "year": 1795,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "SPN"
+  ],
+  "sides": [
+   [
+    "SPN"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_first_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the War of the Pyrenees; Spain ceded its part of Santo Domingo to France.",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Basel"
+ },
+ {
+  "id": "t_partition_1795",
+  "name": "Third Partition of Poland (treaty)",
+  "date": "1795-10-24",
+  "year": 1795,
+  "type": "other",
+  "parties": [
+   "RUS",
+   "GMY",
+   "AUH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "The three partitioning powers divided the rest of the Commonwealth, ending its existence.",
+  "source_url": "https://en.wikipedia.org/wiki/Partitions_of_Poland"
+ },
+ {
+  "id": "t_san_ildefonso_1796",
+  "name": "Second Treaty of San Ildefonso",
+  "date": "1796-08-19",
+  "year": 1796,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "SPN"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Franco-Spanish offensive and defensive alliance against Britain (date from memory; year confirmed in Wikipedia's List of treaties).",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_treaties"
+ },
+ {
+  "id": "t_campo_formio_1797",
+  "name": "Treaty of Campo Formio",
+  "date": "1797-10-17",
+  "year": 1797,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "AUH"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_first_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Austria ceded the Austrian Netherlands and recognised the Cisalpine Republic, receiving Venetian territory, which ended the War of the First Coalition on the continent.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Campo_Formio"
+ },
+ {
+  "id": "t_mortefontaine_1800",
+  "name": "Treaty of Mortefontaine (Convention of 1800)",
+  "date": "1800-09-30",
+  "year": 1800,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "USA"
+  ],
+  "sides": [
+   [
+    "USA"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_quasi_war",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the Quasi-War and formally ended the 1778 Franco-American alliance (date from memory; year confirmed in Wikipedia's List of treaties).",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_treaties"
+ },
+ {
+  "id": "t_armed_neutrality_1800",
+  "name": "Second League of Armed Neutrality",
+  "date": "1800-12",
+  "year": 1800,
+  "type": "other",
+  "parties": [
+   "RUS",
+   "SWD",
+   "DEN",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Paul I's league of Russia, Sweden, Denmark-Norway and Prussia against British maritime practices; it collapsed after his assassination in March 1801 (exact day not verified).",
+  "source_url": "https://en.wikipedia.org/wiki/Second_League_of_Armed_Neutrality"
+ },
+ {
+  "id": "t_luneville_1801",
+  "name": "Treaty of Luneville",
+  "date": "1801-02-09",
+  "year": 1801,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "AUH",
+   "HRE"
+  ],
+  "sides": [
+   [
+    "AUH",
+    "HRE"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_second_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Francis II, for Austria and the Empire, confirmed Campo Formio and ceded the left bank of the Rhine to France.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Lun%C3%A9ville"
+ },
+ {
+  "id": "t_paris_1801",
+  "name": "Treaty of Paris (1801)",
+  "date": "1801-10-08",
+  "year": 1801,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_second_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Formal Franco-Russian peace after Russia's withdrawal from the Second Coalition (date from the Wikipedia article title 'Treaty of Paris (8 October 1801)').",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(8_October_1801)"
+ },
+ {
+  "id": "t_amiens_1802",
+  "name": "Treaty of Amiens",
+  "date": "1802-03-25",
+  "year": 1802,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "UKG",
+   "SPN",
+   "NTH"
+  ],
+  "sides": [
+   [
+    "UKG"
+   ],
+   [
+    "FRN",
+    "SPN",
+    "NTH"
+   ]
+  ],
+  "ends_war": "w_second_coalition",
+  "violated": {
+   "is": true,
+   "year": 1803,
+   "by": [
+    "UKG"
+   ],
+   "how": "Britain refused to evacuate Malta as the treaty required and declared war on France on 18 May 1803."
+  },
+  "judgment": null,
+  "summary": "Anglo-French peace (with Spain and the Batavian Republic): Britain returned most of its conquests except Trinidad and Ceylon.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Amiens"
+ },
+ {
+  "id": "t_paris_1802",
+  "name": "Treaty of Paris (1802)",
+  "date": "1802-06-25",
+  "year": 1802,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "TUR"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_second_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Franco-Ottoman peace after the French evacuation of Egypt.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1802)"
+ },
+ {
+  "id": "t_st_petersburg_1805",
+  "name": "Treaty of Saint Petersburg (1805)",
+  "date": "1805-04-11",
+  "year": 1805,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "RUS",
+   "AUH",
+   "SWD"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Anglo-Russian alliance with British subsidies that formed the Third Coalition; Austria acceded on 9 Aug and Sweden on 3 Oct 1805.",
+  "source_url": "https://en.wikipedia.org/wiki/War_of_the_Third_Coalition"
+ },
+ {
+  "id": "t_potsdam_1805",
+  "name": "Treaty of Potsdam (1805)",
+  "date": "1805-11-03",
+  "year": 1805,
+  "type": "alliance",
+  "parties": [
+   "RUS",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Prussia agreed with Russia to offer armed mediation to Napoleon and to join the coalition if he refused.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Potsdam_(1805)"
+ },
+ {
+  "id": "t_pressburg_1805",
+  "name": "Peace of Pressburg",
+  "date": "1805-12-26",
+  "year": 1805,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "AUH"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_third_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "After Austerlitz, Austria ceded Venetia, Tyrol and other lands to France's allies and left the Third Coalition.",
+  "source_url": "https://en.wikipedia.org/wiki/Peace_of_Pressburg_(1805)"
+ },
+ {
+  "id": "t_tilsit_1807",
+  "name": "Treaties of Tilsit",
+  "date": "1807-07-07",
+  "year": 1807,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "RUS",
+   "GMY"
+  ],
+  "sides": [
+   [
+    "RUS",
+    "GMY"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_fourth_coalition",
+  "violated": {
+   "is": true,
+   "year": 1812,
+   "by": [
+    "RUS",
+    "FRN"
+   ],
+   "how": "Russia stopped enforcing the Continental System from 1810, and Napoleon's invasion of Russia in June 1812 ended the alliance."
+  },
+  "judgment": {
+   "led_to": "w_french_invasion_russia",
+   "rationale": "Many historians argue that Tilsit's demands, above all Russia's forced entry into the Continental System and the creation of the Duchy of Warsaw, strained Franco-Russian relations to the point of the 1812 war."
+  },
+  "summary": "Franco-Russian peace and alliance (7 July) and Franco-Prussian peace (9 July 1807): Prussia lost about half its territory, the Duchy of Warsaw was created and Russia joined the Continental System.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaties_of_Tilsit"
+ },
+ {
+  "id": "t_fredrikshamn_1809",
+  "name": "Treaty of Fredrikshamn",
+  "date": "1809-09-17",
+  "year": 1809,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "SWD"
+   ]
+  ],
+  "ends_war": "w_finnish_war",
+  "violated": null,
+  "judgment": null,
+  "summary": "Sweden ceded Finland and the Aland Islands to Russia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Fredrikshamn"
+ },
+ {
+  "id": "t_schonbrunn_1809",
+  "name": "Treaty of Schonbrunn",
+  "date": "1809-10-14",
+  "year": 1809,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "AUH"
+  ],
+  "sides": [
+   [
+    "AUH"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_fifth_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Austria ceded Salzburg, western Galicia and the Illyrian provinces after Wagram.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Sch%C3%B6nbrunn"
+ },
+ {
+  "id": "t_paris_feb_1812",
+  "name": "Treaty of Paris (24 February 1812)",
+  "date": "1812-02-24",
+  "year": 1812,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Franco-Prussian alliance obliging Prussia to supply an auxiliary corps for the invasion of Russia (year and date as listed in Wikipedia's List of treaties).",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_treaties"
+ },
+ {
+  "id": "t_paris_mar_1812",
+  "name": "Treaty of Paris (14 March 1812)",
+  "date": "1812-03-14",
+  "year": 1812,
+  "type": "alliance",
+  "parties": [
+   "FRN",
+   "AUH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Franco-Austrian alliance providing an Austrian auxiliary corps for the invasion of Russia (year and date as listed in Wikipedia's List of treaties).",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_treaties"
+ },
+ {
+  "id": "t_bucharest_1812",
+  "name": "Treaty of Bucharest (1812)",
+  "date": "1812-05-28",
+  "year": 1812,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "TUR"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "TUR"
+   ]
+  ],
+  "ends_war": "w_russo_turkish_1806",
+  "violated": null,
+  "judgment": null,
+  "summary": "The Ottomans ceded Bessarabia to Russia.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1812)"
+ },
+ {
+  "id": "t_kalisz_1813",
+  "name": "Treaty of Kalisz (1813)",
+  "date": "1813-02-28",
+  "year": 1813,
+  "type": "alliance",
+  "parties": [
+   "RUS",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Russo-Prussian alliance against Napoleon, a founding treaty of the Sixth Coalition.",
+  "source_url": "https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition"
+ },
+ {
+  "id": "t_stockholm_1813",
+  "name": "Treaty of Stockholm (1813)",
+  "date": "1813-03-03",
+  "year": 1813,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "SWD"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Anglo-Swedish alliance in which Britain backed Sweden's acquisition of Norway and Sweden joined the coalition.",
+  "source_url": "https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition"
+ },
+ {
+  "id": "t_reichenbach_1813",
+  "name": "Treaties of Reichenbach (1813)",
+  "date": "1813-06-14",
+  "year": 1813,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "GMY",
+   "RUS",
+   "AUH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "British subsidy treaties with Prussia (14 June) and Russia (15 June), plus the Reichenbach Convention of 27 June under which Austria would join the coalition if Napoleon rejected its peace terms.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaties_of_Reichenbach_(1813)"
+ },
+ {
+  "id": "t_ried_1813",
+  "name": "Treaty of Ried",
+  "date": "1813-10-08",
+  "year": 1813,
+  "type": "alliance",
+  "parties": [
+   "BAV",
+   "AUH"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Bavaria left the Confederation of the Rhine and joined the coalition against Napoleon (date from the War of the Sixth Coalition article).",
+  "source_url": "https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition"
+ },
+ {
+  "id": "t_gulistan_1813",
+  "name": "Treaty of Gulistan",
+  "date": "1813-10-24",
+  "year": 1813,
+  "type": "peace",
+  "parties": [
+   "RUS",
+   "IRN"
+  ],
+  "sides": [
+   [
+    "RUS"
+   ],
+   [
+    "IRN"
+   ]
+  ],
+  "ends_war": "w_russo_persian_1804",
+  "violated": null,
+  "judgment": null,
+  "summary": "Persia ceded Dagestan, most of present-day Azerbaijan and eastern Georgia to Russia, with British mediation.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Gulistan"
+ },
+ {
+  "id": "t_kiel_1814",
+  "name": "Treaty of Kiel",
+  "date": "1814-01-14",
+  "year": 1814,
+  "type": "peace",
+  "parties": [
+   "DEN",
+   "SWD",
+   "UKG"
+  ],
+  "sides": [
+   [
+    "SWD",
+    "UKG"
+   ],
+   [
+    "DEN"
+   ]
+  ],
+  "ends_war": "w_sixth_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Two bilateral treaties (Denmark with Britain and with Sweden): Denmark ceded Norway to the King of Sweden and left the war.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Kiel"
+ },
+ {
+  "id": "t_chaumont_1814",
+  "name": "Treaty of Chaumont",
+  "date": "1814-03-09",
+  "year": 1814,
+  "type": "alliance",
+  "parties": [
+   "AUH",
+   "GMY",
+   "RUS",
+   "UKG"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Signed on 9 Mar and dated 1 Mar 1814: the four allies each committed 150,000 men to fight Napoleon to the end and to a 20-year alliance afterwards.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Chaumont"
+ },
+ {
+  "id": "t_fontainebleau_1814",
+  "name": "Treaty of Fontainebleau (1814)",
+  "date": "1814-04-11",
+  "year": 1814,
+  "type": "other",
+  "parties": [
+   "FRN",
+   "AUH",
+   "RUS",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Napoleon abdicated and received Elba (date and parties from memory; year confirmed in Wikipedia's List of treaties).",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_treaties"
+ },
+ {
+  "id": "t_paris_1814",
+  "name": "Treaty of Paris (1814)",
+  "date": "1814-05-30",
+  "year": 1814,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "UKG",
+   "RUS",
+   "AUH",
+   "GMY",
+   "POR",
+   "SWD"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "RUS",
+    "AUH",
+    "GMY",
+    "POR",
+    "SWD"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_sixth_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Bourbon France made peace with the allies, keeping its 1792 borders; separate bilateral treaties were signed, and Spain acceded in July.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1814)"
+ },
+ {
+  "id": "t_ghent_1814",
+  "name": "Treaty of Ghent",
+  "date": "1814-12-24",
+  "year": 1814,
+  "type": "peace",
+  "parties": [
+   "UKG",
+   "USA"
+  ],
+  "sides": [
+   [
+    "USA"
+   ],
+   [
+    "UKG"
+   ]
+  ],
+  "ends_war": "w_war_1812",
+  "violated": null,
+  "judgment": null,
+  "summary": "Ended the War of 1812 on a status quo basis; in force from 17 Feb 1815.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Ghent"
+ },
+ {
+  "id": "t_vienna_final_act_1815",
+  "name": "Final Act of the Congress of Vienna",
+  "date": "1815-06-09",
+  "year": 1815,
+  "type": "other",
+  "parties": [
+   "AUH",
+   "FRN",
+   "POR",
+   "GMY",
+   "RUS",
+   "SWD",
+   "UKG"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Comprehensive territorial settlement of post-Napoleonic Europe, including the German Confederation, an enlarged Netherlands and Prussia's gains; Spain did not sign until 1817.",
+  "source_url": "https://en.wikipedia.org/wiki/Congress_of_Vienna"
+ },
+ {
+  "id": "t_holy_alliance_1815",
+  "name": "Holy Alliance",
+  "date": "1815-09-26",
+  "year": 1815,
+  "type": "alliance",
+  "parties": [
+   "RUS",
+   "AUH",
+   "GMY"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Declaration of Christian monarchical solidarity by the Tsar, the Austrian Emperor and the King of Prussia (date and parties from memory; not verified in this session).",
+  "source_url": "https://en.wikipedia.org/wiki/Holy_Alliance"
+ },
+ {
+  "id": "t_paris_1815",
+  "name": "Treaty of Paris (1815)",
+  "date": "1815-11-20",
+  "year": 1815,
+  "type": "peace",
+  "parties": [
+   "FRN",
+   "UKG",
+   "AUH",
+   "GMY",
+   "RUS"
+  ],
+  "sides": [
+   [
+    "UKG",
+    "AUH",
+    "GMY",
+    "RUS"
+   ],
+   [
+    "FRN"
+   ]
+  ],
+  "ends_war": "w_seventh_coalition",
+  "violated": null,
+  "judgment": null,
+  "summary": "Second peace with France after the Hundred Days: France was reduced to its 1790 borders and had to pay an indemnity and accept occupation.",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1815)"
+ },
+ {
+  "id": "t_quadruple_alliance_1815",
+  "name": "Quadruple Alliance (1815)",
+  "date": "1815-11-20",
+  "year": 1815,
+  "type": "alliance",
+  "parties": [
+   "UKG",
+   "AUH",
+   "GMY",
+   "RUS"
+  ],
+  "sides": [],
+  "ends_war": null,
+  "violated": null,
+  "judgment": null,
+  "summary": "Renewed the Chaumont alliance to uphold the settlement against France and set up periodic congresses (the Congress System).",
+  "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1815)"
+ }
+]
