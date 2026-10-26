@@ -22,7 +22,7 @@
   "judgment": null,
   "summary": "Ended the Russo-Turkish War of 1828-29, giving Russia the Danube mouth and confirming Greek autonomy.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Adrianople_(1829)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_guadalupe_hidalgo_1848",
@@ -47,7 +47,7 @@
   "judgment": null,
   "summary": "Ended the Mexican-American War; Mexico ceded roughly half its territory, including California, to the United States.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_milan_1849",
@@ -163,7 +163,7 @@
   "judgment": null,
   "summary": "Ended the Crimean War; neutralised the Black Sea (no warships or arsenals) and guaranteed Ottoman integrity.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1856)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_paris_1857",
@@ -188,7 +188,7 @@
   "judgment": null,
   "summary": "Ended the Anglo-Persian War; Persia withdrew from Herat and recognised Afghan independence.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1857)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_zurich_1859",
@@ -215,7 +215,7 @@
   "judgment": null,
   "summary": "Confirmed the Villafranca armistice ending the Second Italian War of Independence; Austria ceded Lombardy (via France) to Sardinia.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Z%C3%BCrich",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_wad_ras_1860",
@@ -292,7 +292,7 @@
   "judgment": null,
   "summary": "Ended the Second Schleswig War; Denmark ceded Schleswig, Holstein and Lauenburg to Prussia and Austria.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1864)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_loizaga_cotegipe_1872",
@@ -417,7 +417,7 @@
   "judgment": null,
   "summary": "Ended the Austro-Prussian War; dissolved the German Confederation and excluded Austria from German affairs.",
   "source_url": "https://en.wikipedia.org/wiki/Peace_of_Prague_(1866)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_vienna_1866",
@@ -442,7 +442,7 @@
   "judgment": null,
   "summary": "Austro-Italian peace ending the Third Italian War of Independence; Venetia passed to Italy.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1866)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_london_1867",
@@ -502,7 +502,7 @@
   },
   "summary": "Ended the Franco-Prussian War; France ceded Alsace and most of Lorraine and paid 5 billion francs.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Frankfurt_(1871)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_san_stefano_1878",
@@ -527,7 +527,7 @@
   "judgment": null,
   "summary": "Preliminary peace ending the Russo-Turkish War of 1877-78, creating a large autonomous Bulgaria; revised at the Congress of Berlin.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_San_Stefano",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_berlin_1878",
@@ -567,7 +567,7 @@
   },
   "summary": "Great-power revision of San Stefano: Serbia, Montenegro and Romania independent, Bulgaria reduced, Austria-Hungary to occupy Bosnia-Herzegovina.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Berlin_(1878)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_ancon_1883",
@@ -592,7 +592,7 @@
   "judgment": null,
   "summary": "Chile-Peru peace ending the War of the Pacific; Peru ceded Tarapaca, Tacna and Arica placed under Chilean control pending a plebiscite.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Anc%C3%B3n",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_valparaiso_1884",
@@ -695,7 +695,7 @@
   },
   "summary": "Ended the First Sino-Japanese War; China recognised Korean independence and ceded Taiwan, the Pescadores and (until the Triple Intervention) Liaodong.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_constantinople_1897",
@@ -745,7 +745,7 @@
   "judgment": null,
   "summary": "Ended the Spanish-American War; Spain relinquished Cuba and ceded Puerto Rico, Guam and the Philippines.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1898)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_boxer_protocol_1901",
@@ -790,7 +790,7 @@
   "judgment": null,
   "summary": "Settlement after the Boxer Rebellion imposing a 450 million tael indemnity and foreign legation guards on China.",
   "source_url": "https://en.wikipedia.org/wiki/Boxer_Protocol",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_portsmouth_1905",
@@ -818,7 +818,7 @@
   },
   "summary": "US-mediated end of the Russo-Japanese War; Russia ceded southern Sakhalin, the Liaodong lease and the South Manchuria Railway and recognised Japan's paramountcy in Korea.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Portsmouth",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_marblehead_1906",
@@ -899,7 +899,7 @@
   "judgment": null,
   "summary": "Ended the Italo-Turkish War; Ottoman withdrawal from Tripolitania and Cyrenaica, Italy to hold the Dodecanese temporarily.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Ouchy",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_london_1913",
@@ -933,7 +933,7 @@
   },
   "summary": "Ended the First Balkan War; Ottoman Empire ceded nearly all European territory west of the Enos-Midia line (MNK = Kingdom of Montenegro).",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_London_(1913)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_bucharest_1913",
@@ -967,7 +967,7 @@
   },
   "summary": "Ended the Second Balkan War; Bulgaria lost most of Macedonia to Serbia and Greece and southern Dobruja to Romania.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1913)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_constantinople_1913",
@@ -1022,7 +1022,7 @@
   "judgment": null,
   "summary": "Recognised Belgian independence and placed its perpetual neutrality under great-power guarantee (the 'scrap of paper').",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_London_(1839)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_london_1915",
@@ -1042,7 +1042,7 @@
   "judgment": null,
   "summary": "Secret pact promising Italy Austro-Hungarian and Ottoman territory in return for entering the war on the Entente side.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_London_(1915)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_brest_litovsk_1918",
@@ -1077,13 +1077,10 @@
    ],
    "how": "The Soviet government annulled the treaty on 13 November 1918 after Germany's armistice in the west."
   },
-  "judgment": {
-   "led_to": "cow_109",
-   "rationale": "Historians often link the post-1918 borderland wars, including the Polish-Soviet War, to the vacuum left when the German-imposed Brest-Litovsk order in Eastern Europe collapsed."
-  },
+  "judgment": null,
   "summary": "Soviet Russia's separate peace with the Central Powers, surrendering Poland, the Baltic lands, Finland and Ukraine.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_compiegne_1918",
@@ -1110,7 +1107,7 @@
   "judgment": null,
   "summary": "Armistice signed at Compiegne ending fighting on the Western Front.",
   "source_url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_versailles_1919",
@@ -1169,7 +1166,7 @@
   },
   "summary": "Peace with Germany: territorial losses, war-guilt clause, reparations, disarmament and a demilitarised Rhineland (principal signatories listed; US did not ratify).",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_saint_germain_1919",
@@ -1209,15 +1206,13 @@
   "violated": {
    "is": true,
    "year": 1938,
-   "by": [
-    "GMY"
-   ],
-   "how": "The March 1938 Anschluss breached the treaty's ban on Austrian union with Germany."
+   "by": [],
+   "how": "The March 1938 Anschluss ended the Austrian independence that Article 88 required to be preserved; it was carried out by Germany, which was bound by the parallel Article 80 of Versailles but was not a party to this treaty."
   },
   "judgment": null,
   "summary": "Peace with Austria: dissolution of the Habsburg Empire recognised and union with Germany (Anschluss) prohibited (principal signatories listed).",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Saint-Germain-en-Laye_(1919)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_neuilly_1919",
@@ -1254,7 +1249,7 @@
   "judgment": null,
   "summary": "Peace with Bulgaria: loss of Western Thrace and border districts, reparations and army limits (principal signatories listed).",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Neuilly-sur-Seine",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_trianon_1920",
@@ -1294,7 +1289,7 @@
   },
   "summary": "Peace with Hungary, which lost about two-thirds of its territory; also settled the 1919 Hungarian war with Romania and Czechoslovakia (cow_112).",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Trianon",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_sevres_1920",
@@ -1322,12 +1317,12 @@
     "TUR"
    ]
   ],
-  "ends_war": "cow_106",
+  "ends_war": null,
   "violated": null,
   "judgment": null,
   "summary": "Partition peace with the Ottoman Empire; never ratified, rejected by the Turkish nationalists and superseded by Lausanne (1923).",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_tartu_estonia_1920",
@@ -1359,7 +1354,7 @@
   "judgment": null,
   "summary": "Soviet Russia recognised Estonian independence 'in perpetuity', ending the Estonian War of Independence.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Tartu_(Russian%E2%80%93Estonian)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_tartu_finland_1920",
@@ -1384,7 +1379,7 @@
   "judgment": null,
   "summary": "Fixed the Finnish-Soviet border (Finland gained Petsamo), ending the Finnish expeditions and hostilities of 1918-20.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Tartu_(Finland%E2%80%93Russia)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_riga_latvia_1920",
@@ -1416,7 +1411,7 @@
   "judgment": null,
   "summary": "Soviet Russia recognised Latvian independence, ending the Latvian War of Independence.",
   "source_url": "https://en.wikipedia.org/wiki/Latvian%E2%80%93Soviet_Peace_Treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_riga_1921",
@@ -1448,7 +1443,7 @@
   "judgment": null,
   "summary": "Ended the Polish-Soviet War, fixing Poland's eastern border until 1939 (Soviet Ukraine also signed).",
   "source_url": "https://en.wikipedia.org/wiki/Peace_of_Riga",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_suwalki_1920",
@@ -1468,19 +1463,19 @@
     "LIT"
    ]
   ],
-  "ends_war": "cow_117",
+  "ends_war": null,
   "violated": {
    "is": true,
    "year": 1920,
    "by": [
     "POL"
    ],
-   "how": "Days later General Zeligowski's staged 'mutiny', covertly approved by Pilsudski, seized Vilnius (9 October 1920)."
+   "how": "The day after signing, General Zeligowski began a staged 'mutiny', secretly ordered by Pilsudski (as he admitted in 1923), and seized Vilnius on 9 October 1920."
   },
   "judgment": null,
   "summary": "Polish-Lithuanian armistice and demarcation line leaving Vilnius on the Lithuanian side.",
   "source_url": "https://en.wikipedia.org/wiki/Suwa%C5%82ki_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_ankara_1921",
@@ -1505,7 +1500,7 @@
   "judgment": null,
   "summary": "Franco-Turkish (Grand National Assembly) peace ending the Cilicia campaign; France withdrew from Cilicia.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Ankara_(1921)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_lausanne_1923",
@@ -1547,7 +1542,7 @@
   "judgment": null,
   "summary": "Replaced Sevres, recognising the Republic of Turkey's borders and ending the Greco-Turkish War and the Allied-Ottoman state of war.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Lausanne",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_washington_naval_1922",
@@ -1568,7 +1563,7 @@
   "judgment": null,
   "summary": "Capital-ship ratios among the five naval powers; Japan gave notice of withdrawal in December 1934 and the treaty lapsed at the end of 1936.",
   "source_url": "https://en.wikipedia.org/wiki/Washington_Naval_Treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_nine_power_1922",
@@ -1600,7 +1595,7 @@
   "judgment": null,
   "summary": "Committed the signatories to respect China's sovereignty, independence and territorial integrity (Open Door).",
   "source_url": "https://en.wikipedia.org/wiki/Nine-Power_Treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_rapallo_1922",
@@ -1618,7 +1613,7 @@
   "judgment": null,
   "summary": "Germany and Soviet Russia renounced war claims and established diplomatic relations.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Rapallo_(1922)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_locarno_1925",
@@ -1646,7 +1641,7 @@
   "judgment": null,
   "summary": "Guaranteed the Franco-German and Belgian-German borders and the demilitarised Rhineland, with Britain and Italy as guarantors.",
   "source_url": "https://en.wikipedia.org/wiki/Locarno_Treaties",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_italo_ethiopian_1928",
@@ -1710,7 +1705,7 @@
   "judgment": null,
   "summary": "Renunciation of war as an instrument of national policy (original signatories listed; later near-universal adherence).",
   "source_url": "https://en.wikipedia.org/wiki/Kellogg%E2%80%93Briand_Pact",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_khabarovsk_1929",
@@ -1760,7 +1755,7 @@
   "judgment": null,
   "summary": "Mutual non-aggression treaty, extended in 1934 to 1945.",
   "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Finnish_Non-Aggression_Pact",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_soviet_polish_nap_1932",
@@ -1785,7 +1780,7 @@
   "judgment": null,
   "summary": "Mutual non-aggression treaty, extended in 1934 to 1945.",
   "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Polish_Non-Aggression_Pact",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_tanggu_1933",
@@ -1835,7 +1830,7 @@
   "judgment": null,
   "summary": "Ten-year German-Polish non-aggression declaration.",
   "source_url": "https://en.wikipedia.org/wiki/German%E2%80%93Polish_declaration_of_non-aggression",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_taif_1934",
@@ -1910,7 +1905,7 @@
   "judgment": null,
   "summary": "Definitive Bolivia-Paraguay peace awarding most of the Chaco Boreal to Paraguay.",
   "source_url": "https://en.wikipedia.org/wiki/Chaco_War",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_anglo_german_naval_1935",
@@ -1935,7 +1930,7 @@
   "judgment": null,
   "summary": "Limited the German navy to 35 percent of British surface tonnage.",
   "source_url": "https://en.wikipedia.org/wiki/Anglo-German_Naval_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_montreux_1936",
@@ -1966,7 +1961,7 @@
   "judgment": null,
   "summary": "Restored Turkish control of the Straits and regulated warship passage; still in force.",
   "source_url": "https://en.wikipedia.org/wiki/Montreux_Convention_Regarding_the_Regime_of_the_Straits",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_munich_1938",
@@ -1992,11 +1987,11 @@
   },
   "judgment": {
    "led_to": "cow_139",
-   "rationale": "Munich is the standard example of failed appeasement: historians argue it emboldened Hitler and convinced Britain and France that Germany could not be contained without war."
+   "rationale": "Munich is the standard example of failed appeasement: historians commonly argue it emboldened Hitler, and his breach of it in March 1939 led Britain and France to guarantee Poland, the commitment that took them to war in September 1939."
   },
   "summary": "Ceded the Czechoslovak Sudetenland to Germany, with an Anglo-French guarantee of the rump state (Czechoslovakia not a signatory).",
   "source_url": "https://en.wikipedia.org/wiki/Munich_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_lake_khasan_1938",
@@ -2049,7 +2044,7 @@
   },
   "summary": "German-Soviet non-aggression treaty with a secret protocol dividing Eastern Europe into spheres of influence.",
   "source_url": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_khalkhin_gol_1939",
@@ -2102,7 +2097,7 @@
   },
   "summary": "Ended the Winter War; Finland ceded Karelia and other areas.",
   "source_url": "https://en.wikipedia.org/wiki/Moscow_Peace_Treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_tokyo_1941",
@@ -2152,7 +2147,7 @@
   "judgment": null,
   "summary": "Five-year mutual neutrality pact.",
   "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_Neutrality_Pact",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_cassibile_1943",
@@ -2179,7 +2174,7 @@
   "judgment": null,
   "summary": "Italy's armistice with the Allies, announced 8 September 1943.",
   "source_url": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_moscow_armistice_1944",
@@ -2206,7 +2201,7 @@
   "judgment": null,
   "summary": "Ended the Continuation War; Finland restored the 1940 border and ceded Petsamo.",
   "source_url": "https://en.wikipedia.org/wiki/Moscow_Armistice",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_german_surrender_1945",
@@ -2237,7 +2232,7 @@
   "judgment": null,
   "summary": "Unconditional surrender of the German armed forces, signed in Berlin-Karlshorst (after the Reims signing of 7 May).",
   "source_url": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_japanese_surrender_1945",
@@ -2278,7 +2273,7 @@
   "judgment": null,
   "summary": "Japan's formal surrender aboard USS Missouri.",
   "source_url": "https://en.wikipedia.org/wiki/Japanese_Instrument_of_Surrender",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_paris_italy_1947",
@@ -2476,7 +2471,7 @@
   "judgment": null,
   "summary": "Peace with Japan signed by 49 nations (principal signatories listed; USSR attended but did not sign, China not invited).",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_San_Francisco",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_taipei_1952",
@@ -2501,7 +2496,7 @@
   "judgment": null,
   "summary": "Peace between Japan and the Republic of China, ending their state of war.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Taipei",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_austrian_state_treaty_1955",
@@ -2527,7 +2522,7 @@
   "judgment": null,
   "summary": "Ended the four-power occupation and re-established a sovereign Austria, banning Anschluss; followed by Austria's declaration of permanent neutrality.",
   "source_url": "https://en.wikipedia.org/wiki/Austrian_State_Treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_soviet_japanese_1956",
@@ -2552,7 +2547,7 @@
   "judgment": null,
   "summary": "Ended the Soviet-Japanese state of war and restored relations; no peace treaty on the Kuril dispute followed.",
   "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_Joint_Declaration_of_1956",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_japan_china_1978",
@@ -2577,7 +2572,7 @@
   "judgment": null,
   "summary": "Japan-PRC peace treaty following the 1972 normalisation communique.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Peace_and_Friendship_between_Japan_and_China",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_moscow_treaty_1970",
@@ -2600,7 +2595,7 @@
   "judgment": null,
   "summary": "West German-Soviet renunciation of force and recognition of existing European borders (Ostpolitik).",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Moscow_(1970)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_warsaw_treaty_1970",
@@ -2623,7 +2618,7 @@
   "judgment": null,
   "summary": "West Germany recognised the Oder-Neisse line and both renounced the use of force.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Warsaw_(1970)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_two_plus_four_1990",
@@ -2661,7 +2656,7 @@
   "judgment": null,
   "summary": "Two Plus Four Treaty ending four-power rights and serving as the final WWII peace settlement for Germany.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_on_the_Final_Settlement_with_Respect_to_Germany",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_armistice_israel_egypt_1949",
@@ -2686,7 +2681,7 @@
   "judgment": null,
   "summary": "UN-mediated armistice at Rhodes/Ras en-Naqoura/Mahanayim ending the 1948 war between Israel and Egypt (Iraq never signed).",
   "source_url": "https://en.wikipedia.org/wiki/1949_Armistice_Agreements",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_armistice_israel_lebanon_1949",
@@ -2711,7 +2706,7 @@
   "judgment": null,
   "summary": "UN-mediated armistice at Rhodes/Ras en-Naqoura/Mahanayim ending the 1948 war between Israel and Lebanon (Iraq never signed).",
   "source_url": "https://en.wikipedia.org/wiki/1949_Armistice_Agreements",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_armistice_israel_jordan_1949",
@@ -2736,7 +2731,7 @@
   "judgment": null,
   "summary": "UN-mediated armistice at Rhodes/Ras en-Naqoura/Mahanayim ending the 1948 war between Israel and Jordan (Iraq never signed).",
   "source_url": "https://en.wikipedia.org/wiki/1949_Armistice_Agreements",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_armistice_israel_syria_1949",
@@ -2761,7 +2756,7 @@
   "judgment": null,
   "summary": "UN-mediated armistice at Rhodes/Ras en-Naqoura/Mahanayim ending the 1948 war between Israel and Syria (Iraq never signed).",
   "source_url": "https://en.wikipedia.org/wiki/1949_Armistice_Agreements",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_attrition_ceasefire_1970",
@@ -2793,7 +2788,7 @@
   "judgment": null,
   "summary": "US (Rogers initiative) brokered ceasefire ending the War of Attrition.",
   "source_url": "https://en.wikipedia.org/wiki/War_of_Attrition",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_sinai_i_1974",
@@ -2818,7 +2813,7 @@
   "judgment": null,
   "summary": "Kissinger-brokered separation of forces on the Suez front after the Yom Kippur War.",
   "source_url": "https://en.wikipedia.org/wiki/Sinai_Interim_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_israel_syria_1974",
@@ -2848,7 +2843,7 @@
   "judgment": null,
   "summary": "Golan disengagement after the Yom Kippur War, creating the UNDOF buffer zone.",
   "source_url": "https://en.wikipedia.org/wiki/Agreement_on_Disengagement_between_Israel_and_Syria",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_egypt_israel_1979",
@@ -2879,7 +2874,7 @@
   "judgment": null,
   "summary": "Peace following the Camp David Accords; Israel returned Sinai, mutual recognition (US witness).",
   "source_url": "https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_algiers_1975",
@@ -2907,7 +2902,7 @@
   },
   "summary": "Iran-Iraq agreement fixing the Shatt al-Arab border on the thalweg in exchange for Iran ending support for Iraqi Kurds.",
   "source_url": "https://en.wikipedia.org/wiki/1975_Algiers_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_unsc598_ceasefire_1988",
@@ -2932,7 +2927,7 @@
   "judgment": null,
   "summary": "UN-monitored ceasefire accepted by both parties ending the Iran-Iraq War.",
   "source_url": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_safwan_1991",
@@ -2959,7 +2954,7 @@
   "judgment": null,
   "summary": "Coalition-Iraqi military talks setting Gulf War ceasefire terms, formalised by UNSC Resolution 687 (3 April 1991).",
   "source_url": "https://en.wikipedia.org/wiki/Safwan_Airfield",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_oslo_1993",
@@ -2979,7 +2974,7 @@
   "judgment": null,
   "summary": "Israel-PLO Declaration of Principles on interim self-government, witnessed by the US and Russia.",
   "source_url": "https://en.wikipedia.org/wiki/Oslo_I_Accord",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_israel_jordan_1994",
@@ -3009,7 +3004,7 @@
   "judgment": null,
   "summary": "Ended the state of war between Israel and Jordan (in force since 1948; last direct fighting in 1967) and fixed their border.",
   "source_url": "https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_abraham_accords_2020",
@@ -3236,7 +3231,7 @@
   "judgment": null,
   "summary": "Signed by the UN Command (US), the Korean People's Army and the Chinese People's Volunteers; South Korea did not sign. No peace treaty followed.",
   "source_url": "https://en.wikipedia.org/wiki/Korean_Armistice_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_geneva_1954",
@@ -3261,7 +3256,7 @@
   "judgment": null,
   "summary": "Cessation-of-hostilities agreements ending the First Indochina War and partitioning Vietnam at the 17th parallel pending 1956 elections (extra-state war, not in COW inter-state file).",
   "source_url": "https://en.wikipedia.org/wiki/1954_Geneva_Conference",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_laos_neutrality_1962",
@@ -3324,7 +3319,7 @@
   "judgment": null,
   "summary": "Soviet-mediated agreement restoring pre-war positions after the 1965 India-Pakistan war.",
   "source_url": "https://en.wikipedia.org/wiki/Tashkent_Declaration",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_simla_1972",
@@ -3356,7 +3351,7 @@
   "judgment": null,
   "summary": "Post-1971 war agreement converting the Kashmir ceasefire line into the Line of Control and committing to bilateral settlement.",
   "source_url": "https://en.wikipedia.org/wiki/Simla_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_paris_peace_accords_1973",
@@ -3392,7 +3387,7 @@
   "judgment": null,
   "summary": "Ceasefire and US withdrawal agreement for Vietnam (PRG = South Vietnamese Provisional Revolutionary Government).",
   "source_url": "https://en.wikipedia.org/wiki/Paris_Peace_Accords",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_lahore_1999",
@@ -3417,7 +3412,7 @@
   "judgment": null,
   "summary": "India-Pakistan nuclear confidence-building and peace commitments signed by Vajpayee and Sharif.",
   "source_url": "https://en.wikipedia.org/wiki/Lahore_Declaration",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_paris_cambodia_1991",
@@ -3450,7 +3445,7 @@
   "judgment": null,
   "summary": "Comprehensive settlement of the Cambodian conflict following Vietnam's 1978-79 invasion, establishing UNTAC (principal signatories listed).",
   "source_url": "https://en.wikipedia.org/wiki/1991_Paris_Peace_Agreements",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_sino_vietnamese_border_1999",
@@ -3468,7 +3463,7 @@
   "judgment": null,
   "summary": "Land boundary treaty settling the border fought over in 1979 and 1984-87.",
   "source_url": "https://en.wikipedia.org/wiki/China%E2%80%93Vietnam_border",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_india_pakistan_ceasefire_2025",
@@ -3644,7 +3639,7 @@
   },
   "summary": "Ended the 1941 Ecuadorian-Peruvian war, awarding most of the disputed Amazon area to Peru, with four guarantor states (the 1941 war is not in the COW inter-state file).",
   "source_url": "https://en.wikipedia.org/wiki/Rio_Protocol",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_angra_de_cintra_1958",
@@ -3696,7 +3691,7 @@
   "judgment": null,
   "summary": "Greece, Turkey and Britain guaranteed Cypriot independence and banned both union with another state and partition.",
   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Guarantee_(1960)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_geneva_declaration_1974",
@@ -3817,7 +3812,7 @@
   "judgment": null,
   "summary": "CSCE political commitments on the inviolability of frontiers, non-use of force and human rights (not a legally binding treaty).",
   "source_url": "https://en.wikipedia.org/wiki/Helsinki_Final_Act",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_inf_1987",
@@ -3837,12 +3832,12 @@
    "by": [
     "RUS"
    ],
-   "how": "The US formally found Russia in violation (9M729 missile) in 2014 and withdrew in August 2019; Russia denied the charge."
+   "how": "The US State Department's July 2014 compliance report formally found Russia in violation over a ground-launched cruise missile (later identified as the 9M729); the US withdrew in August 2019. Russia denied the charge."
   },
   "judgment": null,
   "summary": "Eliminated US and Soviet ground-launched missiles with 500-5,500 km range.",
   "source_url": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_chad_libya_ceasefire_1987",
@@ -3949,7 +3944,7 @@
   "judgment": null,
   "summary": "Angola-Cuba-South Africa agreement: Cuban withdrawal from Angola and Namibian independence (ends the later South African Border War phase, not the COW 1975-76 war).",
   "source_url": "https://en.wikipedia.org/wiki/New_York_Accords",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_madrid_1989",
@@ -4002,7 +3997,7 @@
   "judgment": null,
   "summary": "Russian/CIS-brokered protocol leading to the ceasefire of 12 May 1994 that froze the First Nagorno-Karabakh War; broke down in 2016 and 2020 amid mutual accusations.",
   "source_url": "https://en.wikipedia.org/wiki/Bishkek_Protocol",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_budapest_memorandum_1994",
@@ -4029,7 +4024,7 @@
   "judgment": null,
   "summary": "Security assurances to Ukraine (respect for its borders, no threat or use of force) in exchange for giving up Soviet nuclear weapons.",
   "source_url": "https://en.wikipedia.org/wiki/Budapest_Memorandum",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_itamaraty_1995",
@@ -4090,7 +4085,7 @@
   "judgment": null,
   "summary": "Initialled at Dayton on 21 November and signed in Paris; ended the Bosnian War (witnessed by the US, UK, France, Germany, Russia and the EU).",
   "source_url": "https://en.wikipedia.org/wiki/Dayton_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_ukraine_russia_friendship_1997",
@@ -4115,7 +4110,7 @@
   "judgment": null,
   "summary": "Treaty of friendship, cooperation and partnership recognising the inviolability of existing borders; Ukraine let it lapse in 2019.",
   "source_url": "https://en.wikipedia.org/wiki/Russian%E2%80%93Ukrainian_Friendship_Treaty",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_brasilia_1998",
@@ -4145,7 +4140,7 @@
   "judgment": null,
   "summary": "Definitive Peru-Ecuador peace and border settlement under guarantor arbitration.",
   "source_url": "https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_kumanovo_1999",
@@ -4182,7 +4177,7 @@
   "judgment": null,
   "summary": "Military-technical agreement between NATO/KFOR and Yugoslavia ending the Kosovo War with Yugoslav withdrawal from Kosovo.",
   "source_url": "https://en.wikipedia.org/wiki/Kumanovo_Agreement",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_algiers_2000",
@@ -4214,7 +4209,7 @@
   "judgment": null,
   "summary": "Comprehensive peace ending the Eritrean-Ethiopian War and creating a binding Boundary Commission.",
   "source_url": "https://en.wikipedia.org/wiki/Algiers_Agreement_(2000)",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_asmara_2018",
@@ -4239,7 +4234,7 @@
   "judgment": null,
   "summary": "Abiy-Isaias declaration formally ending the state of war; followed by the Jeddah agreement of 16 September 2018.",
   "source_url": "https://en.wikipedia.org/wiki/2018_Eritrea%E2%80%93Ethiopia_summit",
-  "verification": "knowledge"
+  "verification": "checked"
  },
  {
   "id": "t_six_point_2008",
@@ -4543,7 +4538,7 @@
    "by": [
     "RWA"
    ],
-   "how": "Rwandan troops did not withdraw and M23 seized Uvira in December 2025; the US Treasury sanctioned the Rwandan military for violating the agreement in March 2026."
+   "how": "Rwandan forces were not withdrawn and Rwanda-backed M23 seized Uvira in December 2025; US Secretary of State Rubio called Rwanda's actions a 'clear violation' of the commitments, and the US sanctioned the Rwanda Defence Force in March 2026."
   },
   "judgment": null,
   "summary": "Signed by the two foreign ministers under US auspices: Rwandan withdrawal, FDLR neutralisation, regional economic framework.",
@@ -4576,7 +4571,7 @@
    "by": [
     "RWA"
    ],
-   "how": "The Rwanda-backed M23 offensive on Uvira (2-10 December 2025) followed within days; the US sanctioned the Rwandan military in March 2026."
+   "how": "The Rwanda-backed M23 offensive on Uvira (2-10 December 2025) followed within days; Secretary of State Rubio called Rwanda's actions 'a clear violation of the Washington Accords' (13 December 2025), and the US sanctioned the Rwanda Defence Force in March 2026."
   },
   "judgment": null,
   "summary": "Signed by Presidents Tshisekedi and Kagame in Trump's presence, building on the June agreement; fighting continued days later.",
@@ -4645,11 +4640,11 @@
    "by": [
     "RUS"
    ],
-   "how": "Russia suspended participation and inspections in February 2023, which the US State Department declared non-compliance."
+   "how": "The US State Department found Russia non-compliant in January 2023 (refusal of inspections and of a Bilateral Consultative Commission session), and Russia suspended its participation on 21 February 2023."
   },
   "judgment": null,
   "summary": "Strategic nuclear arms limits (1,550 deployed warheads) with verification; expired 5 February 2026 without replacement.",
   "source_url": "https://en.wikipedia.org/wiki/New_START",
-  "verification": "knowledge"
+  "verification": "checked"
  }
 ]
